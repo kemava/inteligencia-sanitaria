@@ -1,0 +1,41 @@
+---
+title: "Título del producto"
+subtitle: "Equipo X · Evento · Departamento"
+author: "Integrante 1, Integrante 2, Integrante 3"
+date: today
+lang: es
+format:
+  html:
+    toc: true
+    embed-resources: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+#| label: setup
+library(tidyverse)
+```
+
+## Mensaje principal para el decisor
+
+En 3 a 5 líneas: qué recomiendan, dónde, cuándo y con qué grado de certeza.
+
+## Pregunta y decisor
+
+## Datos y limitaciones
+
+## Análisis temporal
+
+## Análisis territorial
+
+## Componente prospectivo
+
+## Recomendaciones
+
+## Incertidumbre y limitaciones
+
+## Declaración de uso de IA
+
+Herramienta, para qué se usó y qué se verificó.

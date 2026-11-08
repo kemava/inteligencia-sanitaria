@@ -1,0 +1,43 @@
+---
+title: "Proyecto: encargo"
+---
+
+## El encargo
+
+> Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. El decisor (director regional, jefe de epidemiología o jefe de una red de salud) les plantea un requerimiento concreto sobre **tos ferina, dengue o sarampión**. Definan ese requerimiento y respóndanlo con datos de vigilancia y métodos justificados. Dejen claro qué recomiendan y qué tan seguros pueden estar.
+
+- **Equipos:** 5 equipos de 3 integrantes.
+- **Producto:** sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización.
+- **Cada sesión aporta un insumo:** la pregunta (S1), los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6).
+
+## Menú de eventos y departamentos
+
+No se puede repetir la misma combinación de evento y departamento. Se recomienda que haya al menos un equipo por evento.
+
+| Evento | Departamentos sugeridos | Consideración metodológica |
+|---|---|---|
+| Dengue | Piura, Lima, La Libertad, Ica, Lambayeque | Serie larga y estacional: canal endémico, clima, priorización distrital |
+| Tos ferina | Loreto (Datem del Marañón), Lima, Cajamarca, Cusco, Tumbes | Conteos bajos fuera de Loreto; menores de 5 años; coberturas de pentavalente |
+| Sarampión | Puno, Madre de Dios, Arequipa, Loreto, Lima/Callao | Enfermedad en eliminación: un caso es señal; coberturas SPR y susceptibles |
+
+## Ejemplos de requerimientos
+
+- ¿Qué distritos de Piura deben priorizarse para el control vectorial antes de la temporada 2027?
+- ¿En qué distritos de Loreto coinciden casos recientes de tos ferina en menores de 1 año con coberturas bajas de pentavalente?
+- ¿Qué provincias de Puno mantienen transmisión activa de sarampión y dónde hay más susceptibles acumulados?
+
+## Requisitos mínimos del producto final
+
+1. La pregunta y el decisor en la primera página o pantalla.
+2. Los datos, con su procedencia y limitaciones.
+3. Un análisis temporal y uno territorial, adaptados al evento.
+4. Un componente prospectivo simple: un umbral de alerta o un escenario.
+5. Recomendaciones con prioridad.
+6. La incertidumbre explicada en lenguaje no técnico.
+7. Código que se renderiza desde cero y una bitácora breve de decisiones analíticas.
+
+La carpeta [`proyecto/plantilla`](https://github.com/kemava/inteligencia-sanitaria/tree/main/proyecto/plantilla) contiene un informe base y una bitácora para empezar.
+
+## Uso de inteligencia artificial
+
+Pueden usar herramientas de IA, pero deben declararlo al final del producto: qué herramienta usaron, para qué y qué verificaron. En la defensa, cualquier integrante puede ser llamado a explicar cualquier decisión.

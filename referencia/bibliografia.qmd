@@ -1,0 +1,10 @@
+---
+title: "Bibliografía"
+nocite: |
+  @*
+---
+
+Referencias del sílabo y referencias complementarias por sesión.
+
+::: {#refs}
+:::

@@ -1,0 +1,30 @@
+---
+title: "S5 · Predicción, escenarios y alerta temprana"
+subtitle: "Lunes 7 de diciembre de 2026"
+---
+
+## Objetivos
+
+- Distinguir asociación, predicción, pronóstico y escenario.
+- Construir un componente prospectivo simple, con intervalos y validación fuera de la muestra.
+- Traducir el resultado a niveles de alerta con acciones asociadas.
+
+## Contenidos
+
+- Explicar frente a predecir [@shmueli2010].
+- Predictores y rezagos: clima para dengue; coberturas y susceptibles para sarampión y tos ferina.
+- Validación de origen móvil y evaluación de pronósticos [@funk2019; @bracher2021].
+- Sistemas de alerta temprana para dengue [@lowe2014; @hussain2018].
+
+## Materiales
+
+Se publican el 7 de diciembre.
+
+## Proyecto
+
+**Avance 2.** Ver [Avances](../../proyecto/avances.qmd).
+
+## Lecturas
+
+- Shmueli (2010). *To explain or to predict?* [@shmueli2010]
+- Hyndman y Athanasopoulos (2021). *Forecasting: Principles and Practice* [@hyndman2021]

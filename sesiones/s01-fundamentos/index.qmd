@@ -1,0 +1,37 @@
+---
+title: "S1 · De la vigilancia a la inteligencia sanitaria"
+subtitle: "Lunes 9 de noviembre de 2026"
+---
+
+## Objetivos
+
+Al terminar la sesión, el estudiante podrá:
+
+- Distinguir vigilancia basada en indicadores, vigilancia basada en eventos y evaluación de riesgo dentro del marco de inteligencia epidémica.
+- Formular una pregunta de inteligencia con decisor, decisión, plazo y ámbito definidos.
+- Identificar qué producto necesita cada tipo de usuario: equipo técnico, gestor o autoridad.
+- Ejecutar un primer flujo reproducible en R y Quarto con la base del curso.
+
+## Contenidos
+
+- Ciclo dato–información–conocimiento–decisión.
+- Inteligencia epidémica: vigilancia basada en indicadores y en eventos [@kaiser2006; @who2014].
+- Usuarios y productos: alerta, boletín, sala situacional, informe técnico y tablero.
+- Pregunta de investigación frente a pregunta de inteligencia.
+- Proyecto de RStudio, documento Quarto y rutas relativas [@wilson2017].
+
+## Materiales
+
+| Material | Estado |
+|---|---|
+| Diapositivas | Se publican el 9 de noviembre |
+| Práctica (`practica.qmd`) | Se publica el 9 de noviembre |
+
+## Proyecto
+
+Se presenta el [encargo](../../proyecto/index.qmd) y se forman los 5 equipos. Para la S2, cada equipo revisa el menú de eventos y departamentos.
+
+## Lecturas
+
+- Kaiser et al. (2006). *What is epidemic intelligence, and how is it being improved in Europe?* [@kaiser2006]
+- Wilson et al. (2017). *Good enough practices in scientific computing* [@wilson2017]

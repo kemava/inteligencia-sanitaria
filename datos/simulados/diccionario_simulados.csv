@@ -1,0 +1,23 @@
+archivo,variable,tipo,descripcion
+poblacion_simulada.csv,ubigeo,texto,"Código de distrito (6 dígitos), igual que en NotiSP"
+poblacion_simulada.csv,ano,entero,Año (2010-2026)
+poblacion_simulada.csv,grupo_edad,texto,"<1, 1-4, 5-14, 15-59, 60+ años"
+poblacion_simulada.csv,poblacion,entero,Población SIMULADA del grupo de edad
+clima_semanal_simulado.csv.gz,ubigeo,texto,Código de distrito
+clima_semanal_simulado.csv.gz,ano,entero,Año epidemiológico
+clima_semanal_simulado.csv.gz,semana,entero,"Semana epidemiológica (1-52; 53 en 2014, 2020 y 2025)"
+clima_semanal_simulado.csv.gz,temp_media_c,numérico,Temperatura media semanal SIMULADA (°C)
+clima_semanal_simulado.csv.gz,precip_mm,numérico,Precipitación acumulada semanal SIMULADA (mm)
+coberturas_vacunacion_simuladas.csv,ubigeo,texto,Código de distrito
+coberturas_vacunacion_simuladas.csv,ano,entero,Año (2015-2026)
+coberturas_vacunacion_simuladas.csv,vacuna,texto,"PENTA3 (<1 año), SPR1 (12 meses), SPR2 (18 meses)"
+coberturas_vacunacion_simuladas.csv,poblacion_objetivo,entero,Denominador SIMULADO; ~6 % subestimado a propósito
+coberturas_vacunacion_simuladas.csv,vacunados,entero,Niños vacunados SIMULADOS
+coberturas_vacunacion_simuladas.csv,cobertura_pct,numérico,100 * vacunados / poblacion_objetivo; puede superar 100
+vulnerabilidad_simulada.csv,ubigeo,texto,Código de distrito
+vulnerabilidad_simulada.csv,region,texto,"Costa, sierra o selva (asignada por departamento)"
+vulnerabilidad_simulada.csv,altitud_m,entero,Altitud SIMULADA (m s. n. m.)
+vulnerabilidad_simulada.csv,pobreza_pct,numérico,Pobreza monetaria SIMULADA (%)
+vulnerabilidad_simulada.csv,sin_agua_red_pct,numérico,Hogares sin agua por red pública SIMULADO (%)
+vulnerabilidad_simulada.csv,horas_hospital,numérico,Tiempo SIMULADO al hospital de referencia (horas)
+vulnerabilidad_simulada.csv,eess_por_10mil,numérico,Establecimientos de salud por 10 000 hab. SIMULADO

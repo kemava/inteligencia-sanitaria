@@ -1,0 +1,10 @@
+---
+title: "Bitácora de decisiones analíticas"
+lang: es
+---
+
+Registren cada decisión que cambie el resultado: qué decidieron, qué alternativas consideraron y qué efecto tuvo.
+
+| Fecha | Decisión | Alternativas consideradas | Por qué | Efecto en el resultado |
+|---|---|---|---|---|
+| | | | | |

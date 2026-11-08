@@ -1,0 +1,28 @@
+---
+title: "S3 · Análisis temporal y detección de señales"
+subtitle: "Lunes 23 de noviembre de 2026"
+---
+
+## Objetivos
+
+- Descomponer una serie en tendencia, estacionalidad y residuo.
+- Construir y comparar líneas basales y umbrales: canal endémico y algoritmos de detección.
+- Interpretar una señal considerando el retraso de notificación y los falsos positivos.
+
+## Contenidos
+
+- Canal endémico y sus variantes; elección de los años de la línea basal.
+- Algoritmos de detección de aberraciones [@farrington1996; @noufaily2013; @salmon2016].
+- Adaptación por evento: dengue (serie larga y estacional), tos ferina (conteos bajos) y sarampión (eliminación: un caso es señal).
+
+## Materiales
+
+Se publican el 23 de noviembre.
+
+## Proyecto
+
+**Avance 1.** Ver [Avances](../../proyecto/avances.qmd).
+
+## Lecturas
+
+- Salmon, Schumacher y Höhle (2016). *Monitoring count time series in R* [@salmon2016]

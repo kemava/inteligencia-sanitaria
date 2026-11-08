@@ -1,0 +1,73 @@
+project:
+  type: website
+  output-dir: docs          # GitHub Pages publica desde la carpeta /docs
+  resources:
+    - .nojekyll
+  render:
+    - "*.qmd"
+    - "!proyecto/plantilla/"
+
+execute:
+  freeze: auto              # no re-ejecuta prácticas ya renderizadas
+
+lang: es
+
+website:
+  title: "Inteligencia Sanitaria"
+  description: "Curso del Diplomado de Especialización en Analítica Epidemiológica Avanzada — FASPA, UPCH (2026)"
+  site-url: "https://kemava.github.io/inteligencia-sanitaria/"
+  repo-url: "https://github.com/kemava/inteligencia-sanitaria"
+  repo-actions: [source, issue]
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: empezar.qmd
+        text: Empezar
+      - text: Sesiones
+        menu:
+          - href: sesiones/s01-fundamentos/index.qmd
+            text: "S1 · Fundamentos (9 nov)"
+          - href: sesiones/s02-datos/index.qmd
+            text: "S2 · Fuentes y calidad de datos (16 nov)"
+          - href: sesiones/s03-temporal/index.qmd
+            text: "S3 · Análisis temporal (23 nov)"
+          - href: sesiones/s04-territorial/index.qmd
+            text: "S4 · Análisis territorial (30 nov)"
+          - href: sesiones/s05-anticipacion/index.qmd
+            text: "S5 · Predicción y escenarios (7 dic)"
+          - href: sesiones/s06-comunicacion/index.qmd
+            text: "S6 · Comunicación (14 dic)"
+      - text: Proyecto
+        menu:
+          - href: proyecto/index.qmd
+            text: Encargo
+          - href: proyecto/avances.qmd
+            text: Avances
+          - href: proyecto/rubrica.qmd
+            text: Rúbricas
+      - text: Referencia
+        menu:
+          - href: referencia/bibliografia.qmd
+            text: Bibliografía
+          - href: referencia/fuentes-datos.qmd
+            text: Fuentes de datos
+          - href: referencia/datos-simulados.qmd
+            text: Datos simulados
+    right:
+      - icon: github
+        href: "https://github.com/kemava/inteligencia-sanitaria"
+  page-footer:
+    left: "Inteligencia Sanitaria · DEAEA, FASPA-UPCH · 2026"
+    right: "Contenido CC BY 4.0 · Código MIT"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "En esta página"
+    number-sections: false

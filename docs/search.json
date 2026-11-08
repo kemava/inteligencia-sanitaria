@@ -1,0 +1,450 @@
+[
+  {
+    "objectID": "sesiones/s06-comunicacion/index.html",
+    "href": "sesiones/s06-comunicacion/index.html",
+    "title": "S6 · Productos de inteligencia sanitaria y comunicación",
+    "section": "",
+    "text": "Elegir el formato de producto adecuado para el decisor.\nComunicar riesgo e incertidumbre sin ocultarlos ni exagerarlos.\nPresentar y defender el producto final."
+  },
+  {
+    "objectID": "sesiones/s06-comunicacion/index.html#objetivos",
+    "href": "sesiones/s06-comunicacion/index.html#objetivos",
+    "title": "S6 · Productos de inteligencia sanitaria y comunicación",
+    "section": "",
+    "text": "Elegir el formato de producto adecuado para el decisor.\nComunicar riesgo e incertidumbre sin ocultarlos ni exagerarlos.\nPresentar y defender el producto final."
+  },
+  {
+    "objectID": "sesiones/s06-comunicacion/index.html#contenidos",
+    "href": "sesiones/s06-comunicacion/index.html#contenidos",
+    "title": "S6 · Productos de inteligencia sanitaria y comunicación",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nEstructura de un informe para la autoridad: conclusión, evidencia, incertidumbre y recomendación.\nComunicación de la incertidumbre (Spiegelhalter et al. 2011; Bles et al. 2019; World Health Organization 2017).\nReportes parametrizados y tableros en Quarto.\nAutomatización e IA en el flujo analítico: usos y límites."
+  },
+  {
+    "objectID": "sesiones/s06-comunicacion/index.html#proyecto",
+    "href": "sesiones/s06-comunicacion/index.html#proyecto",
+    "title": "S6 · Productos de inteligencia sanitaria y comunicación",
+    "section": "Proyecto",
+    "text": "Proyecto\nPresentación final de los 5 equipos (12 min + 8 min de defensa)."
+  },
+  {
+    "objectID": "sesiones/s06-comunicacion/index.html#lecturas",
+    "href": "sesiones/s06-comunicacion/index.html#lecturas",
+    "title": "S6 · Productos de inteligencia sanitaria y comunicación",
+    "section": "Lecturas",
+    "text": "Lecturas\n\nSpiegelhalter, Pearson y Short (2011). Visualizing uncertainty about the future (Spiegelhalter et al. 2011)"
+  },
+  {
+    "objectID": "sesiones/s04-territorial/index.html",
+    "href": "sesiones/s04-territorial/index.html",
+    "title": "S4 · Análisis territorial y priorización",
+    "section": "",
+    "text": "Elaborar mapas de tasas correctos: clasificación, números pequeños y suavizamiento.\nIntegrar carga de enfermedad, vulnerabilidad, coberturas y capacidad de respuesta.\nConstruir una priorización multicriterio explícita y evaluar su sensibilidad a los pesos."
+  },
+  {
+    "objectID": "sesiones/s04-territorial/index.html#objetivos",
+    "href": "sesiones/s04-territorial/index.html#objetivos",
+    "title": "S4 · Análisis territorial y priorización",
+    "section": "",
+    "text": "Elaborar mapas de tasas correctos: clasificación, números pequeños y suavizamiento.\nIntegrar carga de enfermedad, vulnerabilidad, coberturas y capacidad de respuesta.\nConstruir una priorización multicriterio explícita y evaluar su sensibilidad a los pesos."
+  },
+  {
+    "objectID": "sesiones/s04-territorial/index.html#contenidos",
+    "href": "sesiones/s04-territorial/index.html#contenidos",
+    "title": "S4 · Análisis territorial y priorización",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nCasos, tasas y riesgo relativo; suavizamiento bayesiano empírico (Clayton y Kaldor 1987).\nClasificación en mapas coropléticos (Brewer y Pickle 2002).\nFalacia ecológica y unidad de área modificable.\nAnálisis de decisión multicriterio (Thokala et al. 2016)."
+  },
+  {
+    "objectID": "sesiones/s04-territorial/index.html#materiales",
+    "href": "sesiones/s04-territorial/index.html#materiales",
+    "title": "S4 · Análisis territorial y priorización",
+    "section": "Materiales",
+    "text": "Materiales\nSe publican el 30 de noviembre."
+  },
+  {
+    "objectID": "sesiones/s04-territorial/index.html#lecturas",
+    "href": "sesiones/s04-territorial/index.html#lecturas",
+    "title": "S4 · Análisis territorial y priorización",
+    "section": "Lecturas",
+    "text": "Lecturas\n\nThokala et al. (2016). Multiple criteria decision analysis for health care decision making (Thokala et al. 2016)\nMoraga (2023). Spatial Statistics for Data Science (Moraga 2023)"
+  },
+  {
+    "objectID": "sesiones/s02-datos/index.html",
+    "href": "sesiones/s02-datos/index.html",
+    "title": "S2 · Fuentes, calidad e integración de datos",
+    "section": "",
+    "text": "Identificar las fuentes pertinentes para una pregunta: NotiSP, población, clima, coberturas y servicios.\nEvaluar la completitud, consistencia y oportunidad de una base de vigilancia.\nIntegrar fuentes por ubigeo y semana epidemiológica, y construir indicadores con numerador y denominador justificados."
+  },
+  {
+    "objectID": "sesiones/s02-datos/index.html#objetivos",
+    "href": "sesiones/s02-datos/index.html#objetivos",
+    "title": "S2 · Fuentes, calidad e integración de datos",
+    "section": "",
+    "text": "Identificar las fuentes pertinentes para una pregunta: NotiSP, población, clima, coberturas y servicios.\nEvaluar la completitud, consistencia y oportunidad de una base de vigilancia.\nIntegrar fuentes por ubigeo y semana epidemiológica, y construir indicadores con numerador y denominador justificados."
+  },
+  {
+    "objectID": "sesiones/s02-datos/index.html#contenidos",
+    "href": "sesiones/s02-datos/index.html#contenidos",
+    "title": "S2 · Fuentes, calidad e integración de datos",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nAtributos de un sistema de vigilancia (Centers for Disease Control and Prevention 2001) y dimensiones de calidad de datos (World Health Organization 2017).\nRetraso de notificación, semanas incompletas y semana 53.\nUbigeo de residencia frente a ubigeo de notificación.\nDenominadores poblacionales y datos climáticos (Funk et al. 2015).\nDiccionario de datos y documentación de decisiones."
+  },
+  {
+    "objectID": "sesiones/s02-datos/index.html#materiales",
+    "href": "sesiones/s02-datos/index.html#materiales",
+    "title": "S2 · Fuentes, calidad e integración de datos",
+    "section": "Materiales",
+    "text": "Materiales\nSe publican el 16 de noviembre."
+  },
+  {
+    "objectID": "sesiones/s02-datos/index.html#proyecto",
+    "href": "sesiones/s02-datos/index.html#proyecto",
+    "title": "S2 · Fuentes, calidad e integración de datos",
+    "section": "Proyecto",
+    "text": "Proyecto\nCada equipo entrega su elección de evento, departamento y pregunta, en un párrafo."
+  },
+  {
+    "objectID": "sesiones/s02-datos/index.html#lecturas",
+    "href": "sesiones/s02-datos/index.html#lecturas",
+    "title": "S2 · Fuentes, calidad e integración de datos",
+    "section": "Lecturas",
+    "text": "Lecturas\n\nCDC (2001). Updated guidelines for evaluating public health surveillance systems (Centers for Disease Control and Prevention 2001)"
+  },
+  {
+    "objectID": "referencia/fuentes-datos.html",
+    "href": "referencia/fuentes-datos.html",
+    "title": "Fuentes de datos",
+    "section": "",
+    "text": "Base\nContenido\nDisponibilidad\n\n\n\n\nNotiSP (metaxénicas, tos ferina, sarampión)\nNotificación individual por semana epidemiológica\nSe entregan a los equipos en clase. No se publican en este repositorio porque contienen registros individuales\n\n\nBases simuladas\nPoblación, clima, coberturas, vulnerabilidad\nEn datos/simulados/. Ver Datos simulados"
+  },
+  {
+    "objectID": "referencia/fuentes-datos.html#bases-del-curso",
+    "href": "referencia/fuentes-datos.html#bases-del-curso",
+    "title": "Fuentes de datos",
+    "section": "",
+    "text": "Base\nContenido\nDisponibilidad\n\n\n\n\nNotiSP (metaxénicas, tos ferina, sarampión)\nNotificación individual por semana epidemiológica\nSe entregan a los equipos en clase. No se publican en este repositorio porque contienen registros individuales\n\n\nBases simuladas\nPoblación, clima, coberturas, vulnerabilidad\nEn datos/simulados/. Ver Datos simulados"
+  },
+  {
+    "objectID": "referencia/fuentes-datos.html#fuentes-oficiales-para-reemplazar-los-datos-simulados",
+    "href": "referencia/fuentes-datos.html#fuentes-oficiales-para-reemplazar-los-datos-simulados",
+    "title": "Fuentes de datos",
+    "section": "Fuentes oficiales para reemplazar los datos simulados",
+    "text": "Fuentes oficiales para reemplazar los datos simulados\n\n\n\nInsumo\nFuente\n\n\n\n\nDatos abiertos de vigilancia\nPlataforma Nacional de Datos Abiertos, https://www.datosabiertos.gob.pe/\n\n\nPoblación y pobreza\nINEI, https://www.inei.gob.pe/\n\n\nClima\nSENAMHI, https://www.senamhi.gob.pe/; CHIRPS (Funk et al. 2015)\n\n\nLímites distritales\nINEI o IGN\n\n\n\nAl descargar cualquier base, registren la fecha de descarga y el enlace en el diccionario."
+  },
+  {
+    "objectID": "referencia/bibliografia.html",
+    "href": "referencia/bibliografia.html",
+    "title": "Bibliografía",
+    "section": "",
+    "text": "Referencias del sílabo y referencias complementarias por sesión.\n\n\nBhaskaran, Krishnan, Antonio Gasparrini, Shakoor Hajat, Liam Smeeth, y Ben Armstrong. 2013. «Time series regression studies in environmental epidemiology». International Journal of Epidemiology 42 (4): 1187-95. https://doi.org/10.1093/ije/dyt092.\n\n\nBles, Anne Marthe van der, Sander van der Linden, Alexandra L. J. Freeman, et al. 2019. «Communicating uncertainty about facts, numbers and science». Royal Society Open Science 6 (5): 181870. https://doi.org/10.1098/rsos.181870.\n\n\nBracher, Johannes, Evan L. Ray, Tilmann Gneiting, y Nicholas G. Reich. 2021. «Evaluating epidemic forecasts in an interval format». PLoS Computational Biology 17 (2): e1008618. https://doi.org/10.1371/journal.pcbi.1008618.\n\n\nBrewer, Cynthia A., y Linda Pickle. 2002. «Evaluation of methods for classifying epidemiological data on choropleth maps in series». Annals of the Association of American Geographers 92 (4): 662-81.\n\n\nCenters for Disease Control and Prevention. 2001. «Updated guidelines for evaluating public health surveillance systems: recommendations from the Guidelines Working Group». MMWR Recommendations and Reports 50 (RR-13): 1-35.\n\n\nClayton, David, y John Kaldor. 1987. «Empirical Bayes estimates of age-standardized relative risks for use in disease mapping». Biometrics 43 (3): 671-81.\n\n\nFarrington, C. P., N. J. Andrews, A. D. Beale, y M. A. Catchpole. 1996. «A statistical algorithm for the early detection of outbreaks of infectious disease». Journal of the Royal Statistical Society: Series A 159 (3): 547-63.\n\n\nFunk, Chris, Pete Peterson, Martin Landsfeld, et al. 2015. «The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes». Scientific Data 2: 150066. https://doi.org/10.1038/sdata.2015.66.\n\n\nFunk, Sebastian, Anton Camacho, Adam J. Kucharski, Rachel Lowe, Rosalind M. Eggo, y W. John Edmunds. 2019. «Assessing the performance of real-time epidemic forecasts: A case study of Ebola in the Western Area region of Sierra Leone, 2014-15». PLoS Computational Biology 15 (2): e1006785. https://doi.org/10.1371/journal.pcbi.1006785.\n\n\nHussain-Alkhateeb, Laith, Axel Kroeger, Piero Olliaro, et al. 2018. «Early warning and response system (EWARS) for dengue outbreaks: recent advancements towards widespread applications in critical settings». PLoS ONE 13 (5): e0196811. https://doi.org/10.1371/journal.pone.0196811.\n\n\nHyndman, Rob J., y George Athanasopoulos. 2021. Forecasting: Principles and Practice. 3.ª ed. OTexts. https://otexts.com/fpp3/.\n\n\nJohansson, Michael A., Karyn M. Apfeldorf, Scott Dobson, et al. 2019. «An open challenge to advance probabilistic forecasting for dengue epidemics». Proceedings of the National Academy of Sciences 116 (48): 24268-74. https://doi.org/10.1073/pnas.1909865116.\n\n\nKaiser, Reinhard, Denis Coulombier, Manuela Baldari, Dilys Morgan, y Christophe Paquet. 2006. «What is epidemic intelligence, and how is it being improved in Europe?» Eurosurveillance 11 (5): E060202.4.\n\n\nKnaflic, Cole Nussbaumer. 2015. Storytelling with Data. Wiley.\n\n\nLovelace, Robin, Jakub Nowosad, y Jannes Muenchow. 2025. Geocomputation with R. CRC Press. https://r.geocompx.org/.\n\n\nLowe, Rachel, Christovam Barcellos, Caio A. S. Coelho, et al. 2014. «Dengue outlook for the World Cup in Brazil: an early warning model framework driven by real-time seasonal climate forecasts». The Lancet Infectious Diseases 14 (7): 619-26. https://doi.org/10.1016/S1473-3099(14)70781-9.\n\n\nMoraga, Paula. 2023. Spatial Statistics for Data Science: Theory and Practice with R. CRC Press.\n\n\nNoufaily, Angela, Doyo G. Enki, Paddy Farrington, Paul Garthwaite, Nick Andrews, y André Charlett. 2013. «An improved algorithm for outbreak detection in multiple surveillance systems». Statistics in Medicine 32 (7): 1206-22. https://doi.org/10.1002/sim.5595.\n\n\nPaquet, Christophe, Denis Coulombier, Reinhard Kaiser, y Massimo Ciotti. 2006. «Epidemic intelligence: a new framework for strengthening disease surveillance in Europe». Eurosurveillance 11 (12): 212-14.\n\n\nPeng, Roger D. 2011. «Reproducible research in computational science». Science 334 (6060): 1226-27. https://doi.org/10.1126/science.1213847.\n\n\nRothman, Kenneth J. 2012. Epidemiology: An Introduction. 2.ª ed. Oxford University Press.\n\n\nSalmon, Maëlle, Dirk Schumacher, y Michael Höhle. 2016. «Monitoring count time series in R: aberration detection in public health surveillance». Journal of Statistical Software 70 (10): 1-35. https://doi.org/10.18637/jss.v070.i10.\n\n\nShmueli, Galit. 2010. «To explain or to predict?» Statistical Science 25 (3): 289-310. https://doi.org/10.1214/10-STS330.\n\n\nSpiegelhalter, David, Mike Pearson, y Ian Short. 2011. «Visualizing uncertainty about the future». Science 333 (6048): 1393-400. https://doi.org/10.1126/science.1191181.\n\n\nTeutsch, Steven M., y R. Elliott Churchill, eds. 2010. Principles and Practice of Public Health Surveillance. 3.ª ed. Oxford University Press.\n\n\nThokala, Praveen, Nancy Devlin, Kevin Marsh, et al. 2016. «Multiple criteria decision analysis for health care decision making—an introduction: Report 1 of the ISPOR MCDA Emerging Good Practices Task Force». Value in Health 19 (1): 1-13. https://doi.org/10.1016/j.jval.2015.12.003.\n\n\nUNESCO. 2023. Guidance for generative AI in education and research. UNESCO.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, y Garrett Grolemund. 2023. R for Data Science. 2.ª ed. O’Reilly Media. https://r4ds.hadley.nz/.\n\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, y Tracy K. Teal. 2017. «Good enough practices in scientific computing». PLoS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.\n\n\nWorld Health Organization. 2014. Early detection, assessment and response to acute public health events: implementation of Early Warning and Response with a focus on Event-Based Surveillance. WHO.\n\n\nWorld Health Organization. 2017a. Communicating risk in public health emergencies: a WHO guideline for emergency risk communication (ERC) policy and practice. WHO.\n\n\nWorld Health Organization. 2017b. Data quality review: a toolkit for facility data quality assessment. WHO."
+  },
+  {
+    "objectID": "proyecto/index.html",
+    "href": "proyecto/index.html",
+    "title": "Proyecto: encargo",
+    "section": "",
+    "text": "Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. El decisor (director regional, jefe de epidemiología o jefe de una red de salud) les plantea un requerimiento concreto sobre tos ferina, dengue o sarampión. Definan ese requerimiento y respóndanlo con datos de vigilancia y métodos justificados. Dejen claro qué recomiendan y qué tan seguros pueden estar.\n\n\nEquipos: 5 equipos de 3 integrantes.\nProducto: sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización.\nCada sesión aporta un insumo: la pregunta (S1), los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6)."
+  },
+  {
+    "objectID": "proyecto/index.html#el-encargo",
+    "href": "proyecto/index.html#el-encargo",
+    "title": "Proyecto: encargo",
+    "section": "",
+    "text": "Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. El decisor (director regional, jefe de epidemiología o jefe de una red de salud) les plantea un requerimiento concreto sobre tos ferina, dengue o sarampión. Definan ese requerimiento y respóndanlo con datos de vigilancia y métodos justificados. Dejen claro qué recomiendan y qué tan seguros pueden estar.\n\n\nEquipos: 5 equipos de 3 integrantes.\nProducto: sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización.\nCada sesión aporta un insumo: la pregunta (S1), los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6)."
+  },
+  {
+    "objectID": "proyecto/index.html#menú-de-eventos-y-departamentos",
+    "href": "proyecto/index.html#menú-de-eventos-y-departamentos",
+    "title": "Proyecto: encargo",
+    "section": "Menú de eventos y departamentos",
+    "text": "Menú de eventos y departamentos\nNo se puede repetir la misma combinación de evento y departamento. Se recomienda que haya al menos un equipo por evento.\n\n\n\n\n\n\n\n\nEvento\nDepartamentos sugeridos\nConsideración metodológica\n\n\n\n\nDengue\nPiura, Lima, La Libertad, Ica, Lambayeque\nSerie larga y estacional: canal endémico, clima, priorización distrital\n\n\nTos ferina\nLoreto (Datem del Marañón), Lima, Cajamarca, Cusco, Tumbes\nConteos bajos fuera de Loreto; menores de 5 años; coberturas de pentavalente\n\n\nSarampión\nPuno, Madre de Dios, Arequipa, Loreto, Lima/Callao\nEnfermedad en eliminación: un caso es señal; coberturas SPR y susceptibles"
+  },
+  {
+    "objectID": "proyecto/index.html#ejemplos-de-requerimientos",
+    "href": "proyecto/index.html#ejemplos-de-requerimientos",
+    "title": "Proyecto: encargo",
+    "section": "Ejemplos de requerimientos",
+    "text": "Ejemplos de requerimientos\n\n¿Qué distritos de Piura deben priorizarse para el control vectorial antes de la temporada 2027?\n¿En qué distritos de Loreto coinciden casos recientes de tos ferina en menores de 1 año con coberturas bajas de pentavalente?\n¿Qué provincias de Puno mantienen transmisión activa de sarampión y dónde hay más susceptibles acumulados?"
+  },
+  {
+    "objectID": "proyecto/index.html#requisitos-mínimos-del-producto-final",
+    "href": "proyecto/index.html#requisitos-mínimos-del-producto-final",
+    "title": "Proyecto: encargo",
+    "section": "Requisitos mínimos del producto final",
+    "text": "Requisitos mínimos del producto final\n\nLa pregunta y el decisor en la primera página o pantalla.\nLos datos, con su procedencia y limitaciones.\nUn análisis temporal y uno territorial, adaptados al evento.\nUn componente prospectivo simple: un umbral de alerta o un escenario.\nRecomendaciones con prioridad.\nLa incertidumbre explicada en lenguaje no técnico.\nCódigo que se renderiza desde cero y una bitácora breve de decisiones analíticas.\n\nLa carpeta proyecto/plantilla contiene un informe base y una bitácora para empezar."
+  },
+  {
+    "objectID": "proyecto/index.html#uso-de-inteligencia-artificial",
+    "href": "proyecto/index.html#uso-de-inteligencia-artificial",
+    "title": "Proyecto: encargo",
+    "section": "Uso de inteligencia artificial",
+    "text": "Uso de inteligencia artificial\nPueden usar herramientas de IA, pero deben declararlo al final del producto: qué herramienta usaron, para qué y qué verificaron. En la defensa, cualquier integrante puede ser llamado a explicar cualquier decisión."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inteligencia Sanitaria",
+    "section": "",
+    "text": "Curso teórico-práctico (2 créditos) sobre el uso de datos de vigilancia, demográficos, territoriales, climáticos y de servicios de salud para apoyar decisiones en salud pública. Se trabaja con R, RStudio y Quarto, sobre problemas reales del Perú: dengue, tos ferina y sarampión.\nDocente: Blgo. Kevin Martel Vasquez · Apoyo en S5 y S6: Mg. Oswaldo Espinoza Hurtado\nModalidad: virtual · lunes de 18:00 a 22:00 (hora de Lima)"
+  },
+  {
+    "objectID": "index.html#resultado-de-aprendizaje",
+    "href": "index.html#resultado-de-aprendizaje",
+    "title": "Inteligencia Sanitaria",
+    "section": "Resultado de aprendizaje",
+    "text": "Resultado de aprendizaje\nAl término del curso, el estudiante podrá integrar y analizar información epidemiológica, demográfica, territorial, climática y de servicios de salud para detectar señales, caracterizar riesgos, priorizar territorios, construir escenarios y desarrollar, sustentar y comunicar un producto reproducible de inteligencia sanitaria orientado a la toma de decisiones en salud pública."
+  },
+  {
+    "objectID": "index.html#calendario",
+    "href": "index.html#calendario",
+    "title": "Inteligencia Sanitaria",
+    "section": "Calendario",
+    "text": "Calendario\n\n\n\nSesión\nFecha\nTeoría (18:00–20:00)\nTaller (20:00–22:00)\nProyecto\n\n\n\n\nS1\n9 nov\nDe la vigilancia a la inteligencia sanitaria\nEncargo y flujo en R/Quarto\nConformación de equipos\n\n\nS2\n16 nov\nFuentes, calidad e integración de datos\nCalidad de la base del curso\nElección del problema\n\n\nS3\n23 nov\nAnálisis temporal y detección de señales\nSeñal epidemiológica\nAvance 1\n\n\nS4\n30 nov\nAnálisis territorial y priorización\nPriorización territorial\nConsulta por equipo\n\n\nS5\n7 dic\nPredicción, escenarios y alerta temprana\nEscenario y niveles de alerta\nAvance 2\n\n\nS6\n14 dic\nProductos y comunicación\nPresentación final\nProducto final\n\n\n\nTrabajo independiente del proyecto: 10–22 nov, 24 nov–6 dic y 8–14 dic (8 h cada bloque)."
+  },
+  {
+    "objectID": "index.html#evaluación",
+    "href": "index.html#evaluación",
+    "title": "Inteligencia Sanitaria",
+    "section": "Evaluación",
+    "text": "Evaluación\n\n\n\nComponente\nPeso\n\n\n\n\nAsistencia (6 sesiones)\n10 %\n\n\nAvance 1 (S3)\n20 %\n\n\nAvance 2 (S5)\n20 %\n\n\nProducto final y presentación (S6)\n50 %\n\n\n\nLa nota mínima aprobatoria es 11.00. Ver el encargo del proyecto y las rúbricas."
+  },
+  {
+    "objectID": "index.html#cómo-usar-este-sitio",
+    "href": "index.html#cómo-usar-este-sitio",
+    "title": "Inteligencia Sanitaria",
+    "section": "Cómo usar este sitio",
+    "text": "Cómo usar este sitio\n\nAntes de la primera sesión, sigue los pasos de Empezar.\nCada lunes se publican las diapositivas y la práctica de la sesión.\nPara descargar todo el material, usa el botón verde Code → Download ZIP del repositorio. No es necesario saber Git."
+  },
+  {
+    "objectID": "empezar.html",
+    "href": "empezar.html",
+    "title": "Empezar",
+    "section": "",
+    "text": "Completa estos pasos antes del lunes 9 de noviembre. Toman unos 30 minutos."
+  },
+  {
+    "objectID": "empezar.html#instalar-el-software",
+    "href": "empezar.html#instalar-el-software",
+    "title": "Empezar",
+    "section": "1. Instalar el software",
+    "text": "1. Instalar el software\n\n\n\nPrograma\nEnlace\nNota\n\n\n\n\nR (4.3 o superior)\nhttps://cran.r-project.org/\nInstalar primero\n\n\nRStudio Desktop\nhttps://posit.co/download/rstudio-desktop/\nInterfaz de trabajo\n\n\nQuarto\nhttps://quarto.org/docs/get-started/\nRStudio reciente ya lo incluye"
+  },
+  {
+    "objectID": "empezar.html#descargar-el-material-del-curso",
+    "href": "empezar.html#descargar-el-material-del-curso",
+    "title": "Empezar",
+    "section": "2. Descargar el material del curso",
+    "text": "2. Descargar el material del curso\n\nIngresa al repositorio del curso.\nPulsa Code → Download ZIP y descomprime la carpeta en un lugar fácil de ubicar (por ejemplo, Documentos).\nAbre el archivo inteligencia-sanitaria.Rproj. RStudio se abrirá con la carpeta del curso como directorio de trabajo; por eso todas las rutas del curso son relativas.\n\nCada semana puedes volver a descargar el ZIP para obtener el material nuevo."
+  },
+  {
+    "objectID": "empezar.html#instalar-los-paquetes",
+    "href": "empezar.html#instalar-los-paquetes",
+    "title": "Empezar",
+    "section": "3. Instalar los paquetes",
+    "text": "3. Instalar los paquetes\nEn la consola de RStudio ejecuta:\nsource(\"R/instalar_paquetes.R\")\nEl script instala solo los paquetes que falten y al final muestra si todo está listo."
+  },
+  {
+    "objectID": "empezar.html#comprobar-que-quarto-funciona",
+    "href": "empezar.html#comprobar-que-quarto-funciona",
+    "title": "Empezar",
+    "section": "4. Comprobar que Quarto funciona",
+    "text": "4. Comprobar que Quarto funciona\nAbre sesiones/s01-fundamentos/index.qmd y pulsa Render. Si se abre una página en el visor, el entorno está listo.\n\n\n\n\n\n\nTip¿Problemas con la instalación?\n\n\n\nEscribe en la sección Issues del repositorio o consulta en la primera media hora del taller del 9 de noviembre."
+  },
+  {
+    "objectID": "proyecto/avances.html",
+    "href": "proyecto/avances.html",
+    "title": "Avances",
+    "section": "",
+    "text": "Cada avance se presenta en el taller: 8 minutos de exposición (unas 6 diapositivas o una página Quarto) y 7 minutos de preguntas."
+  },
+  {
+    "objectID": "proyecto/avances.html#avance-1-s3-23-de-noviembre-20",
+    "href": "proyecto/avances.html#avance-1-s3-23-de-noviembre-20",
+    "title": "Avances",
+    "section": "Avance 1 · S3, 23 de noviembre (20 %)",
+    "text": "Avance 1 · S3, 23 de noviembre (20 %)\n\nProblema identificado: el requerimiento, el decisor y la decisión.\nBases identificadas: fuente, periodo, unidad de análisis y variables clave.\nInconvenientes encontrados: problemas concretos en los datos o en el acceso a ellos.\nMetodología propuesta: qué análisis harán y por qué son adecuados para el evento.\nRoles: qué hace cada integrante."
+  },
+  {
+    "objectID": "proyecto/avances.html#avance-2-s5-7-de-diciembre-20",
+    "href": "proyecto/avances.html#avance-2-s5-7-de-diciembre-20",
+    "title": "Avances",
+    "section": "Avance 2 · S5, 7 de diciembre (20 %)",
+    "text": "Avance 2 · S5, 7 de diciembre (20 %)\nLos mismos cinco puntos actualizados, además de:\n\nResultados preliminares del análisis temporal y del territorial.\nCómo resolvieron los inconvenientes.\nEl plan para el componente prospectivo.\n\n\n\n\n\n\n\nNota\n\n\n\nEl punto de los inconvenientes pesa en la nota. Un equipo que trabajó con sus datos puede describir problemas concretos; una descripción genérica no basta."
+  },
+  {
+    "objectID": "proyecto/rubrica.html",
+    "href": "proyecto/rubrica.html",
+    "title": "Rúbricas",
+    "section": "",
+    "text": "Criterio\nPeso\nQué se espera\n\n\n\n\nProblema y pregunta\n25 %\nRequerimiento puntual, con decisor y decisión identificables\n\n\nBases identificadas\n20 %\nFuentes pertinentes, con procedencia, periodo y unidad de análisis\n\n\nInconvenientes\n20 %\nProblemas concretos y cómo piensan abordarlos\n\n\nMetodología\n25 %\nMétodos coherentes con la pregunta y con el evento\n\n\nRoles\n10 %\nDistribución clara; cualquier integrante puede responder"
+  },
+  {
+    "objectID": "proyecto/rubrica.html#avances-escala-020",
+    "href": "proyecto/rubrica.html#avances-escala-020",
+    "title": "Rúbricas",
+    "section": "",
+    "text": "Criterio\nPeso\nQué se espera\n\n\n\n\nProblema y pregunta\n25 %\nRequerimiento puntual, con decisor y decisión identificables\n\n\nBases identificadas\n20 %\nFuentes pertinentes, con procedencia, periodo y unidad de análisis\n\n\nInconvenientes\n20 %\nProblemas concretos y cómo piensan abordarlos\n\n\nMetodología\n25 %\nMétodos coherentes con la pregunta y con el evento\n\n\nRoles\n10 %\nDistribución clara; cualquier integrante puede responder"
+  },
+  {
+    "objectID": "proyecto/rubrica.html#producto-final-50-de-la-nota",
+    "href": "proyecto/rubrica.html#producto-final-50-de-la-nota",
+    "title": "Rúbricas",
+    "section": "Producto final (50 % de la nota)",
+    "text": "Producto final (50 % de la nota)\n\n\n\n\n\n\n\n\n\nCriterio\nPeso\nNivel alto (17–20)\nNivel insuficiente (0–10)\n\n\n\n\nPregunta y decisor\n10 %\nLa pregunta está ligada a una decisión y el producto la responde\nPregunta genérica, sin decisor\n\n\nDatos y calidad\n15 %\nProblemas de calidad detectados y tratados de forma explícita\nDatos usados sin examinar\n\n\nRigor analítico\n20 %\nMétodos adecuados al evento y a la pregunta; supuestos declarados\nMétodos aplicados mecánicamente\n\n\nInterpretación e incertidumbre\n20 %\nDistingue señal de ruido y explica lo inesperado\nResultados descritos sin interpretación\n\n\nUtilidad para la decisión\n15 %\nRecomendaciones concretas y coherentes con la evidencia\nRecomendaciones genéricas\n\n\nReproducibilidad\n10 %\nSe renderiza sin errores e incluye la bitácora\nNo se puede reproducir\n\n\nDefensa oral\n10 %\nCualquier integrante justifica cualquier decisión\nSolo responde un integrante"
+  },
+  {
+    "objectID": "referencia/datos-simulados.html",
+    "href": "referencia/datos-simulados.html",
+    "title": "Datos simulados",
+    "section": "",
+    "text": "Advertencia\n\n\n\nLos archivos de datos/simulados/ son simulados. No son cifras oficiales y no deben citarse como tales."
+  },
+  {
+    "objectID": "referencia/datos-simulados.html#qué-patrones-se-simularon",
+    "href": "referencia/datos-simulados.html#qué-patrones-se-simularon",
+    "title": "Datos simulados",
+    "section": "Qué patrones se simularon",
+    "text": "Qué patrones se simularon\n\nPoblación. El tamaño de cada distrito sigue una distribución log-normal, con distritos urbanos de costa más grandes, y crece entre −0,5 % y 2,5 % al año. La estructura por edad es más joven en la selva que en la costa.\nClima. Hay un ciclo estacional con el máximo de temperatura y de lluvias hacia la semana 8. La temperatura disminuye 0,55 °C por cada 100 m de altitud. La costa centro-sur casi no tiene lluvia y la selva tiene lluvia abundante. En la costa norte se incluyen anomalías cálidas y lluviosas estilizadas en 2017 (SE 4–14) y 2023 (SE 8–20), que recuerdan los eventos de Niño costero pero no reproducen mediciones reales. Las semanas 53 están en 2014, 2020 y 2025, igual que en NotiSP.\nCoberturas. La costa tiene coberturas más altas que la sierra y la sierra más que la selva. SPR2 está por debajo de SPR1. Hay una caída en 2020 con recuperación incompleta. Se simularon focos de baja cobertura en Datem del Marañón (Loreto) y de SPR baja en Puno.\nVulnerabilidad. Pobreza, falta de agua por red pública, tiempo al hospital y densidad de establecimientos, todos correlacionados entre sí y con la región."
+  },
+  {
+    "objectID": "referencia/datos-simulados.html#problemas-incluidos-a-propósito-para-discutir-en-clase",
+    "href": "referencia/datos-simulados.html#problemas-incluidos-a-propósito-para-discutir-en-clase",
+    "title": "Datos simulados",
+    "section": "Problemas incluidos a propósito (para discutir en clase)",
+    "text": "Problemas incluidos a propósito (para discutir en clase)\n\nCoberturas mayores al 100 %. En alrededor del 6 % de los registros el denominador está subestimado, y cerca del 3,5 % termina con una cobertura mayor a 100 %, como sucede en datos reales.\nDenominador aproximado de SPR. La población objetivo de SPR se calcula como (población de 1 a 4 años) / 4, lo cual es una aproximación.\nRegión asignada por departamento. Cada distrito toma la región de su departamento, aunque departamentos como Piura o Cajamarca tienen distritos de costa, sierra y selva."
+  },
+  {
+    "objectID": "referencia/datos-simulados.html#limitación-del-marco-de-distritos",
+    "href": "referencia/datos-simulados.html#limitación-del-marco-de-distritos",
+    "title": "Datos simulados",
+    "section": "Limitación del marco de distritos",
+    "text": "Limitación del marco de distritos\nubigeos.csv incluye solo los 1280 distritos con al menos una notificación de metaxénicas, de los 1891 del país. Puno, Arequipa, Moquegua y Tacna quedan incompletos. Para los equipos de sarampión o tos ferina hay que reemplazar ubigeos.csv por la lista completa del INEI, o por los ubigeos de su propia base, y volver a ejecutar R/simular_datos.R."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/index.html",
+    "href": "sesiones/s01-fundamentos/index.html",
+    "title": "S1 · De la vigilancia a la inteligencia sanitaria",
+    "section": "",
+    "text": "Al terminar la sesión, el estudiante podrá:\n\nDistinguir vigilancia basada en indicadores, vigilancia basada en eventos y evaluación de riesgo dentro del marco de inteligencia epidémica.\nFormular una pregunta de inteligencia con decisor, decisión, plazo y ámbito definidos.\nIdentificar qué producto necesita cada tipo de usuario: equipo técnico, gestor o autoridad.\nEjecutar un primer flujo reproducible en R y Quarto con la base del curso."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/index.html#objetivos",
+    "href": "sesiones/s01-fundamentos/index.html#objetivos",
+    "title": "S1 · De la vigilancia a la inteligencia sanitaria",
+    "section": "",
+    "text": "Al terminar la sesión, el estudiante podrá:\n\nDistinguir vigilancia basada en indicadores, vigilancia basada en eventos y evaluación de riesgo dentro del marco de inteligencia epidémica.\nFormular una pregunta de inteligencia con decisor, decisión, plazo y ámbito definidos.\nIdentificar qué producto necesita cada tipo de usuario: equipo técnico, gestor o autoridad.\nEjecutar un primer flujo reproducible en R y Quarto con la base del curso."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/index.html#contenidos",
+    "href": "sesiones/s01-fundamentos/index.html#contenidos",
+    "title": "S1 · De la vigilancia a la inteligencia sanitaria",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nCiclo dato–información–conocimiento–decisión.\nInteligencia epidémica: vigilancia basada en indicadores y en eventos (Kaiser et al. 2006; World Health Organization 2014).\nUsuarios y productos: alerta, boletín, sala situacional, informe técnico y tablero.\nPregunta de investigación frente a pregunta de inteligencia.\nProyecto de RStudio, documento Quarto y rutas relativas (Wilson et al. 2017)."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/index.html#materiales",
+    "href": "sesiones/s01-fundamentos/index.html#materiales",
+    "title": "S1 · De la vigilancia a la inteligencia sanitaria",
+    "section": "Materiales",
+    "text": "Materiales\n\n\n\nMaterial\nEstado\n\n\n\n\nDiapositivas\nSe publican el 9 de noviembre\n\n\nPráctica (practica.qmd)\nSe publica el 9 de noviembre"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/index.html#proyecto",
+    "href": "sesiones/s01-fundamentos/index.html#proyecto",
+    "title": "S1 · De la vigilancia a la inteligencia sanitaria",
+    "section": "Proyecto",
+    "text": "Proyecto\nSe presenta el encargo y se forman los 5 equipos. Para la S2, cada equipo revisa el menú de eventos y departamentos."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/index.html#lecturas",
+    "href": "sesiones/s01-fundamentos/index.html#lecturas",
+    "title": "S1 · De la vigilancia a la inteligencia sanitaria",
+    "section": "Lecturas",
+    "text": "Lecturas\n\nKaiser et al. (2006). What is epidemic intelligence, and how is it being improved in Europe? (Kaiser et al. 2006)\nWilson et al. (2017). Good enough practices in scientific computing (Wilson et al. 2017)"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/index.html",
+    "href": "sesiones/s03-temporal/index.html",
+    "title": "S3 · Análisis temporal y detección de señales",
+    "section": "",
+    "text": "Descomponer una serie en tendencia, estacionalidad y residuo.\nConstruir y comparar líneas basales y umbrales: canal endémico y algoritmos de detección.\nInterpretar una señal considerando el retraso de notificación y los falsos positivos."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/index.html#objetivos",
+    "href": "sesiones/s03-temporal/index.html#objetivos",
+    "title": "S3 · Análisis temporal y detección de señales",
+    "section": "",
+    "text": "Descomponer una serie en tendencia, estacionalidad y residuo.\nConstruir y comparar líneas basales y umbrales: canal endémico y algoritmos de detección.\nInterpretar una señal considerando el retraso de notificación y los falsos positivos."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/index.html#contenidos",
+    "href": "sesiones/s03-temporal/index.html#contenidos",
+    "title": "S3 · Análisis temporal y detección de señales",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nCanal endémico y sus variantes; elección de los años de la línea basal.\nAlgoritmos de detección de aberraciones (Farrington et al. 1996; Noufaily et al. 2013; Salmon et al. 2016).\nAdaptación por evento: dengue (serie larga y estacional), tos ferina (conteos bajos) y sarampión (eliminación: un caso es señal)."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/index.html#materiales",
+    "href": "sesiones/s03-temporal/index.html#materiales",
+    "title": "S3 · Análisis temporal y detección de señales",
+    "section": "Materiales",
+    "text": "Materiales\nSe publican el 23 de noviembre."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/index.html#proyecto",
+    "href": "sesiones/s03-temporal/index.html#proyecto",
+    "title": "S3 · Análisis temporal y detección de señales",
+    "section": "Proyecto",
+    "text": "Proyecto\nAvance 1. Ver Avances."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/index.html#lecturas",
+    "href": "sesiones/s03-temporal/index.html#lecturas",
+    "title": "S3 · Análisis temporal y detección de señales",
+    "section": "Lecturas",
+    "text": "Lecturas\n\nSalmon, Schumacher y Höhle (2016). Monitoring count time series in R (Salmon et al. 2016)"
+  },
+  {
+    "objectID": "sesiones/s05-anticipacion/index.html",
+    "href": "sesiones/s05-anticipacion/index.html",
+    "title": "S5 · Predicción, escenarios y alerta temprana",
+    "section": "",
+    "text": "Distinguir asociación, predicción, pronóstico y escenario.\nConstruir un componente prospectivo simple, con intervalos y validación fuera de la muestra.\nTraducir el resultado a niveles de alerta con acciones asociadas."
+  },
+  {
+    "objectID": "sesiones/s05-anticipacion/index.html#objetivos",
+    "href": "sesiones/s05-anticipacion/index.html#objetivos",
+    "title": "S5 · Predicción, escenarios y alerta temprana",
+    "section": "",
+    "text": "Distinguir asociación, predicción, pronóstico y escenario.\nConstruir un componente prospectivo simple, con intervalos y validación fuera de la muestra.\nTraducir el resultado a niveles de alerta con acciones asociadas."
+  },
+  {
+    "objectID": "sesiones/s05-anticipacion/index.html#contenidos",
+    "href": "sesiones/s05-anticipacion/index.html#contenidos",
+    "title": "S5 · Predicción, escenarios y alerta temprana",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nExplicar frente a predecir (Shmueli 2010).\nPredictores y rezagos: clima para dengue; coberturas y susceptibles para sarampión y tos ferina.\nValidación de origen móvil y evaluación de pronósticos (Funk et al. 2019; Bracher et al. 2021).\nSistemas de alerta temprana para dengue (Lowe et al. 2014; Hussain-Alkhateeb et al. 2018)."
+  },
+  {
+    "objectID": "sesiones/s05-anticipacion/index.html#materiales",
+    "href": "sesiones/s05-anticipacion/index.html#materiales",
+    "title": "S5 · Predicción, escenarios y alerta temprana",
+    "section": "Materiales",
+    "text": "Materiales\nSe publican el 7 de diciembre."
+  },
+  {
+    "objectID": "sesiones/s05-anticipacion/index.html#proyecto",
+    "href": "sesiones/s05-anticipacion/index.html#proyecto",
+    "title": "S5 · Predicción, escenarios y alerta temprana",
+    "section": "Proyecto",
+    "text": "Proyecto\nAvance 2. Ver Avances."
+  },
+  {
+    "objectID": "sesiones/s05-anticipacion/index.html#lecturas",
+    "href": "sesiones/s05-anticipacion/index.html#lecturas",
+    "title": "S5 · Predicción, escenarios y alerta temprana",
+    "section": "Lecturas",
+    "text": "Lecturas\n\nShmueli (2010). To explain or to predict? (Shmueli 2010)\nHyndman y Athanasopoulos (2021). Forecasting: Principles and Practice (Hyndman y Athanasopoulos 2021)"
+  }
+]

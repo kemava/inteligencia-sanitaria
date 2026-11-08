@@ -1,0 +1,25 @@
+---
+title: "Avances"
+---
+
+Cada avance se presenta en el taller: **8 minutos** de exposición (unas 6 diapositivas o una página Quarto) y **7 minutos** de preguntas.
+
+## Avance 1 · S3, 23 de noviembre (20 %)
+
+1. **Problema identificado:** el requerimiento, el decisor y la decisión.
+2. **Bases identificadas:** fuente, periodo, unidad de análisis y variables clave.
+3. **Inconvenientes encontrados:** problemas concretos en los datos o en el acceso a ellos.
+4. **Metodología propuesta:** qué análisis harán y por qué son adecuados para el evento.
+5. **Roles:** qué hace cada integrante.
+
+## Avance 2 · S5, 7 de diciembre (20 %)
+
+Los mismos cinco puntos actualizados, además de:
+
+- Resultados preliminares del análisis temporal y del territorial.
+- Cómo resolvieron los inconvenientes.
+- El plan para el componente prospectivo.
+
+::: {.callout-note}
+El punto de los inconvenientes pesa en la nota. Un equipo que trabajó con sus datos puede describir problemas concretos; una descripción genérica no basta.
+:::

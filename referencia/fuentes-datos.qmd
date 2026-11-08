@@ -1,0 +1,21 @@
+---
+title: "Fuentes de datos"
+---
+
+## Bases del curso
+
+| Base | Contenido | Disponibilidad |
+|---|---|---|
+| NotiSP (metaxénicas, tos ferina, sarampión) | Notificación individual por semana epidemiológica | Se entregan a los equipos en clase. **No se publican en este repositorio** porque contienen registros individuales |
+| Bases simuladas | Población, clima, coberturas, vulnerabilidad | En `datos/simulados/`. Ver [Datos simulados](datos-simulados.qmd) |
+
+## Fuentes oficiales para reemplazar los datos simulados
+
+| Insumo | Fuente |
+|---|---|
+| Datos abiertos de vigilancia | Plataforma Nacional de Datos Abiertos, <https://www.datosabiertos.gob.pe/> |
+| Población y pobreza | INEI, <https://www.inei.gob.pe/> |
+| Clima | SENAMHI, <https://www.senamhi.gob.pe/>; CHIRPS [@funk2015] |
+| Límites distritales | INEI o IGN |
+
+Al descargar cualquier base, registren la fecha de descarga y el enlace en el diccionario.

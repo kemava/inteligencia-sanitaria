@@ -1,0 +1,44 @@
+---
+title: "Inteligencia Sanitaria"
+subtitle: "Diplomado de Especialización en Analítica Epidemiológica Avanzada · FASPA, UPCH · 2026"
+toc: false
+---
+
+Curso teórico-práctico (2 créditos) sobre el uso de datos de vigilancia, demográficos, territoriales, climáticos y de servicios de salud para apoyar decisiones en salud pública. Se trabaja con R, RStudio y Quarto, sobre problemas reales del Perú: dengue, tos ferina y sarampión.
+
+**Docente:** Kevin Martel Vasquez · **Colaboración y diseño:** Oswaldo Espinoza Hurtado\
+**Modalidad:** virtual · lunes de 18:00 a 22:00 (hora de Lima)
+
+## Resultado de aprendizaje
+
+Al término del curso, el estudiante podrá integrar y analizar información epidemiológica, demográfica, territorial, climática y de servicios de salud para detectar señales, caracterizar riesgos, priorizar territorios, construir escenarios y desarrollar, sustentar y comunicar un producto reproducible de inteligencia sanitaria orientado a la toma de decisiones en salud pública.
+
+## Calendario
+
+| Sesión | Fecha | Teoría (18:00–20:00) | Taller (20:00–22:00) | Proyecto |
+|---|---|---|---|---|
+| [S1](sesiones/s01-fundamentos/index.qmd) | 9 nov | De la vigilancia a la inteligencia sanitaria | Encargo y flujo en R/Quarto | Conformación de equipos |
+| [S2](sesiones/s02-datos/index.qmd) | 16 nov | Fuentes, calidad e integración de datos | Calidad de la base del curso | Elección del problema |
+| [S3](sesiones/s03-temporal/index.qmd) | 23 nov | Análisis temporal y detección de señales | Señal epidemiológica | **Avance 1** |
+| [S4](sesiones/s04-territorial/index.qmd) | 30 nov | Análisis territorial y priorización | Priorización territorial | Consulta por equipo |
+| [S5](sesiones/s05-anticipacion/index.qmd) | 7 dic | Predicción, escenarios y alerta temprana | Escenario y niveles de alerta | **Avance 2** |
+| [S6](sesiones/s06-comunicacion/index.qmd) | 14 dic | Productos y comunicación | Presentación final | **Producto final** |
+
+Trabajo independiente del proyecto: 10–22 nov, 24 nov–6 dic y 8–14 dic (8 h cada bloque).
+
+## Evaluación
+
+| Componente | Peso |
+|---|---|
+| Asistencia (6 sesiones) | 10 % |
+| Avance 1 (S3) | 20 % |
+| Avance 2 (S5) | 20 % |
+| Producto final y presentación (S6) | 50 % |
+
+La nota mínima aprobatoria es 11.00. Ver [el encargo del proyecto](proyecto/index.qmd) y [las rúbricas](proyecto/rubrica.qmd).
+
+## Cómo usar este sitio
+
+1. Antes de la primera sesión, sigue los pasos de [Empezar](empezar.qmd).
+2. Cada lunes se publican las diapositivas y la práctica de la sesión.
+3. Para descargar todo el material, usa el botón verde **Code → Download ZIP** del [repositorio](https://github.com/kemava/inteligencia-sanitaria). No es necesario saber Git.

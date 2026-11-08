@@ -1,0 +1,26 @@
+---
+title: "S4 · Análisis territorial y priorización"
+subtitle: "Lunes 30 de noviembre de 2026"
+---
+
+## Objetivos
+
+- Elaborar mapas de tasas correctos: clasificación, números pequeños y suavizamiento.
+- Integrar carga de enfermedad, vulnerabilidad, coberturas y capacidad de respuesta.
+- Construir una priorización multicriterio explícita y evaluar su sensibilidad a los pesos.
+
+## Contenidos
+
+- Casos, tasas y riesgo relativo; suavizamiento bayesiano empírico [@clayton1987].
+- Clasificación en mapas coropléticos [@brewer2002].
+- Falacia ecológica y unidad de área modificable.
+- Análisis de decisión multicriterio [@thokala2016].
+
+## Materiales
+
+Se publican el 30 de noviembre.
+
+## Lecturas
+
+- Thokala et al. (2016). *Multiple criteria decision analysis for health care decision making* [@thokala2016]
+- Moraga (2023). *Spatial Statistics for Data Science* [@moraga2023]

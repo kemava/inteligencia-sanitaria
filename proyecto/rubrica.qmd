@@ -1,0 +1,25 @@
+---
+title: "Rúbricas"
+---
+
+## Avances (escala 0–20)
+
+| Criterio | Peso | Qué se espera |
+|---|---|---|
+| Problema y pregunta | 25 % | Requerimiento puntual, con decisor y decisión identificables |
+| Bases identificadas | 20 % | Fuentes pertinentes, con procedencia, periodo y unidad de análisis |
+| Inconvenientes | 20 % | Problemas concretos y cómo piensan abordarlos |
+| Metodología | 25 % | Métodos coherentes con la pregunta y con el evento |
+| Roles | 10 % | Distribución clara; cualquier integrante puede responder |
+
+## Producto final (50 % de la nota)
+
+| Criterio | Peso | Nivel alto (17–20) | Nivel insuficiente (0–10) |
+|---|---|---|---|
+| Pregunta y decisor | 10 % | La pregunta está ligada a una decisión y el producto la responde | Pregunta genérica, sin decisor |
+| Datos y calidad | 15 % | Problemas de calidad detectados y tratados de forma explícita | Datos usados sin examinar |
+| Rigor analítico | 20 % | Métodos adecuados al evento y a la pregunta; supuestos declarados | Métodos aplicados mecánicamente |
+| Interpretación e incertidumbre | 20 % | Distingue señal de ruido y explica lo inesperado | Resultados descritos sin interpretación |
+| Utilidad para la decisión | 15 % | Recomendaciones concretas y coherentes con la evidencia | Recomendaciones genéricas |
+| Reproducibilidad | 10 % | Se renderiza sin errores e incluye la bitácora | No se puede reproducir |
+| Defensa oral | 10 % | Cualquier integrante justifica cualquier decisión | Solo responde un integrante |

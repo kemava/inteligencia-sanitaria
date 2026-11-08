@@ -1,0 +1,25 @@
+---
+title: "S6 · Productos de inteligencia sanitaria y comunicación"
+subtitle: "Lunes 14 de diciembre de 2026"
+---
+
+## Objetivos
+
+- Elegir el formato de producto adecuado para el decisor.
+- Comunicar riesgo e incertidumbre sin ocultarlos ni exagerarlos.
+- Presentar y defender el producto final.
+
+## Contenidos
+
+- Estructura de un informe para la autoridad: conclusión, evidencia, incertidumbre y recomendación.
+- Comunicación de la incertidumbre [@spiegelhalter2011; @vanderbles2019; @who2017erc].
+- Reportes parametrizados y tableros en Quarto.
+- Automatización e IA en el flujo analítico: usos y límites.
+
+## Proyecto
+
+**Presentación final** de los 5 equipos (12 min + 8 min de defensa).
+
+## Lecturas
+
+- Spiegelhalter, Pearson y Short (2011). *Visualizing uncertainty about the future* [@spiegelhalter2011]

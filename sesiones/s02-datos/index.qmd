@@ -1,0 +1,30 @@
+---
+title: "S2 · Fuentes, calidad e integración de datos"
+subtitle: "Lunes 16 de noviembre de 2026"
+---
+
+## Objetivos
+
+- Identificar las fuentes pertinentes para una pregunta: NotiSP, población, clima, coberturas y servicios.
+- Evaluar la completitud, consistencia y oportunidad de una base de vigilancia.
+- Integrar fuentes por ubigeo y semana epidemiológica, y construir indicadores con numerador y denominador justificados.
+
+## Contenidos
+
+- Atributos de un sistema de vigilancia [@cdc2001] y dimensiones de calidad de datos [@who2017dqr].
+- Retraso de notificación, semanas incompletas y semana 53.
+- Ubigeo de residencia frente a ubigeo de notificación.
+- Denominadores poblacionales y datos climáticos [@funk2015].
+- Diccionario de datos y documentación de decisiones.
+
+## Materiales
+
+Se publican el 16 de noviembre.
+
+## Proyecto
+
+Cada equipo entrega su elección de evento, departamento y pregunta, en un párrafo.
+
+## Lecturas
+
+- CDC (2001). *Updated guidelines for evaluating public health surveillance systems* [@cdc2001]

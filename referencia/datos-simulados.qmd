@@ -1,0 +1,9 @@
+---
+title: "Datos simulados"
+---
+
+::: {.callout-warning}
+Los archivos de `datos/simulados/` son **simulados**. No son cifras oficiales y no deben citarse como tales.
+:::
+
+{{< include ../datos/simulados/README.md >}}

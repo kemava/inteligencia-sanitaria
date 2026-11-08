@@ -1,0 +1,23 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto
+/.quarto/
+*_files/
+*.html
+!docs/**/*.html
+
+# Datos individuales: NO se suben al repositorio público
+datos/crudos/*
+!datos/crudos/.gitkeep
+*.rds
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+**/*.quarto_ipynb

@@ -1,0 +1,40 @@
+---
+title: "Empezar"
+---
+
+Completa estos pasos **antes del lunes 9 de noviembre**. Toman unos 30 minutos.
+
+## 1. Instalar el software
+
+| Programa | Enlace | Nota |
+|---|---|---|
+| R (4.3 o superior) | <https://cran.r-project.org/> | Instalar primero |
+| RStudio Desktop | <https://posit.co/download/rstudio-desktop/> | Interfaz de trabajo |
+| Quarto | <https://quarto.org/docs/get-started/> | RStudio reciente ya lo incluye |
+
+## 2. Descargar el material del curso
+
+1. Ingresa al [repositorio del curso](https://github.com/kemava/inteligencia-sanitaria).
+2. Pulsa **Code → Download ZIP** y descomprime la carpeta en un lugar fácil de ubicar (por ejemplo, `Documentos`).
+3. Abre el archivo `inteligencia-sanitaria.Rproj`. RStudio se abrirá con la carpeta del curso como directorio de trabajo; por eso todas las rutas del curso son relativas.
+
+Cada semana puedes volver a descargar el ZIP para obtener el material nuevo.
+
+## 3. Instalar los paquetes
+
+En la consola de RStudio ejecuta:
+
+```r
+source("R/instalar_paquetes.R")
+```
+
+El script instala solo los paquetes que falten y al final muestra si todo está listo.
+
+## 4. Comprobar que Quarto funciona
+
+Abre `sesiones/s01-fundamentos/index.qmd` y pulsa **Render**. Si se abre una página en el visor, el entorno está listo.
+
+::: {.callout-tip}
+## ¿Problemas con la instalación?
+Escribe en la sección [Issues](https://github.com/kemava/inteligencia-sanitaria/issues) del repositorio o consulta en la primera media hora del taller del 9 de noviembre.
+:::
