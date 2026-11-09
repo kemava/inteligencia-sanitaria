@@ -1,0 +1,31 @@
+---
+title: "Plantilla: pregunta de inteligencia"
+---
+
+Completen la tabla para su proyecto. El último componente es el que más se revisa: si no pueden decir qué resultado cambiaría la decisión, la pregunta todavía no está lista.
+
+| Componente | Su respuesta |
+|---|---|
+| Decisor (cargo e institución) | |
+| Decisión que debe tomar | |
+| Ámbito (departamento, provincias, distritos) | |
+| Plazo de la decisión | |
+| Indicadores y fuente de cada uno | |
+| Qué resultado cambiaría la decisión | |
+
+**Pregunta de inteligencia en una oración:**
+
+> 
+
+## Ejemplo
+
+| Componente | Ejemplo |
+|---|---|
+| Decisor | Director regional de salud de Piura |
+| Decisión | Ampliar o no el control vectorial a nuevos distritos |
+| Ámbito | Distritos de Piura |
+| Plazo | Próximas 4 semanas |
+| Indicadores | Casos por semana y distrito (NotiSP) frente a la mediana de 2018–2022 |
+| Qué cambiaría la decisión | Que un distrito sin intervención supere su mediana histórica dos semanas seguidas |
+
+> ¿Qué distritos de Piura sin control vectorial en curso superan su mediana histórica de casos por dos semanas consecutivas, y deben incluirse en la siguiente ronda de intervención?

@@ -130,35 +130,35 @@
     "href": "referencia/fuentes-datos.html#fuentes-oficiales-para-reemplazar-los-datos-simulados",
     "title": "Fuentes de datos",
     "section": "Fuentes oficiales para reemplazar los datos simulados",
-    "text": "Fuentes oficiales para reemplazar los datos simulados\n\n\n\nInsumo\nFuente\n\n\n\n\nDatos abiertos de vigilancia\nPlataforma Nacional de Datos Abiertos, https://www.datosabiertos.gob.pe/\n\n\nPoblación y pobreza\nINEI, https://www.inei.gob.pe/\n\n\nClima\nSENAMHI, https://www.senamhi.gob.pe/; CHIRPS (Funk et al. 2015)\n\n\nLímites distritales\nINEI o IGN\n\n\n\nAl descargar cualquier base, registren la fecha de descarga y el enlace en el diccionario."
+    "text": "Fuentes oficiales para reemplazar los datos simulados\n\n\n\nInsumo\nFuente\n\n\n\n\nSituación epidemiológica por evento\nObservatorio del CDC Perú, https://app7.dge.gob.pe/maps2/shiny_observatorio_web/\n\n\nDatos abiertos de vigilancia\nPlataforma Nacional de Datos Abiertos, https://www.datosabiertos.gob.pe/\n\n\nPoblación y pobreza\nINEI, https://www.inei.gob.pe/\n\n\nClima\nSENAMHI, https://www.senamhi.gob.pe/; CHIRPS (Funk et al. 2015)\n\n\nLímites distritales\nINEI o IGN\n\n\n\nAl descargar cualquier base, registren la fecha de descarga y el enlace en el diccionario."
   },
   {
     "objectID": "referencia/bibliografia.html",
     "href": "referencia/bibliografia.html",
     "title": "Bibliografía",
     "section": "",
-    "text": "Referencias del sílabo y referencias complementarias por sesión.\n\n\nBhaskaran, Krishnan, Antonio Gasparrini, Shakoor Hajat, Liam Smeeth, y Ben Armstrong. 2013. «Time series regression studies in environmental epidemiology». International Journal of Epidemiology 42 (4): 1187-95. https://doi.org/10.1093/ije/dyt092.\n\n\nBles, Anne Marthe van der, Sander van der Linden, Alexandra L. J. Freeman, et al. 2019. «Communicating uncertainty about facts, numbers and science». Royal Society Open Science 6 (5): 181870. https://doi.org/10.1098/rsos.181870.\n\n\nBracher, Johannes, Evan L. Ray, Tilmann Gneiting, y Nicholas G. Reich. 2021. «Evaluating epidemic forecasts in an interval format». PLoS Computational Biology 17 (2): e1008618. https://doi.org/10.1371/journal.pcbi.1008618.\n\n\nBrewer, Cynthia A., y Linda Pickle. 2002. «Evaluation of methods for classifying epidemiological data on choropleth maps in series». Annals of the Association of American Geographers 92 (4): 662-81.\n\n\nCenters for Disease Control and Prevention. 2001. «Updated guidelines for evaluating public health surveillance systems: recommendations from the Guidelines Working Group». MMWR Recommendations and Reports 50 (RR-13): 1-35.\n\n\nClayton, David, y John Kaldor. 1987. «Empirical Bayes estimates of age-standardized relative risks for use in disease mapping». Biometrics 43 (3): 671-81.\n\n\nFarrington, C. P., N. J. Andrews, A. D. Beale, y M. A. Catchpole. 1996. «A statistical algorithm for the early detection of outbreaks of infectious disease». Journal of the Royal Statistical Society: Series A 159 (3): 547-63.\n\n\nFunk, Chris, Pete Peterson, Martin Landsfeld, et al. 2015. «The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes». Scientific Data 2: 150066. https://doi.org/10.1038/sdata.2015.66.\n\n\nFunk, Sebastian, Anton Camacho, Adam J. Kucharski, Rachel Lowe, Rosalind M. Eggo, y W. John Edmunds. 2019. «Assessing the performance of real-time epidemic forecasts: A case study of Ebola in the Western Area region of Sierra Leone, 2014-15». PLoS Computational Biology 15 (2): e1006785. https://doi.org/10.1371/journal.pcbi.1006785.\n\n\nHussain-Alkhateeb, Laith, Axel Kroeger, Piero Olliaro, et al. 2018. «Early warning and response system (EWARS) for dengue outbreaks: recent advancements towards widespread applications in critical settings». PLoS ONE 13 (5): e0196811. https://doi.org/10.1371/journal.pone.0196811.\n\n\nHyndman, Rob J., y George Athanasopoulos. 2021. Forecasting: Principles and Practice. 3.ª ed. OTexts. https://otexts.com/fpp3/.\n\n\nJohansson, Michael A., Karyn M. Apfeldorf, Scott Dobson, et al. 2019. «An open challenge to advance probabilistic forecasting for dengue epidemics». Proceedings of the National Academy of Sciences 116 (48): 24268-74. https://doi.org/10.1073/pnas.1909865116.\n\n\nKaiser, Reinhard, Denis Coulombier, Manuela Baldari, Dilys Morgan, y Christophe Paquet. 2006. «What is epidemic intelligence, and how is it being improved in Europe?» Eurosurveillance 11 (5): E060202.4.\n\n\nKnaflic, Cole Nussbaumer. 2015. Storytelling with Data. Wiley.\n\n\nLovelace, Robin, Jakub Nowosad, y Jannes Muenchow. 2025. Geocomputation with R. CRC Press. https://r.geocompx.org/.\n\n\nLowe, Rachel, Christovam Barcellos, Caio A. S. Coelho, et al. 2014. «Dengue outlook for the World Cup in Brazil: an early warning model framework driven by real-time seasonal climate forecasts». The Lancet Infectious Diseases 14 (7): 619-26. https://doi.org/10.1016/S1473-3099(14)70781-9.\n\n\nMoraga, Paula. 2023. Spatial Statistics for Data Science: Theory and Practice with R. CRC Press.\n\n\nNoufaily, Angela, Doyo G. Enki, Paddy Farrington, Paul Garthwaite, Nick Andrews, y André Charlett. 2013. «An improved algorithm for outbreak detection in multiple surveillance systems». Statistics in Medicine 32 (7): 1206-22. https://doi.org/10.1002/sim.5595.\n\n\nPaquet, Christophe, Denis Coulombier, Reinhard Kaiser, y Massimo Ciotti. 2006. «Epidemic intelligence: a new framework for strengthening disease surveillance in Europe». Eurosurveillance 11 (12): 212-14.\n\n\nPeng, Roger D. 2011. «Reproducible research in computational science». Science 334 (6060): 1226-27. https://doi.org/10.1126/science.1213847.\n\n\nRothman, Kenneth J. 2012. Epidemiology: An Introduction. 2.ª ed. Oxford University Press.\n\n\nSalmon, Maëlle, Dirk Schumacher, y Michael Höhle. 2016. «Monitoring count time series in R: aberration detection in public health surveillance». Journal of Statistical Software 70 (10): 1-35. https://doi.org/10.18637/jss.v070.i10.\n\n\nShmueli, Galit. 2010. «To explain or to predict?» Statistical Science 25 (3): 289-310. https://doi.org/10.1214/10-STS330.\n\n\nSpiegelhalter, David, Mike Pearson, y Ian Short. 2011. «Visualizing uncertainty about the future». Science 333 (6048): 1393-400. https://doi.org/10.1126/science.1191181.\n\n\nTeutsch, Steven M., y R. Elliott Churchill, eds. 2010. Principles and Practice of Public Health Surveillance. 3.ª ed. Oxford University Press.\n\n\nThokala, Praveen, Nancy Devlin, Kevin Marsh, et al. 2016. «Multiple criteria decision analysis for health care decision making—an introduction: Report 1 of the ISPOR MCDA Emerging Good Practices Task Force». Value in Health 19 (1): 1-13. https://doi.org/10.1016/j.jval.2015.12.003.\n\n\nUNESCO. 2023. Guidance for generative AI in education and research. UNESCO.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, y Garrett Grolemund. 2023. R for Data Science. 2.ª ed. O’Reilly Media. https://r4ds.hadley.nz/.\n\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, y Tracy K. Teal. 2017. «Good enough practices in scientific computing». PLoS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.\n\n\nWorld Health Organization. 2014. Early detection, assessment and response to acute public health events: implementation of Early Warning and Response with a focus on Event-Based Surveillance. WHO.\n\n\nWorld Health Organization. 2017a. Communicating risk in public health emergencies: a WHO guideline for emergency risk communication (ERC) policy and practice. WHO.\n\n\nWorld Health Organization. 2017b. Data quality review: a toolkit for facility data quality assessment. WHO."
+    "text": "Referencias del sílabo y referencias complementarias por sesión.\n\n\nBhaskaran, Krishnan, Antonio Gasparrini, Shakoor Hajat, Liam Smeeth, y Ben Armstrong. 2013. «Time series regression studies in environmental epidemiology». International Journal of Epidemiology 42 (4): 1187-95. https://doi.org/10.1093/ije/dyt092.\n\n\nBles, Anne Marthe van der, Sander van der Linden, Alexandra L. J. Freeman, et al. 2019. «Communicating uncertainty about facts, numbers and science». Royal Society Open Science 6 (5): 181870. https://doi.org/10.1098/rsos.181870.\n\n\nBracher, Johannes, Evan L. Ray, Tilmann Gneiting, y Nicholas G. Reich. 2021. «Evaluating epidemic forecasts in an interval format». PLoS Computational Biology 17 (2): e1008618. https://doi.org/10.1371/journal.pcbi.1008618.\n\n\nBrewer, Cynthia A., y Linda Pickle. 2002. «Evaluation of methods for classifying epidemiological data on choropleth maps in series». Annals of the Association of American Geographers 92 (4): 662-81.\n\n\nCenters for Disease Control and Prevention. 2001. «Updated guidelines for evaluating public health surveillance systems: recommendations from the Guidelines Working Group». MMWR Recommendations and Reports 50 (RR-13): 1-35.\n\n\nClayton, David, y John Kaldor. 1987. «Empirical Bayes estimates of age-standardized relative risks for use in disease mapping». Biometrics 43 (3): 671-81.\n\n\nFarrington, C. P., N. J. Andrews, A. D. Beale, y M. A. Catchpole. 1996. «A statistical algorithm for the early detection of outbreaks of infectious disease». Journal of the Royal Statistical Society: Series A 159 (3): 547-63.\n\n\nFunk, Chris, Pete Peterson, Martin Landsfeld, et al. 2015. «The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes». Scientific Data 2: 150066. https://doi.org/10.1038/sdata.2015.66.\n\n\nFunk, Sebastian, Anton Camacho, Adam J. Kucharski, Rachel Lowe, Rosalind M. Eggo, y W. John Edmunds. 2019. «Assessing the performance of real-time epidemic forecasts: A case study of Ebola in the Western Area region of Sierra Leone, 2014-15». PLoS Computational Biology 15 (2): e1006785. https://doi.org/10.1371/journal.pcbi.1006785.\n\n\nHussain-Alkhateeb, Laith, Axel Kroeger, Piero Olliaro, et al. 2018. «Early warning and response system (EWARS) for dengue outbreaks: recent advancements towards widespread applications in critical settings». PLoS ONE 13 (5): e0196811. https://doi.org/10.1371/journal.pone.0196811.\n\n\nHyndman, Rob J., y George Athanasopoulos. 2021. Forecasting: Principles and Practice. 3.ª ed. OTexts. https://otexts.com/fpp3/.\n\n\nJohansson, Michael A., Karyn M. Apfeldorf, Scott Dobson, et al. 2019. «An open challenge to advance probabilistic forecasting for dengue epidemics». Proceedings of the National Academy of Sciences 116 (48): 24268-74. https://doi.org/10.1073/pnas.1909865116.\n\n\nKaiser, Reinhard, Denis Coulombier, Manuela Baldari, Dilys Morgan, y Christophe Paquet. 2006. «What is epidemic intelligence, and how is it being improved in Europe?» Eurosurveillance 11 (5): E060202.4.\n\n\nKnaflic, Cole Nussbaumer. 2015. Storytelling with Data. Wiley.\n\n\nLovelace, Robin, Jakub Nowosad, y Jannes Muenchow. 2025. Geocomputation with R. CRC Press. https://r.geocompx.org/.\n\n\nLowe, Rachel, Christovam Barcellos, Caio A. S. Coelho, et al. 2014. «Dengue outlook for the World Cup in Brazil: an early warning model framework driven by real-time seasonal climate forecasts». The Lancet Infectious Diseases 14 (7): 619-26. https://doi.org/10.1016/S1473-3099(14)70781-9.\n\n\nMoraga, Paula. 2023. Spatial Statistics for Data Science: Theory and Practice with R. CRC Press.\n\n\nNoufaily, Angela, Doyo G. Enki, Paddy Farrington, Paul Garthwaite, Nick Andrews, y André Charlett. 2013. «An improved algorithm for outbreak detection in multiple surveillance systems». Statistics in Medicine 32 (7): 1206-22. https://doi.org/10.1002/sim.5595.\n\n\nPaquet, Christophe, Denis Coulombier, Reinhard Kaiser, y Massimo Ciotti. 2006. «Epidemic intelligence: a new framework for strengthening disease surveillance in Europe». Eurosurveillance 11 (12): 212-14.\n\n\nPeng, Roger D. 2011. «Reproducible research in computational science». Science 334 (6060): 1226-27. https://doi.org/10.1126/science.1213847.\n\n\nRothman, Kenneth J. 2012. Epidemiology: An Introduction. 2.ª ed. Oxford University Press.\n\n\nSalmon, Maëlle, Dirk Schumacher, y Michael Höhle. 2016. «Monitoring count time series in R: aberration detection in public health surveillance». Journal of Statistical Software 70 (10): 1-35. https://doi.org/10.18637/jss.v070.i10.\n\n\nShmueli, Galit. 2010. «To explain or to predict?» Statistical Science 25 (3): 289-310. https://doi.org/10.1214/10-STS330.\n\n\nSpiegelhalter, David, Mike Pearson, y Ian Short. 2011. «Visualizing uncertainty about the future». Science 333 (6048): 1393-400. https://doi.org/10.1126/science.1191181.\n\n\nTeutsch, Steven M., y R. Elliott Churchill, eds. 2010. Principles and Practice of Public Health Surveillance. 3.ª ed. Oxford University Press.\n\n\nThacker, Stephen B., y Ruth L. Berkelman. 1988. «Public health surveillance in the United States». Epidemiologic Reviews 10: 164-90.\n\n\nThokala, Praveen, Nancy Devlin, Kevin Marsh, et al. 2016. «Multiple criteria decision analysis for health care decision making—an introduction: Report 1 of the ISPOR MCDA Emerging Good Practices Task Force». Value in Health 19 (1): 1-13. https://doi.org/10.1016/j.jval.2015.12.003.\n\n\nUNESCO. 2023. Guidance for generative AI in education and research. UNESCO.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, y Garrett Grolemund. 2023. R for Data Science. 2.ª ed. O’Reilly Media. https://r4ds.hadley.nz/.\n\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, y Tracy K. Teal. 2017. «Good enough practices in scientific computing». PLoS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.\n\n\nWorld Health Organization. 2012. Rapid risk assessment of acute public health events. WHO.\n\n\nWorld Health Organization. 2014. Early detection, assessment and response to acute public health events: implementation of Early Warning and Response with a focus on Event-Based Surveillance. WHO.\n\n\nWorld Health Organization. 2017a. Communicating risk in public health emergencies: a WHO guideline for emergency risk communication (ERC) policy and practice. WHO.\n\n\nWorld Health Organization. 2017b. Data quality review: a toolkit for facility data quality assessment. WHO."
   },
   {
     "objectID": "proyecto/index.html",
     "href": "proyecto/index.html",
     "title": "Proyecto: encargo",
     "section": "",
-    "text": "Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. El decisor (director regional, jefe de epidemiología o jefe de una red de salud) les plantea un requerimiento concreto sobre tos ferina, dengue o sarampión. Definan ese requerimiento y respóndanlo con datos de vigilancia y métodos justificados. Dejen claro qué recomiendan y qué tan seguros pueden estar.\n\n\nEquipos: 5 equipos de 3 integrantes.\nProducto: sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización.\nCada sesión aporta un insumo: la pregunta (S1), los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6)."
+    "text": "Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. Al despacho del director regional llegan, en la misma semana, pedidos que compiten entre sí: el ministerio solicita un reporte, los alcaldes piden intervenciones en sus distritos, la prensa pregunta si hay un brote, los hospitales advierten que se quedan sin insumos y el presupuesto alcanza solo para una parte de lo que se pide.\nEn esa situación, el decisor rara vez llega con una pregunta bien formulada. Lo habitual es un pedido amplio («necesito saber cómo estamos») o varias urgencias a la vez. Por eso el primer trabajo del equipo no es analizar datos, sino entender la encrucijada en la que está el decisor y definir cuál es el requerimiento que más le ayudaría a decidir.\n\nEncargo. Elijan un evento (tos ferina, dengue o sarampión) y un departamento afectado recientemente. Describan la situación del decisor, identifiquen las preguntas que podría necesitar responder, elijan la que más cambiaría su decisión y justifiquen por qué descartaron las demás. Luego respóndanla con datos de vigilancia y métodos justificados, y dejen claro qué recomiendan y qué tan seguros pueden estar.\n\nEl trabajo tiene cuatro momentos:\n\nEntender la situación. Quién decide, qué presiones tiene, qué recursos y plazos maneja.\nIdentificar las preguntas posibles. Al menos tres preguntas candidatas que el decisor podría necesitar.\nElegir el requerimiento. La pregunta cuya respuesta cambiaría más la decisión, con una justificación de por qué no las otras.\nResponder. Con los insumos de cada sesión: los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6).\n\n\nEquipos: 5 equipos de 3 integrantes.\nProducto: sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización."
   },
   {
     "objectID": "proyecto/index.html#el-encargo",
     "href": "proyecto/index.html#el-encargo",
     "title": "Proyecto: encargo",
     "section": "",
-    "text": "Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. El decisor (director regional, jefe de epidemiología o jefe de una red de salud) les plantea un requerimiento concreto sobre tos ferina, dengue o sarampión. Definan ese requerimiento y respóndanlo con datos de vigilancia y métodos justificados. Dejen claro qué recomiendan y qué tan seguros pueden estar.\n\n\nEquipos: 5 equipos de 3 integrantes.\nProducto: sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización.\nCada sesión aporta un insumo: la pregunta (S1), los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6)."
+    "text": "Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. Al despacho del director regional llegan, en la misma semana, pedidos que compiten entre sí: el ministerio solicita un reporte, los alcaldes piden intervenciones en sus distritos, la prensa pregunta si hay un brote, los hospitales advierten que se quedan sin insumos y el presupuesto alcanza solo para una parte de lo que se pide.\nEn esa situación, el decisor rara vez llega con una pregunta bien formulada. Lo habitual es un pedido amplio («necesito saber cómo estamos») o varias urgencias a la vez. Por eso el primer trabajo del equipo no es analizar datos, sino entender la encrucijada en la que está el decisor y definir cuál es el requerimiento que más le ayudaría a decidir.\n\nEncargo. Elijan un evento (tos ferina, dengue o sarampión) y un departamento afectado recientemente. Describan la situación del decisor, identifiquen las preguntas que podría necesitar responder, elijan la que más cambiaría su decisión y justifiquen por qué descartaron las demás. Luego respóndanla con datos de vigilancia y métodos justificados, y dejen claro qué recomiendan y qué tan seguros pueden estar.\n\nEl trabajo tiene cuatro momentos:\n\nEntender la situación. Quién decide, qué presiones tiene, qué recursos y plazos maneja.\nIdentificar las preguntas posibles. Al menos tres preguntas candidatas que el decisor podría necesitar.\nElegir el requerimiento. La pregunta cuya respuesta cambiaría más la decisión, con una justificación de por qué no las otras.\nResponder. Con los insumos de cada sesión: los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6).\n\n\nEquipos: 5 equipos de 3 integrantes.\nProducto: sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización."
   },
   {
     "objectID": "proyecto/index.html#menú-de-eventos-y-departamentos",
     "href": "proyecto/index.html#menú-de-eventos-y-departamentos",
     "title": "Proyecto: encargo",
     "section": "Menú de eventos y departamentos",
-    "text": "Menú de eventos y departamentos\nNo se puede repetir la misma combinación de evento y departamento. Se recomienda que haya al menos un equipo por evento.\n\n\n\n\n\n\n\n\nEvento\nDepartamentos sugeridos\nConsideración metodológica\n\n\n\n\nDengue\nPiura, Lima, La Libertad, Ica, Lambayeque\nSerie larga y estacional: canal endémico, clima, priorización distrital\n\n\nTos ferina\nLoreto (Datem del Marañón), Lima, Cajamarca, Cusco, Tumbes\nConteos bajos fuera de Loreto; menores de 5 años; coberturas de pentavalente\n\n\nSarampión\nPuno, Madre de Dios, Arequipa, Loreto, Lima/Callao\nEnfermedad en eliminación: un caso es señal; coberturas SPR y susceptibles"
+    "text": "Menú de eventos y departamentos\nNo se puede repetir la misma combinación de evento y departamento. Se recomienda que haya al menos un equipo por evento. Antes de elegir, revisen en el observatorio del CDC Perú qué información hay disponible para su evento y su departamento.\n\n\n\n\n\n\n\n\nEvento\nDepartamentos sugeridos\nConsideración metodológica\n\n\n\n\nDengue\nPiura, Lima, La Libertad, Ica, Lambayeque\nSerie larga y estacional: canal endémico, clima, priorización distrital\n\n\nTos ferina\nLoreto (Datem del Marañón), Lima, Cajamarca, Cusco, Tumbes\nConteos bajos fuera de Loreto; menores de 5 años; coberturas de pentavalente\n\n\nSarampión\nPuno, Madre de Dios, Arequipa, Loreto, Lima/Callao\nEnfermedad en eliminación: un caso es señal; coberturas SPR y susceptibles"
   },
   {
     "objectID": "proyecto/index.html#ejemplos-de-requerimientos",
@@ -186,7 +186,7 @@
     "href": "index.html",
     "title": "Inteligencia Sanitaria",
     "section": "",
-    "text": "Curso teórico-práctico (2 créditos) sobre el uso de datos de vigilancia, demográficos, territoriales, climáticos y de servicios de salud para apoyar decisiones en salud pública. Se trabaja con R, RStudio y Quarto, sobre problemas reales del Perú: dengue, tos ferina y sarampión.\nDocente: Blgo. Kevin Martel Vasquez · Apoyo en S5 y S6: Mg. Oswaldo Espinoza Hurtado\nModalidad: virtual · lunes de 18:00 a 22:00 (hora de Lima)"
+    "text": "Curso teórico-práctico (2 créditos) sobre el uso de datos de vigilancia, demográficos, territoriales, climáticos y de servicios de salud para apoyar decisiones en salud pública. Se trabaja con R, RStudio y Quarto.\nDocente: Kevin Martel Vasquez · Colaboración y diseño: Oswaldo Espinoza Hurtado\nModalidad: virtual · lunes de 18:00 a 22:00 (hora de Lima)"
   },
   {
     "objectID": "index.html#resultado-de-aprendizaje",
@@ -214,7 +214,7 @@
     "href": "index.html#cómo-usar-este-sitio",
     "title": "Inteligencia Sanitaria",
     "section": "Cómo usar este sitio",
-    "text": "Cómo usar este sitio\n\nAntes de la primera sesión, sigue los pasos de Empezar.\nCada lunes se publican las diapositivas y la práctica de la sesión.\nPara descargar todo el material, usa el botón verde Code → Download ZIP del repositorio. No es necesario saber Git."
+    "text": "Cómo usar este sitio\n\nAntes de la primera sesión, sigue los pasos de Empezar y lee las normas de convivencia.\nCada lunes se publican las diapositivas y la práctica de la sesión.\nPara descargar todo el material, usa el botón verde Code → Download ZIP del repositorio. No es necesario saber Git."
   },
   {
     "objectID": "empezar.html",
@@ -263,7 +263,7 @@
     "href": "proyecto/avances.html#avance-1-s3-23-de-noviembre-20",
     "title": "Avances",
     "section": "Avance 1 · S3, 23 de noviembre (20 %)",
-    "text": "Avance 1 · S3, 23 de noviembre (20 %)\n\nProblema identificado: el requerimiento, el decisor y la decisión.\nBases identificadas: fuente, periodo, unidad de análisis y variables clave.\nInconvenientes encontrados: problemas concretos en los datos o en el acceso a ellos.\nMetodología propuesta: qué análisis harán y por qué son adecuados para el evento.\nRoles: qué hace cada integrante."
+    "text": "Avance 1 · S3, 23 de noviembre (20 %)\n\nProblema identificado: la situación del decisor, las preguntas candidatas que consideraron, el requerimiento elegido y por qué descartaron los otros.\nBases identificadas: fuente, periodo, unidad de análisis y variables clave.\nInconvenientes encontrados: problemas concretos en los datos o en el acceso a ellos.\nMetodología propuesta: qué análisis harán y por qué son adecuados para el evento.\nRoles: qué hace cada integrante."
   },
   {
     "objectID": "proyecto/avances.html#avance-2-s5-7-de-diciembre-20",
@@ -340,28 +340,28 @@
     "href": "sesiones/s01-fundamentos/index.html#contenidos",
     "title": "S1 · De la vigilancia a la inteligencia sanitaria",
     "section": "Contenidos",
-    "text": "Contenidos\n\nCiclo dato–información–conocimiento–decisión.\nInteligencia epidémica: vigilancia basada en indicadores y en eventos (Kaiser et al. 2006; World Health Organization 2014).\nUsuarios y productos: alerta, boletín, sala situacional, informe técnico y tablero.\nPregunta de investigación frente a pregunta de inteligencia.\nProyecto de RStudio, documento Quarto y rutas relativas (Wilson et al. 2017)."
+    "text": "Contenidos\n\nCiclo dato–información–conocimiento–decisión.\nInteligencia epidémica: vigilancia basada en indicadores y en eventos (Kaiser et al. 2006; World Health Organization 2014).\nUsuarios y productos: alerta, boletín, sala situacional, informe técnico y tablero.\nPregunta de investigación frente a pregunta de inteligencia.\nProyecto de RStudio, documento Quarto y rutas relativas."
   },
   {
     "objectID": "sesiones/s01-fundamentos/index.html#materiales",
     "href": "sesiones/s01-fundamentos/index.html#materiales",
     "title": "S1 · De la vigilancia a la inteligencia sanitaria",
     "section": "Materiales",
-    "text": "Materiales\n\n\n\nMaterial\nEstado\n\n\n\n\nDiapositivas\nSe publican el 9 de noviembre\n\n\nPráctica (practica.qmd)\nSe publica el 9 de noviembre"
+    "text": "Materiales\n\n\n\nMaterial\nEnlace\n\n\n\n\nDiapositivas\nVer en el navegador (pantalla completa: tecla F)\n\n\nPráctica 1\n¿Justificaban los datos una alerta por dengue en Piura?\n\n\nDatos\nDescargar dengue_piura_semanal.csv. La práctica la lee directamente desde este enlace\n\n\nPlantilla de la pregunta\nPregunta de inteligencia"
   },
   {
     "objectID": "sesiones/s01-fundamentos/index.html#proyecto",
     "href": "sesiones/s01-fundamentos/index.html#proyecto",
     "title": "S1 · De la vigilancia a la inteligencia sanitaria",
     "section": "Proyecto",
-    "text": "Proyecto\nSe presenta el encargo y se forman los 5 equipos. Para la S2, cada equipo revisa el menú de eventos y departamentos."
+    "text": "Proyecto\nSe presenta el encargo y se forman los 5 equipos. Para la S2, cada equipo entrega en un párrafo el evento, el departamento y el primer borrador de su pregunta, usando la plantilla."
   },
   {
     "objectID": "sesiones/s01-fundamentos/index.html#lecturas",
     "href": "sesiones/s01-fundamentos/index.html#lecturas",
     "title": "S1 · De la vigilancia a la inteligencia sanitaria",
     "section": "Lecturas",
-    "text": "Lecturas\n\nKaiser et al. (2006). What is epidemic intelligence, and how is it being improved in Europe? (Kaiser et al. 2006)\nWilson et al. (2017). Good enough practices in scientific computing (Wilson et al. 2017)"
+    "text": "Lecturas\nPara la sesión:\n\n\nExplica qué es la inteligencia epidémica y cómo se combinan la vigilancia basada en indicadores y la basada en eventos. Es el marco de la primera hora de clase.\n\n\nComplementaria, para quienes empiezan con R y Quarto:\n\n\nRecomendaciones prácticas para organizar carpetas, datos y código. Sirve de apoyo para el proyecto de equipo, no para la teoría de la sesión."
   },
   {
     "objectID": "sesiones/s03-temporal/index.html",
@@ -446,5 +446,320 @@
     "title": "S5 · Predicción, escenarios y alerta temprana",
     "section": "Lecturas",
     "text": "Lecturas\n\nShmueli (2010). To explain or to predict? (Shmueli 2010)\nHyndman y Athanasopoulos (2021). Forecasting: Principles and Practice (Hyndman y Athanasopoulos 2021)"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html",
+    "href": "sesiones/s01-fundamentos/slides.html",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "",
+    "text": "6 sesiones, cada lunes: 2 h de teoría y 2 h de taller\nUn proyecto por equipos de tres que se construye sesión a sesión\nDos avances (S3 y S5) y un producto final (S6)\nTodo el material está en el sitio del curso y se trabaja con R y Quarto\n\n\nPresentar brevemente el calendario. No detenerse en la evaluación: está en el sitio."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#organización-del-curso",
+    "href": "sesiones/s01-fundamentos/slides.html#organización-del-curso",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Organización del curso",
+    "text": "Organización del curso\n\n6 sesiones, cada lunes: 2 h de teoría y 2 h de taller\nUn proyecto por equipos de tres que se construye sesión a sesión\nDos avances (S3 y S5) y un producto final (S6)\nTodo el material está en el sitio del curso y se trabaja con R y Quarto\n\n\nPresentar brevemente el calendario. No detenerse en la evaluación: está en el sitio."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#semana-epidemiológica-10",
+    "href": "sesiones/s01-fundamentos/slides.html#semana-epidemiológica-10",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Semana epidemiológica 10",
+    "text": "Semana epidemiológica 10\n\nEn la SE 10 se notificaron 473 casos. La mediana de esa semana en 2017–2022 fue 18,5.\nUsted es el director regional de salud. ¿Qué hace esta semana? (a) esperar, (b) emitir una alerta, (c) intervenir"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#lo-que-pasó-después",
+    "href": "sesiones/s01-fundamentos/slides.html#lo-que-pasó-después",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Lo que pasó después",
+    "text": "Lo que pasó después\n\nPico en la SE 20 (8151 casos). Total del año: 79 304 notificaciones."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#qué-información-faltaba-en-marzo",
+    "href": "sesiones/s01-fundamentos/slides.html#qué-información-faltaba-en-marzo",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Qué información faltaba en marzo",
+    "text": "Qué información faltaba en marzo\nDiscusión (5 minutos). Algunas pistas:\n\n¿En qué distritos estaban los casos?\n¿Cuántos eran graves y dónde se atendían?\n¿Qué estaba pasando con el clima?\n¿Las últimas semanas estaban completas?\n¿Con qué años había que comparar?\n\n\nAnotar las respuestas en una pizarra compartida. Volver a ellas al final de la sesión y en S2 y S3."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#qué-es-la-vigilancia-en-salud-pública",
+    "href": "sesiones/s01-fundamentos/slides.html#qué-es-la-vigilancia-en-salud-pública",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Qué es la vigilancia en salud pública",
+    "text": "Qué es la vigilancia en salud pública\n\nRecolección, análisis e interpretación sistemáticos y continuos de datos de salud, estrechamente ligados a su difusión oportuna a quienes necesitan saberlo para actuar.\n\nAdaptado de Thacker y Berkelman (1988) y Teutsch y Churchill (2010).\nLa vigilancia no termina en el boletín. Termina en una acción, o en una decisión justificada de no actuar."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#del-dato-a-la-decisión",
+    "href": "sesiones/s01-fundamentos/slides.html#del-dato-a-la-decisión",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Del dato a la decisión",
+    "text": "Del dato a la decisión"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#dónde-se-rompe-el-ciclo",
+    "href": "sesiones/s01-fundamentos/slides.html#dónde-se-rompe-el-ciclo",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Dónde se rompe el ciclo",
+    "text": "Dónde se rompe el ciclo\n\n\n\n\n\n\n\nPunto de quiebre\nEjemplo\n\n\n\n\nEl dato llega tarde\nSemanas recientes incompletas por retraso de notificación\n\n\nEl análisis no responde la pregunta\nUn boletín con 40 tablas y ninguna recomendación\n\n\nEl producto no llega al decisor\nEl informe se envía cuando la decisión ya se tomó\n\n\nNo hay retroalimentación\nNadie revisa si la intervención cambió la curva\n\n\n\n¿Dónde se rompió en Piura?"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#inteligencia-epidémica",
+    "href": "sesiones/s01-fundamentos/slides.html#inteligencia-epidémica",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Inteligencia epidémica",
+    "text": "Inteligencia epidémica\n\nMarco propuesto por Kaiser et al. (2006) y desarrollado por la OMS (World Health Organization 2014)."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#indicadores-y-eventos-dos-fuentes-distintas",
+    "href": "sesiones/s01-fundamentos/slides.html#indicadores-y-eventos-dos-fuentes-distintas",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Indicadores y eventos: dos fuentes distintas",
+    "text": "Indicadores y eventos: dos fuentes distintas\n\n\n\n\n\n\n\n\n\nBasada en indicadores\nBasada en eventos\n\n\n\n\nEjemplo\nNotificación semanal de dengue en NotiSP\nNota de prensa sobre muertes infantiles por tos en una comunidad amazónica\n\n\nEstructura\nDefinición de caso, formato fijo\nTexto libre, sin formato\n\n\nOportunidad\nDías a semanas\nHoras a días\n\n\nEspecificidad\nAlta\nBaja: hay que verificar\n\n\nRiesgo principal\nLlegar tarde\nFalsas alarmas"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#evaluación-de-riesgo",
+    "href": "sesiones/s01-fundamentos/slides.html#evaluación-de-riesgo",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Evaluación de riesgo",
+    "text": "Evaluación de riesgo\n\n\n\nProbabilidad \\ Impacto\nBajo\nModerado\nAlto\n\n\n\n\nAlta\n\n\nPiura, SE 20\n\n\nModerada\n\nPiura, SE 10\n\n\n\nBaja\n\n\n\n\n\n\nSe evalúan la amenaza, la exposición y el contexto (World Health Organization 2012). La ubicación en la matriz se discute y se justifica; no se calcula.\n¿Ustedes ubicarían la SE 10 en la misma celda?"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#qué-entendemos-por-inteligencia-sanitaria-en-este-curso",
+    "href": "sesiones/s01-fundamentos/slides.html#qué-entendemos-por-inteligencia-sanitaria-en-este-curso",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Qué entendemos por inteligencia sanitaria en este curso",
+    "text": "Qué entendemos por inteligencia sanitaria en este curso\nConocimiento oportuno, construido a partir de varias fuentes, para una decisión específica, con la incertidumbre declarada.\nSi falta una de las cuatro partes, es vigilancia rutinaria o investigación, no inteligencia."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#quién-decide-qué",
+    "href": "sesiones/s01-fundamentos/slides.html#quién-decide-qué",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Quién decide qué",
+    "text": "Quién decide qué\n\n\n\n\n\n\n\n\n\nUsuario\nQué decide\nHorizonte\nQué necesita\n\n\n\n\nEquipo técnico de epidemiología\nDónde investigar e intervenir\nEsta semana\nListas de localidades, curvas por distrito\n\n\nGestor (red, DIRESA)\nPersonal, insumos, logística\nSemanas\nProyecciones de demanda, priorización\n\n\nAutoridad (región, ministerio)\nDeclaratorias, presupuesto, comunicación\nMeses\nEscenarios, una recomendación clara"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#productos-de-inteligencia",
+    "href": "sesiones/s01-fundamentos/slides.html#productos-de-inteligencia",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Productos de inteligencia",
+    "text": "Productos de inteligencia\n\n\n\n\n\n\n\n\n\nProducto\nPara quién\nFrecuencia\nDetalle\n\n\n\n\nAlerta epidemiológica\nTodos los niveles\nCuando ocurre\nMínimo: qué, dónde, qué hacer\n\n\nBoletín\nEquipos técnicos\nSemanal\nAlto\n\n\nSala situacional\nGestores\nSemanal o diaria\nMedio, visual\n\n\nInforme técnico\nAutoridad\nSegún la necesidad\nUna conclusión y su sustento\n\n\nTablero\nEquipos y gestores\nContinuo\nVariable"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#cómo-se-organiza-un-informe-técnico",
+    "href": "sesiones/s01-fundamentos/slides.html#cómo-se-organiza-un-informe-técnico",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Cómo se organiza un informe técnico",
+    "text": "Cómo se organiza un informe técnico\n\n\nEstructura usual de un informe técnico de pronóstico:\n\nAntecedentes\nAnálisis: fuentes, método, horizonte, resultados\nConclusiones\nRecomendaciones\nAnexos con las estimaciones\n\n\nLo que hace útil a un informe:\n\nLas cifras van con su intervalo de incertidumbre\nExplica qué no debe interpretarse (por ejemplo, un prorrateo distrital no es un pronóstico distrital)\nLas recomendaciones nombran territorios y plazos\n\nDiscusión: ¿qué leería primero una autoridad con 5 minutos?\n\n\nMostrar la estructura de un informe real de pronóstico, sin nombres ni cifras. Discutir si las conclusiones deberían ir al inicio en un resumen de una página."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#la-pregunta-de-inteligencia",
+    "href": "sesiones/s01-fundamentos/slides.html#la-pregunta-de-inteligencia",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "La pregunta de inteligencia",
+    "text": "La pregunta de inteligencia\n\n\n\n\n\n\n\nComponente\nEjemplo\n\n\n\n\nDecisor\nDirector regional de salud de Piura\n\n\nDecisión\nAmpliar o no el control vectorial a nuevos distritos\n\n\nÁmbito\nDistritos de Piura\n\n\nPlazo\nPróximas 4 semanas\n\n\nIndicador\nCasos por semana y por distrito frente a años previos\n\n\nQué cambiaría la decisión\nQue un distrito sin intervención supere su mediana histórica 2 semanas seguidas\n\n\n\nEl último componente es el más difícil y el más útil."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#investigación-o-inteligencia",
+    "href": "sesiones/s01-fundamentos/slides.html#investigación-o-inteligencia",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Investigación o inteligencia",
+    "text": "Investigación o inteligencia\n\n\n\n\n\n\n\n\n\nPregunta de investigación\nPregunta de inteligencia\n\n\n\n\nEjemplo\n¿Qué factores se asocian al dengue grave en Piura?\n¿Qué hospitales de Piura necesitarán más camas en las próximas 4 semanas?\n\n\nPropósito\nGenerar conocimiento generalizable\nApoyar una decisión concreta\n\n\nPlazo\nMeses o años\nDías o semanas\n\n\nUsuario\nComunidad científica\nUn decisor identificado\n\n\nIncertidumbre\nSe reduce antes de concluir\nSe declara y se decide igual"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#preguntas-que-hay-que-reformular",
+    "href": "sesiones/s01-fundamentos/slides.html#preguntas-que-hay-que-reformular",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Preguntas que hay que reformular",
+    "text": "Preguntas que hay que reformular\n\n«¿Cómo está el dengue en Piura?»\n«¿Hay brote?»\n«¿Qué distritos tienen más casos?»\n\n¿Qué le falta a cada una? Resolvemos la primera juntos.\n\nPara la primera: falta el decisor, la decisión, el plazo y el umbral. Una versión posible: «¿Qué distritos de Piura deben incluirse en la siguiente ronda de control vectorial, según su tendencia de las últimas 4 semanas frente a 2018–2022?»."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#ejercicio-en-salas-25-minutos",
+    "href": "sesiones/s01-fundamentos/slides.html#ejercicio-en-salas-25-minutos",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Ejercicio en salas (25 minutos)",
+    "text": "Ejercicio en salas (25 minutos)\nCada sala recibe una solicitud:\n\n«Necesito saber cómo está el dengue en Piura.» (jefe de la DIRESA, lunes en la mañana)\n«¿Hay brote de tos ferina en Loreto?» (periodista que llama a la oficina de comunicaciones)\n«Queremos un tablero de sarampión para la región.» (gerente regional de salud de Puno)\n\nEn 15 minutos, respondan en el documento compartido:\n\nQuién decide y qué decide realmente\nLa pregunta reescrita con los seis componentes\nQué resultado cambiaría la decisión\nQué dato necesitarían que hoy probablemente no tienen\n\nPlenaria: 10 minutos."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#limitaciones-de-los-datos-de-vigilancia",
+    "href": "sesiones/s01-fundamentos/slides.html#limitaciones-de-los-datos-de-vigilancia",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Limitaciones de los datos de vigilancia",
+    "text": "Limitaciones de los datos de vigilancia\n\nSubnotificación: no todos los casos llegan a un establecimiento ni se notifican\nRetraso: las semanas recientes siempre están incompletas\nCambios de definición de caso y de capacidad diagnóstica\nProbables y confirmados: la proporción cambia durante una epidemia\nDenominadores: la población por distrito es una estimación\n\nLa S2 trabaja estos problemas con los datos del curso."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#por-qué-un-flujo-reproducible",
+    "href": "sesiones/s01-fundamentos/slides.html#por-qué-un-flujo-reproducible",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Por qué un flujo reproducible",
+    "text": "Por qué un flujo reproducible\nLa inteligencia se repite: el mismo análisis cada semana, con datos nuevos.\ninteligencia-sanitaria/\n├── inteligencia-sanitaria.Rproj   ← abrir siempre desde aquí\n├── datos/\n│   └── procesados/dengue_piura_semanal.csv\n├── sesiones/s01-fundamentos/practica.qmd\n└── R/\nCon un proyecto de RStudio, rutas relativas y Quarto, actualizar el informe es volver a renderizar (Wilson et al. 2017)."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#el-proyecto-del-curso",
+    "href": "sesiones/s01-fundamentos/slides.html#el-proyecto-del-curso",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "El proyecto del curso",
+    "text": "El proyecto del curso\n\n5 equipos de 3 integrantes\nEligen un problema puntual de dengue, tos ferina o sarampión en un departamento afectado recientemente\nCada sesión aporta un insumo: pregunta, datos, señal temporal, priorización territorial, escenario y comunicación\nAvance 1 en S3, avance 2 en S5 y producto final en S6\n\nDetalles en la sección Proyecto del sitio."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#en-el-taller-de-hoy",
+    "href": "sesiones/s01-fundamentos/slides.html#en-el-taller-de-hoy",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "En el taller de hoy",
+    "text": "En el taller de hoy\n\nVerificar la instalación y abrir el proyecto\nPráctica 1: ¿justificaban los datos de la SE 10 una alerta?\nFormar los equipos y escribir el primer borrador de la pregunta"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/slides.html#referencias",
+    "href": "sesiones/s01-fundamentos/slides.html#referencias",
+    "title": "De la vigilancia a la inteligencia sanitaria",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nKaiser, Reinhard, Denis Coulombier, Manuela Baldari, Dilys Morgan, y Christophe Paquet. 2006. «What is epidemic intelligence, and how is it being improved in Europe?» Eurosurveillance 11 (5): E060202.4.\n\n\nTeutsch, Steven M., y R. Elliott Churchill, eds. 2010. Principles and Practice of Public Health Surveillance. 3.ª ed. Oxford University Press.\n\n\nThacker, Stephen B., y Ruth L. Berkelman. 1988. «Public health surveillance in the United States». Epidemiologic Reviews 10: 164-90.\n\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, y Tracy K. Teal. 2017. «Good enough practices in scientific computing». PLoS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.\n\n\nWorld Health Organization. 2012. Rapid risk assessment of acute public health events. WHO.\n\n\nWorld Health Organization. 2014. Early detection, assessment and response to acute public health events: implementation of Early Warning and Response with a focus on Event-Based Surveillance. WHO."
+  },
+  {
+    "objectID": "proyecto/plantilla-pregunta.html",
+    "href": "proyecto/plantilla-pregunta.html",
+    "title": "Plantilla: pregunta de inteligencia",
+    "section": "",
+    "text": "Completen la tabla para su proyecto. El último componente es el que más se revisa: si no pueden decir qué resultado cambiaría la decisión, la pregunta todavía no está lista.\nPregunta de inteligencia en una oración:"
+  },
+  {
+    "objectID": "proyecto/plantilla-pregunta.html#ejemplo",
+    "href": "proyecto/plantilla-pregunta.html#ejemplo",
+    "title": "Plantilla: pregunta de inteligencia",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n\n\n\n\n\n\n\nComponente\nEjemplo\n\n\n\n\nDecisor\nDirector regional de salud de Piura\n\n\nDecisión\nAmpliar o no el control vectorial a nuevos distritos\n\n\nÁmbito\nDistritos de Piura\n\n\nPlazo\nPróximas 4 semanas\n\n\nIndicadores\nCasos por semana y distrito (NotiSP) frente a la mediana de 2018–2022\n\n\nQué cambiaría la decisión\nQue un distrito sin intervención supere su mediana histórica dos semanas seguidas\n\n\n\n\n¿Qué distritos de Piura sin control vectorial en curso superan su mediana histórica de casos por dos semanas consecutivas, y deben incluirse en la siguiente ronda de intervención?"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html",
+    "href": "sesiones/s01-fundamentos/practica.html",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "",
+    "text": "Es la primera semana de marzo de 2023. El director regional de salud de Piura le pregunta a su equipo si la situación del dengue justifica emitir una alerta e intensificar las acciones de control. Ustedes tienen los datos de notificación hasta la semana epidemiológica (SE) 10.\n¿Los datos de las semanas 1 a 10 de 2023 justificaban una alerta?"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#pregunta",
+    "href": "sesiones/s01-fundamentos/practica.html#pregunta",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "",
+    "text": "Es la primera semana de marzo de 2023. El director regional de salud de Piura le pregunta a su equipo si la situación del dengue justifica emitir una alerta e intensificar las acciones de control. Ustedes tienen los datos de notificación hasta la semana epidemiológica (SE) 10.\n¿Los datos de las semanas 1 a 10 de 2023 justificaban una alerta?"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#objetivos",
+    "href": "sesiones/s01-fundamentos/practica.html#objetivos",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "Objetivos",
+    "text": "Objetivos\nAl terminar la práctica podrán:\n\nLeer una base desde un enlace y revisar su estructura.\nConstruir una serie semanal con ceros explícitos.\nComparar un año con una referencia histórica y discutir cómo la elección de los años de referencia cambia la lectura.\nRenderizar un documento Quarto."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#datos",
+    "href": "sesiones/s01-fundamentos/practica.html#datos",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "Datos",
+    "text": "Datos\nLa base dengue_piura_semanal.csv contiene las notificaciones de dengue de Piura (NotiSP) agregadas por año, semana epidemiológica de inicio de síntomas, distrito, clasificación clínica y tipo de diagnóstico. Va de 2010 a la SE 35 de 2026. No contiene registros individuales.\n\n\n\nVariable\nDescripción\n\n\n\n\nano\nAño epidemiológico\n\n\nsemana\nSemana epidemiológica (1–53)\n\n\nubigeo\nCódigo del distrito (6 dígitos)\n\n\nprovincia, distrito\nNombres\n\n\nclasificacion\nsin_signos_alarma, con_signos_alarma, grave\n\n\ntipo_dx\nconfirmado o probable\n\n\ncasos\nNúmero de casos\n\n\n\n\n\n\n\n\n\nNotaCómo seguir la práctica\n\n\n\nNo hace falta descargar nada. La base se lee directamente desde el repositorio del curso, así que basta con copiar cada bloque de código (botón de copiar, arriba a la derecha de cada bloque) y ejecutarlo en RStudio, en un script o en un documento Quarto nuevo. Se necesita conexión a internet.\nSi no tienen conexión, descarguen el archivo desde este enlace, guárdenlo en su carpeta de trabajo y reemplacen url_datos por el nombre del archivo."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#leer-y-explorar",
+    "href": "sesiones/s01-fundamentos/practica.html#leer-y-explorar",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "1. Leer y explorar",
+    "text": "1. Leer y explorar\n\n# Si falta algún paquete:\n# install.packages(c(\"readr\", \"dplyr\", \"tidyr\", \"ggplot2\"))\nlibrary(readr)\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(ggplot2)\n\nurl_datos &lt;- \"https://raw.githubusercontent.com/kemava/inteligencia-sanitaria/main/datos/procesados/dengue_piura_semanal.csv\"\n\ndengue &lt;- read_csv(url_datos, show_col_types = FALSE)\n\n\nglimpse(dengue)\n\nRows: 16,069\nColumns: 8\n$ ano           &lt;dbl&gt; 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 2010, 20…\n$ semana        &lt;dbl&gt; 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4,…\n$ ubigeo        &lt;dbl&gt; 200101, 200111, 200405, 200101, 200104, 200111, 200405, …\n$ provincia     &lt;chr&gt; \"PIURA\", \"PIURA\", \"MORROPON\", \"PIURA\", \"PIURA\", \"PIURA\",…\n$ distrito      &lt;chr&gt; \"PIURA\", \"LAS LOMAS\", \"MORROPON\", \"PIURA\", \"CASTILLA\", \"…\n$ clasificacion &lt;chr&gt; \"sin_signos_alarma\", \"sin_signos_alarma\", \"sin_signos_al…\n$ tipo_dx       &lt;chr&gt; \"confirmado\", \"confirmado\", \"confirmado\", \"confirmado\", …\n$ casos         &lt;dbl&gt; 13, 9, 1, 22, 1, 10, 1, 1, 1, 27, 4, 16, 2, 2, 1, 1, 32,…\n\n\n\n# ¿Cuántos casos hay por año?\ndengue |&gt;\n  group_by(ano) |&gt;\n  summarise(casos = sum(casos))\n\n\n  \n\n\n\nPregunta 1. ¿Qué representa cada fila de la base? ¿Por qué el número de filas no coincide con el número de casos?\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#construir-la-serie-semanal",
+    "href": "sesiones/s01-fundamentos/practica.html#construir-la-serie-semanal",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "2. Construir la serie semanal",
+    "text": "2. Construir la serie semanal\nSumamos los casos por año y semana. Las semanas sin casos no aparecen en la base, así que hay que agregarlas con valor cero.\n\nserie_sin_ceros &lt;- dengue |&gt;\n  group_by(ano, semana) |&gt;\n  summarise(casos = sum(casos), .groups = \"drop\")\n\nserie &lt;- serie_sin_ceros |&gt;\n  complete(ano, semana = 1:52, fill = list(casos = 0))\n\n# ¿Cuántas semanas se agregaron?\nnrow(serie) - nrow(serie_sin_ceros)\n\n[1] 96\n\n\nEsta práctica usa las semanas 1 a 52. Los años 2014, 2020 y 2025 tienen semana 53; la S2 discute cómo tratarla.\nPregunta 2. Si no completamos los ceros, ¿la mediana histórica de cada semana sube o baja? ¿En qué años y semanas importa más?\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#lo-que-se-veía-en-la-se-10",
+    "href": "sesiones/s01-fundamentos/practica.html#lo-que-se-veía-en-la-se-10",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "3. Lo que se veía en la SE 10",
+    "text": "3. Lo que se veía en la SE 10\nUsamos como referencia la mediana de 2017–2022 para cada semana.\n\nreferencia_a &lt;- serie |&gt;\n  filter(ano %in% 2017:2022) |&gt;\n  group_by(semana) |&gt;\n  summarise(mediana = median(casos), .groups = \"drop\")\n\nhasta_se10 &lt;- serie |&gt;\n  filter(ano == 2023, semana &lt;= 10) |&gt;\n  left_join(referencia_a, by = \"semana\") |&gt;\n  mutate(razon = casos / mediana)\n\nhasta_se10\n\n\n  \n\n\n\n\nggplot(hasta_se10, aes(semana)) +\n  geom_line(aes(y = mediana), linetype = \"dashed\", colour = \"grey45\") +\n  geom_line(aes(y = casos), colour = \"#b2182b\", linewidth = 1) +\n  geom_point(aes(y = casos), colour = \"#b2182b\") +\n  scale_x_continuous(breaks = 1:10) +\n  labs(x = \"Semana epidemiológica\", y = \"Casos\",\n       title = \"Dengue en Piura, SE 1–10 de 2023\",\n       subtitle = \"Línea discontinua: mediana 2017–2022\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#con-qué-años-comparar",
+    "href": "sesiones/s01-fundamentos/practica.html#con-qué-años-comparar",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "4. ¿Con qué años comparar?",
+    "text": "4. ¿Con qué años comparar?\n2017 fue un año epidémico en Piura. Repitan la comparación excluyéndolo y usando 2018–2022.\n\nreferencia_b &lt;- serie |&gt;\n  filter(ano %in% 2018:2022) |&gt;\n  group_by(semana) |&gt;\n  summarise(mediana_sin_2017 = median(casos),\n            p75_sin_2017 = quantile(casos, 0.75),\n            .groups = \"drop\")\n\nhasta_se10 |&gt;\n  left_join(referencia_b, by = \"semana\") |&gt;\n  select(semana, casos, mediana, mediana_sin_2017, p75_sin_2017)\n\n\n  \n\n\n\nEjercicio. Modifiquen el código para usar como referencia el percentil 75 de 2017–2022 en lugar de la mediana. ¿Desde qué semana 2023 supera esa referencia?\n\n# Escriban aquí su código\n\nPregunta 3. ¿Cuál de las referencias le mostrarían al director regional? Justifiquen la elección en dos o tres líneas. No hay una única respuesta correcta, pero la justificación debe referirse a lo que ocurrió en los años de referencia.\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#cuántos-distritos-tenían-casos",
+    "href": "sesiones/s01-fundamentos/practica.html#cuántos-distritos-tenían-casos",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "5. ¿Cuántos distritos tenían casos?",
+    "text": "5. ¿Cuántos distritos tenían casos?\n\ndistritos_se1_10 &lt;- dengue |&gt;\n  filter(semana &lt;= 10) |&gt;\n  group_by(ano) |&gt;\n  summarise(distritos_con_casos = n_distinct(ubigeo))\n\ndistritos_se1_10 |&gt; filter(ano &gt;= 2015)\n\n\n  \n\n\n\nPregunta 4. ¿Qué agrega este indicador a la curva? ¿Qué limitación tiene?\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#renderizar",
+    "href": "sesiones/s01-fundamentos/practica.html#renderizar",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "6. Renderizar",
+    "text": "6. Renderizar\nPulsen Render (o Ctrl + Shift + K). Debe generarse un archivo HTML con sus respuestas y gráficos."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#para-entregar-al-final-del-taller",
+    "href": "sesiones/s01-fundamentos/practica.html#para-entregar-al-final-del-taller",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "Para entregar al final del taller",
+    "text": "Para entregar al final del taller\nEn tres líneas, escriban lo que le dirían al director regional en la SE 10 de 2023 y qué dato pedirían antes de recomendar una intervención. La entrega no se califica; se comenta en la S2."
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/practica.html#limitaciones-de-este-análisis",
+    "href": "sesiones/s01-fundamentos/practica.html#limitaciones-de-este-análisis",
+    "title": "Práctica 1: ¿justificaban los datos una alerta por dengue en Piura?",
+    "section": "Limitaciones de este análisis",
+    "text": "Limitaciones de este análisis\n\nLas últimas semanas de cualquier corte están incompletas por el retraso de notificación. Aquí usamos datos consolidados, que el decisor no tenía en marzo de 2023.\nSe comparan conteos, no tasas. Si la población cambió entre años, la comparación se distorsiona.\nLa mediana de seis años es una referencia simple. En la S3 se construyen umbrales con métodos formales.\nLos casos probables y confirmados se suman. Su proporción puede cambiar durante una epidemia."
+  },
+  {
+    "objectID": "referencia/fuentes-datos.html#disponibilidad-de-datos-de-vigilancia",
+    "href": "referencia/fuentes-datos.html#disponibilidad-de-datos-de-vigilancia",
+    "title": "Fuentes de datos",
+    "section": "Disponibilidad de datos de vigilancia",
+    "text": "Disponibilidad de datos de vigilancia\nEl observatorio del CDC Perú es la referencia para revisar qué eventos, periodos y niveles geográficos tienen información publicada. Consúltenlo antes de definir el problema del proyecto: si el dato que necesitan no existe con el nivel de detalle requerido, la pregunta debe ajustarse."
+  },
+  {
+    "objectID": "convivencia.html",
+    "href": "convivencia.html",
+    "title": "Normas de convivencia",
+    "section": "",
+    "text": "Este es un espacio donde todos aprendemos, también el docente.\n\nNos tratamos con respeto, en la sesión, en el chat y en los equipos.\nComentamos las ideas, no a las personas, y siempre con una sugerencia para mejorar.\nPreguntar está bien. Equivocarse también.\nEscuchamos otras opiniones antes de defender la nuestra.\n\nAdaptadas del código de conducta de The Carpentries."
+  },
+  {
+    "objectID": "convivencia.html#lo-que-esperamos-de-todos",
+    "href": "convivencia.html#lo-que-esperamos-de-todos",
+    "title": "Normas de convivencia",
+    "section": "Lo que esperamos de todos",
+    "text": "Lo que esperamos de todos\n\nRespeto. Tratamos a los demás con cortesía, tanto en la sesión como en el chat y en los trabajos de equipo. Usamos un lenguaje inclusivo y no hacemos comentarios sobre la persona, sino sobre las ideas.\nCríticas constructivas. Cuando comentamos el trabajo de otro equipo, decimos qué funciona, qué no y qué sugerimos cambiar. Cuando recibimos una crítica, la tomamos como un aporte al trabajo, no como un juicio sobre nosotros.\nDiferentes puntos de vista. En inteligencia sanitaria suele haber más de una decisión razonable. Escuchamos argumentos distintos antes de defender el propio.\nPreguntar está bien. No hay preguntas tontas sobre R, Git o epidemiología. Si alguien no entiende algo, es probable que otros tampoco.\nLos errores son parte del trabajo. Un código que falla o un análisis equivocado se revisan juntos. El docente también se equivoca y lo va a reconocer.\nParticipación equilibrada. Dejamos espacio para que hablen quienes participan menos. En los equipos, todos los integrantes conocen y pueden explicar el trabajo completo.\nConfidencialidad de los datos. Las bases con registros individuales que se entreguen en clase se usan solo para el curso y no se comparten ni se suben a repositorios públicos.\nHonestidad con las herramientas. Se puede usar inteligencia artificial, pero se declara para qué se usó y qué se verificó."
+  },
+  {
+    "objectID": "convivencia.html#si-algo-no-funciona",
+    "href": "convivencia.html#si-algo-no-funciona",
+    "title": "Normas de convivencia",
+    "section": "Si algo no funciona",
+    "text": "Si algo no funciona\nSi alguna situación incomoda a un participante, puede escribir directamente al docente. Se tratará con reserva.\nEstas normas se basan en el código de conducta de The Carpentries, adaptado a un curso de posgrado en salud pública."
+  },
+  {
+    "objectID": "proyecto/index.html#tres-situaciones-de-partida",
+    "href": "proyecto/index.html#tres-situaciones-de-partida",
+    "title": "Proyecto: encargo",
+    "section": "Tres situaciones de partida",
+    "text": "Tres situaciones de partida\nEstas situaciones son ficticias, aunque se basan en problemas frecuentes. Sirven para orientar la elección; cada equipo debe ajustarlas a su departamento y a lo que muestren sus datos.\nDengue en la costa norte. Empieza la temporada de lluvias y hay pronósticos de condiciones cálidas. El director regional puede financiar un número limitado de brigadas de control vectorial durante tres meses. Varios alcaldes piden fumigación en sus distritos, el hospital regional pide reforzar la atención de casos con signos de alarma y el ministerio solicita un plan. ¿Dónde y cuándo concentrar las brigadas? ¿Conviene invertir primero en servicios o en control vectorial?\nDatos de referencia: sala de enfermedades metaxénicas del CDC Perú.\nTos ferina en la Amazonía. Se notifican casos y defunciones en menores de un año en comunidades indígenas de difícil acceso, a varios días de viaje por río. Hay vacunas y personal para un número reducido de salidas. Una red pide vacunación de bloqueo alrededor de los casos y otra pide un barrido en todas sus comunidades. ¿A qué comunidades ir primero? ¿Bloqueo o barrido?\nDatos de referencia: sala de enfermedades inmunoprevenibles del CDC Perú.\nSarampión en el sur. Hay transmisión confirmada en un departamento y casos importados en departamentos vecinos. Las coberturas de SPR son bajas en varias provincias. La autoridad debe decidir entre una campaña de vacunación en todo el departamento o una focalizada, y dónde intensificar la búsqueda activa de casos. ¿Qué provincias tienen más riesgo de transmisión sostenida?\nDatos de referencia: sala de sarampión y rubéola del CDC Perú."
+  },
+  {
+    "objectID": "proyecto/index.html#ejemplos-de-requerimientos-ya-formulados",
+    "href": "proyecto/index.html#ejemplos-de-requerimientos-ya-formulados",
+    "title": "Proyecto: encargo",
+    "section": "Ejemplos de requerimientos ya formulados",
+    "text": "Ejemplos de requerimientos ya formulados\n\n¿Qué distritos de Piura deben priorizarse para el control vectorial antes de la temporada 2027?\n¿En qué distritos de Loreto coinciden casos recientes de tos ferina en menores de 1 año con coberturas bajas de pentavalente?\n¿Qué provincias de Puno mantienen transmisión activa de sarampión y dónde hay más susceptibles acumulados?"
+  },
+  {
+    "objectID": "sesiones/s01-fundamentos/index.html#para-conocernos",
+    "href": "sesiones/s01-fundamentos/index.html#para-conocernos",
+    "title": "S1 · De la vigilancia a la inteligencia sanitaria",
+    "section": "Para conocernos",
+    "text": "Para conocernos\nEn la primera parte del taller, cada persona se presenta en menos de un minuto. La idea es conocernos un poco, no recitar el currículum.\nUna forma sencilla:\n\nMe llamo Kevin y me gusta mucho salir a pasear en bicicleta.\n\nSi quieren, pueden agregar algo de su trabajo:\n\n…y he trabajado en vigilancia y pronóstico de enfermedades infecciosas.\n\nAntes de empezar, revisen las normas de convivencia del curso."
   }
 ]

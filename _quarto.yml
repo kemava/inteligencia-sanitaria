@@ -45,6 +45,8 @@ website:
             text: Encargo
           - href: proyecto/avances.qmd
             text: Avances
+          - href: proyecto/plantilla-pregunta.qmd
+            text: Plantilla de la pregunta
           - href: proyecto/rubrica.qmd
             text: Rúbricas
       - text: Referencia

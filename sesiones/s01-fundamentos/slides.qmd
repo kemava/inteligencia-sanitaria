@@ -1,0 +1,386 @@
+---
+title: "De la vigilancia a la inteligencia sanitaria"
+subtitle: "Inteligencia Sanitaria · Sesión 1"
+author: "Kevin Martel Vasquez"
+date: "2026-11-09"
+lang: es
+format:
+  revealjs:
+    slide-number: true
+    transition: none
+    width: 1280
+    height: 720
+    preview-links: auto
+    chalkboard: false
+    footer: "Inteligencia Sanitaria · DEAEA, FASPA-UPCH · S1"
+execute:
+  echo: false
+  warning: false
+  message: false
+bibliography: ../../references.bib
+---
+
+```{r}
+#| label: datos
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+dengue <- read_csv(
+  file.path("..", "..", "datos", "procesados", "dengue_piura_semanal.csv"),
+  show_col_types = FALSE
+)
+
+# Casos por año y semana, con ceros explícitos en semanas sin casos
+serie <- dengue |>
+  group_by(ano, semana) |>
+  summarise(casos = sum(casos), .groups = "drop") |>
+  complete(ano, semana = 1:52, fill = list(casos = 0))
+
+referencia <- serie |>
+  filter(ano %in% 2017:2022) |>
+  group_by(semana) |>
+  summarise(mediana = median(casos), .groups = "drop")
+
+s2023 <- serie |> filter(ano == 2023)
+
+tema <- theme_minimal(base_size = 18) +
+  theme(panel.grid.minor = element_blank(),
+        plot.caption = element_text(size = 11, colour = "grey40"))
+fuente <- "Fuente: NotiSP, casos confirmados y probables por semana de inicio de síntomas."
+```
+
+## Organización del curso
+
+- 6 sesiones, cada lunes: 2 h de teoría y 2 h de taller
+- Un proyecto por equipos de tres que se construye sesión a sesión
+- Dos avances (S3 y S5) y un producto final (S6)
+- Todo el material está en el sitio del curso y se trabaja con R y Quarto
+
+::: {.notes}
+Presentar brevemente el calendario. No detenerse en la evaluación: está en el sitio.
+:::
+
+# Piura, marzo de 2023
+
+## Semana epidemiológica 10 {.smaller}
+
+```{r}
+#| label: curva-se10
+#| fig-width: 11
+#| fig-height: 5.2
+s2023 |>
+  filter(semana <= 10) |>
+  ggplot(aes(semana, casos)) +
+  geom_line(data = filter(referencia, semana <= 10),
+            aes(y = mediana), linetype = "dashed", colour = "grey45",
+            linewidth = 1) +
+  geom_line(colour = "#b2182b", linewidth = 1.3) +
+  geom_point(colour = "#b2182b", size = 2.5) +
+  annotate("text", x = 9.6, y = 40, label = "Mediana 2017–2022",
+           colour = "grey35", hjust = 1, size = 5) +
+  annotate("text", x = 9.6, y = 520, label = "2023",
+           colour = "#b2182b", hjust = 1, size = 5) +
+  scale_x_continuous(breaks = 1:10) +
+  labs(x = "Semana epidemiológica", y = "Casos de dengue", caption = fuente) +
+  tema
+```
+
+En la SE 10 se notificaron 473 casos. La mediana de esa semana en 2017–2022 fue 18,5.
+
+**Usted es el director regional de salud. ¿Qué hace esta semana?** (a) esperar, (b) emitir una alerta, (c) intervenir
+
+## Lo que pasó después
+
+```{r}
+#| label: curva-2023
+#| fig-width: 11
+#| fig-height: 5.4
+bind_rows(
+  s2023 |> mutate(serie = "2023"),
+  serie |> filter(ano == 2017) |> mutate(serie = "2017"),
+  referencia |> rename(casos = mediana) |> mutate(serie = "Mediana 2017–2022")
+) |>
+  ggplot(aes(semana, casos, colour = serie, linetype = serie)) +
+  geom_line(linewidth = 1.2) +
+  geom_vline(xintercept = 10, colour = "grey60") +
+  annotate("text", x = 10.5, y = 7800, label = "SE 10", hjust = 0,
+           colour = "grey40", size = 5) +
+  scale_colour_manual(values = c("2023" = "#b2182b", "2017" = "#2166ac",
+                                 "Mediana 2017–2022" = "grey45")) +
+  scale_linetype_manual(values = c("2023" = "solid", "2017" = "solid",
+                                   "Mediana 2017–2022" = "dashed")) +
+  scale_y_continuous(labels = scales::label_number(big.mark = " ")) +
+  labs(x = "Semana epidemiológica", y = "Casos de dengue", colour = NULL,
+       linetype = NULL, caption = fuente) +
+  tema +
+  theme(legend.position = "top")
+```
+
+Pico en la SE 20 (8151 casos). Total del año: 79 304 notificaciones.
+
+## Qué información faltaba en marzo
+
+Discusión (5 minutos). Algunas pistas:
+
+- ¿En qué distritos estaban los casos?
+- ¿Cuántos eran graves y dónde se atendían?
+- ¿Qué estaba pasando con el clima?
+- ¿Las últimas semanas estaban completas?
+- ¿Con qué años había que comparar?
+
+::: {.notes}
+Anotar las respuestas en una pizarra compartida. Volver a ellas al final de la sesión y en S2 y S3.
+:::
+
+# Vigilancia e inteligencia
+
+## Qué es la vigilancia en salud pública
+
+> Recolección, análisis e interpretación **sistemáticos y continuos** de datos de salud, estrechamente ligados a su difusión oportuna a quienes necesitan saberlo para **actuar**.
+
+Adaptado de @thacker1988 y @teutsch2010.
+
+La vigilancia no termina en el boletín. Termina en una acción, o en una decisión justificada de no actuar.
+
+## Del dato a la decisión
+
+```{r}
+#| label: ciclo
+#| fig-width: 12
+#| fig-height: 4.2
+cajas <- tibble::tibble(
+  x = c(1, 3.2, 5.4, 7.6, 9.8),
+  y = 1,
+  titulo = c("Dato", "Información", "Conocimiento", "Decisión", "Acción"),
+  texto = c("473 casos notificados\nen la SE 10",
+            "25 veces la mediana\nde 2017–2022",
+            "Transmisión acelerada\nantes de la temporada alta",
+            "Intensificar el control\nvectorial y preparar\nlos servicios",
+            "Brigadas, insumos,\ncomunicación")
+)
+ggplot(cajas) +
+  geom_tile(aes(x, y), width = 1.9, height = 1.1, fill = "#eef3f8",
+            colour = "#2166ac") +
+  geom_text(aes(x, y + 0.3, label = titulo), fontface = "bold", size = 6) +
+  geom_text(aes(x, y - 0.12, label = texto), size = 4.3, lineheight = 0.9) +
+  annotate("segment", x = cajas$x[-5] + 0.95, xend = cajas$x[-1] - 0.95,
+           y = 1, yend = 1, arrow = arrow(length = unit(0.25, "cm"))) +
+  annotate("curve", x = 9.8, xend = 1, y = 0.42, yend = 0.42, curvature = -0.15,
+           arrow = arrow(length = unit(0.25, "cm")), colour = "grey40") +
+  annotate("text", x = 5.4, y = 0.05, label = "nuevos datos", colour = "grey40",
+           size = 4.5) +
+  coord_cartesian(xlim = c(0, 10.8), ylim = c(-0.1, 1.6)) +
+  theme_void()
+```
+
+## Dónde se rompe el ciclo
+
+| Punto de quiebre | Ejemplo |
+|---|---|
+| El dato llega tarde | Semanas recientes incompletas por retraso de notificación |
+| El análisis no responde la pregunta | Un boletín con 40 tablas y ninguna recomendación |
+| El producto no llega al decisor | El informe se envía cuando la decisión ya se tomó |
+| No hay retroalimentación | Nadie revisa si la intervención cambió la curva |
+
+**¿Dónde se rompió en Piura?**
+
+## Inteligencia epidémica
+
+```{r}
+#| label: inteligencia-epidemica
+#| fig-width: 12
+#| fig-height: 4.2
+nodos <- tibble::tibble(
+  x = c(1.2, 1.2, 4.2, 6.6, 9),
+  y = c(1.6, 0.4, 1, 1, 1),
+  w = c(2.2, 2.2, 1.7, 1.7, 1.7),
+  texto = c("Vigilancia basada\nen indicadores\n(NotiSP, egresos, laboratorio)",
+            "Vigilancia basada\nen eventos\n(prensa, rumores, comunidad)",
+            "Verificación", "Evaluación\nde riesgo", "Alerta y\nrespuesta")
+)
+ggplot(nodos) +
+  geom_tile(aes(x, y, width = w), height = 0.9, fill = "#eef3f8",
+            colour = "#2166ac") +
+  geom_text(aes(x, y, label = texto), size = 4.6, lineheight = 0.9) +
+  annotate("segment", x = c(2.3, 2.3, 5.05, 7.45), xend = c(3.35, 3.35, 5.75, 8.15),
+           y = c(1.6, 0.4, 1, 1), yend = c(1.05, 0.95, 1, 1),
+           arrow = arrow(length = unit(0.25, "cm"))) +
+  coord_cartesian(xlim = c(0, 10), ylim = c(-0.1, 2.1)) +
+  theme_void()
+```
+
+Marco propuesto por @kaiser2006 y desarrollado por la OMS [@who2014].
+
+## Indicadores y eventos: dos fuentes distintas {.smaller}
+
+| | Basada en indicadores | Basada en eventos |
+|---|---|---|
+| Ejemplo | Notificación semanal de dengue en NotiSP | Nota de prensa sobre muertes infantiles por tos en una comunidad amazónica |
+| Estructura | Definición de caso, formato fijo | Texto libre, sin formato |
+| Oportunidad | Días a semanas | Horas a días |
+| Especificidad | Alta | Baja: hay que verificar |
+| Riesgo principal | Llegar tarde | Falsas alarmas |
+
+## Evaluación de riesgo
+
+| Probabilidad \\ Impacto | Bajo | Moderado | Alto |
+|---|---|---|---|
+| **Alta** | | | Piura, SE 20 |
+| **Moderada** | | Piura, SE 10 | |
+| **Baja** | | | |
+
+Se evalúan la amenaza, la exposición y el contexto [@who2012rra]. La ubicación en la matriz se discute y se justifica; no se calcula.
+
+**¿Ustedes ubicarían la SE 10 en la misma celda?**
+
+# Usuarios, productos y preguntas
+
+## Qué entendemos por inteligencia sanitaria en este curso
+
+Conocimiento **oportuno**, construido a partir de **varias fuentes**, para una **decisión específica**, con la **incertidumbre declarada**.
+
+Si falta una de las cuatro partes, es vigilancia rutinaria o investigación, no inteligencia.
+
+## Quién decide qué {.smaller}
+
+| Usuario | Qué decide | Horizonte | Qué necesita |
+|---|---|---|---|
+| Equipo técnico de epidemiología | Dónde investigar e intervenir | Esta semana | Listas de localidades, curvas por distrito |
+| Gestor (red, DIRESA) | Personal, insumos, logística | Semanas | Proyecciones de demanda, priorización |
+| Autoridad (región, ministerio) | Declaratorias, presupuesto, comunicación | Meses | Escenarios, una recomendación clara |
+
+## Productos de inteligencia {.smaller}
+
+| Producto | Para quién | Frecuencia | Detalle |
+|---|---|---|---|
+| Alerta epidemiológica | Todos los niveles | Cuando ocurre | Mínimo: qué, dónde, qué hacer |
+| Boletín | Equipos técnicos | Semanal | Alto |
+| Sala situacional | Gestores | Semanal o diaria | Medio, visual |
+| Informe técnico | Autoridad | Según la necesidad | Una conclusión y su sustento |
+| Tablero | Equipos y gestores | Continuo | Variable |
+
+## Cómo se organiza un informe técnico
+
+:::: {.columns}
+::: {.column width="50%"}
+Estructura usual de un informe técnico de pronóstico:
+
+1. Antecedentes
+2. Análisis: fuentes, método, horizonte, resultados
+3. Conclusiones
+4. Recomendaciones
+5. Anexos con las estimaciones
+:::
+::: {.column width="50%"}
+Lo que hace útil a un informe:
+
+- Las cifras van con su intervalo de incertidumbre
+- Explica qué **no** debe interpretarse (por ejemplo, un prorrateo distrital no es un pronóstico distrital)
+- Las recomendaciones nombran territorios y plazos
+
+**Discusión:** ¿qué leería primero una autoridad con 5 minutos?
+:::
+::::
+
+::: {.notes}
+Mostrar la estructura de un informe real de pronóstico, sin nombres ni cifras. Discutir si las conclusiones deberían ir al inicio en un resumen de una página.
+:::
+
+## La pregunta de inteligencia {.smaller}
+
+| Componente | Ejemplo |
+|---|---|
+| Decisor | Director regional de salud de Piura |
+| Decisión | Ampliar o no el control vectorial a nuevos distritos |
+| Ámbito | Distritos de Piura |
+| Plazo | Próximas 4 semanas |
+| Indicador | Casos por semana y por distrito frente a años previos |
+| Qué cambiaría la decisión | Que un distrito sin intervención supere su mediana histórica 2 semanas seguidas |
+
+El último componente es el más difícil y el más útil.
+
+## Investigación o inteligencia {.smaller}
+
+| | Pregunta de investigación | Pregunta de inteligencia |
+|---|---|---|
+| Ejemplo | ¿Qué factores se asocian al dengue grave en Piura? | ¿Qué hospitales de Piura necesitarán más camas en las próximas 4 semanas? |
+| Propósito | Generar conocimiento generalizable | Apoyar una decisión concreta |
+| Plazo | Meses o años | Días o semanas |
+| Usuario | Comunidad científica | Un decisor identificado |
+| Incertidumbre | Se reduce antes de concluir | Se declara y se decide igual |
+
+## Preguntas que hay que reformular
+
+- «¿Cómo está el dengue en Piura?»
+- «¿Hay brote?»
+- «¿Qué distritos tienen más casos?»
+
+¿Qué le falta a cada una? Resolvemos la primera juntos.
+
+::: {.notes}
+Para la primera: falta el decisor, la decisión, el plazo y el umbral. Una versión posible: «¿Qué distritos de Piura deben incluirse en la siguiente ronda de control vectorial, según su tendencia de las últimas 4 semanas frente a 2018–2022?».
+:::
+
+## Ejercicio en salas (25 minutos) {.smaller}
+
+Cada sala recibe una solicitud:
+
+1. «Necesito saber cómo está el dengue en Piura.» (jefe de la DIRESA, lunes en la mañana)
+2. «¿Hay brote de tos ferina en Loreto?» (periodista que llama a la oficina de comunicaciones)
+3. «Queremos un tablero de sarampión para la región.» (gerente regional de salud de Puno)
+
+En 15 minutos, respondan en el documento compartido:
+
+- Quién decide y qué decide realmente
+- La pregunta reescrita con los seis componentes
+- Qué resultado cambiaría la decisión
+- Qué dato necesitarían que hoy probablemente no tienen
+
+Plenaria: 10 minutos.
+
+## Limitaciones de los datos de vigilancia
+
+- **Subnotificación:** no todos los casos llegan a un establecimiento ni se notifican
+- **Retraso:** las semanas recientes siempre están incompletas
+- **Cambios de definición de caso** y de capacidad diagnóstica
+- **Probables y confirmados:** la proporción cambia durante una epidemia
+- **Denominadores:** la población por distrito es una estimación
+
+La S2 trabaja estos problemas con los datos del curso.
+
+## Por qué un flujo reproducible
+
+La inteligencia se repite: el mismo análisis cada semana, con datos nuevos.
+
+```
+inteligencia-sanitaria/
+├── inteligencia-sanitaria.Rproj   ← abrir siempre desde aquí
+├── datos/
+│   └── procesados/dengue_piura_semanal.csv
+├── sesiones/s01-fundamentos/practica.qmd
+└── R/
+```
+
+Con un proyecto de RStudio, rutas relativas y Quarto, actualizar el informe es volver a renderizar [@wilson2017].
+
+## El proyecto del curso
+
+- 5 equipos de 3 integrantes
+- Eligen un problema puntual de **dengue, tos ferina o sarampión** en un departamento afectado recientemente
+- Cada sesión aporta un insumo: pregunta, datos, señal temporal, priorización territorial, escenario y comunicación
+- Avance 1 en S3, avance 2 en S5 y producto final en S6
+
+Detalles en la sección **Proyecto** del sitio.
+
+## En el taller de hoy
+
+1. Verificar la instalación y abrir el proyecto
+2. Práctica 1: ¿justificaban los datos de la SE 10 una alerta?
+3. Formar los equipos y escribir el primer borrador de la pregunta
+
+## Referencias {.smaller}
+
+::: {#refs}
+:::

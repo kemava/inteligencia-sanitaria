@@ -4,7 +4,7 @@ subtitle: "Diplomado de Especialización en Analítica Epidemiológica Avanzada 
 toc: false
 ---
 
-Curso teórico-práctico (2 créditos) sobre el uso de datos de vigilancia, demográficos, territoriales, climáticos y de servicios de salud para apoyar decisiones en salud pública. Se trabaja con R, RStudio y Quarto, sobre problemas reales del Perú: dengue, tos ferina y sarampión.
+Curso teórico-práctico (2 créditos) sobre el uso de datos de vigilancia, demográficos, territoriales, climáticos y de servicios de salud para apoyar decisiones en salud pública. Se trabaja con R, RStudio y Quarto.
 
 **Docente:** Kevin Martel Vasquez · **Colaboración y diseño:** Oswaldo Espinoza Hurtado\
 **Modalidad:** virtual · lunes de 18:00 a 22:00 (hora de Lima)
@@ -39,6 +39,6 @@ La nota mínima aprobatoria es 11.00. Ver [el encargo del proyecto](proyecto/ind
 
 ## Cómo usar este sitio
 
-1. Antes de la primera sesión, sigue los pasos de [Empezar](empezar.qmd).
+1. Antes de la primera sesión, sigue los pasos de [Empezar](empezar.qmd) y lee las [normas de convivencia](convivencia.qmd).
 2. Cada lunes se publican las diapositivas y la práctica de la sesión.
 3. Para descargar todo el material, usa el botón verde **Code → Download ZIP** del [repositorio](https://github.com/kemava/inteligencia-sanitaria). No es necesario saber Git.

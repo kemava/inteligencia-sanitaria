@@ -167,6 +167,10 @@ div.csl-indent {
  <span class="dropdown-text">Avances</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../proyecto/plantilla-pregunta.html">
+ <span class="dropdown-text">Plantilla de la pregunta</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../proyecto/rubrica.html">
  <span class="dropdown-text">Rúbricas</span></a>
   </li>  
@@ -216,6 +220,7 @@ div.csl-indent {
    
   <ul>
   <li><a href="#bases-del-curso" id="toc-bases-del-curso" class="nav-link active" data-scroll-target="#bases-del-curso">Bases del curso</a></li>
+  <li><a href="#disponibilidad-de-datos-de-vigilancia" id="toc-disponibilidad-de-datos-de-vigilancia" class="nav-link" data-scroll-target="#disponibilidad-de-datos-de-vigilancia">Disponibilidad de datos de vigilancia</a></li>
   <li><a href="#fuentes-oficiales-para-reemplazar-los-datos-simulados" id="toc-fuentes-oficiales-para-reemplazar-los-datos-simulados" class="nav-link" data-scroll-target="#fuentes-oficiales-para-reemplazar-los-datos-simulados">Fuentes oficiales para reemplazar los datos simulados</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/kemava/inteligencia-sanitaria/blob/main/referencia/fuentes-datos.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/kemava/inteligencia-sanitaria/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></nav>
@@ -266,6 +271,10 @@ div.csl-indent {
 </tbody>
 </table>
 </section>
+<section id="disponibilidad-de-datos-de-vigilancia" class="level2">
+<h2 class="anchored" data-anchor-id="disponibilidad-de-datos-de-vigilancia">Disponibilidad de datos de vigilancia</h2>
+<p>El <a href="https://app7.dge.gob.pe/maps2/shiny_observatorio_web/">observatorio del CDC Perú</a> es la referencia para revisar qué eventos, periodos y niveles geográficos tienen información publicada. Consúltenlo antes de definir el problema del proyecto: si el dato que necesitan no existe con el nivel de detalle requerido, la pregunta debe ajustarse.</p>
+</section>
 <section id="fuentes-oficiales-para-reemplazar-los-datos-simulados" class="level2">
 <h2 class="anchored" data-anchor-id="fuentes-oficiales-para-reemplazar-los-datos-simulados">Fuentes oficiales para reemplazar los datos simulados</h2>
 <table class="caption-top table">
@@ -277,18 +286,22 @@ div.csl-indent {
 </thead>
 <tbody>
 <tr class="odd">
+<td>Situación epidemiológica por evento</td>
+<td>Observatorio del CDC Perú, <a href="https://app7.dge.gob.pe/maps2/shiny_observatorio_web/" class="uri">https://app7.dge.gob.pe/maps2/shiny_observatorio_web/</a></td>
+</tr>
+<tr class="even">
 <td>Datos abiertos de vigilancia</td>
 <td>Plataforma Nacional de Datos Abiertos, <a href="https://www.datosabiertos.gob.pe/" class="uri">https://www.datosabiertos.gob.pe/</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Población y pobreza</td>
 <td>INEI, <a href="https://www.inei.gob.pe/" class="uri">https://www.inei.gob.pe/</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Clima</td>
 <td>SENAMHI, <a href="https://www.senamhi.gob.pe/" class="uri">https://www.senamhi.gob.pe/</a>; CHIRPS <span class="citation" data-cites="funk2015">(<a href="#ref-funk2015" role="doc-biblioref"><span class="nocase">Funk et&nbsp;al.</span> 2015</a>)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Límites distritales</td>
 <td>INEI o IGN</td>
 </tr>

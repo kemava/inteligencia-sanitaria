@@ -6,7 +6,7 @@ Cada avance se presenta en el taller: **8 minutos** de exposición (unas 6 diapo
 
 ## Avance 1 · S3, 23 de noviembre (20 %)
 
-1. **Problema identificado:** el requerimiento, el decisor y la decisión.
+1. **Problema identificado:** la situación del decisor, las preguntas candidatas que consideraron, el requerimiento elegido y por qué descartaron los otros.
 2. **Bases identificadas:** fuente, periodo, unidad de análisis y variables clave.
 3. **Inconvenientes encontrados:** problemas concretos en los datos o en el acceso a ellos.
 4. **Metodología propuesta:** qué análisis harán y por qué son adecuados para el evento.

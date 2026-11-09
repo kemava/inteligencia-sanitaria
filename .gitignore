@@ -4,11 +4,8 @@
 .RData
 .Ruserdata
 
-# Quarto
+# Quarto (docs/ y _freeze/ SÍ se suben: son el sitio publicado)
 /.quarto/
-*_files/
-*.html
-!docs/**/*.html
 
 # Datos individuales: NO se suben al repositorio público
 datos/crudos/*

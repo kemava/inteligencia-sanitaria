@@ -9,10 +9,15 @@ title: "Fuentes de datos"
 | NotiSP (metaxénicas, tos ferina, sarampión) | Notificación individual por semana epidemiológica | Se entregan a los equipos en clase. **No se publican en este repositorio** porque contienen registros individuales |
 | Bases simuladas | Población, clima, coberturas, vulnerabilidad | En `datos/simulados/`. Ver [Datos simulados](datos-simulados.qmd) |
 
+## Disponibilidad de datos de vigilancia
+
+El [observatorio del CDC Perú](https://app7.dge.gob.pe/maps2/shiny_observatorio_web/) es la referencia para revisar qué eventos, periodos y niveles geográficos tienen información publicada. Consúltenlo antes de definir el problema del proyecto: si el dato que necesitan no existe con el nivel de detalle requerido, la pregunta debe ajustarse.
+
 ## Fuentes oficiales para reemplazar los datos simulados
 
 | Insumo | Fuente |
 |---|---|
+| Situación epidemiológica por evento | Observatorio del CDC Perú, <https://app7.dge.gob.pe/maps2/shiny_observatorio_web/> |
 | Datos abiertos de vigilancia | Plataforma Nacional de Datos Abiertos, <https://www.datosabiertos.gob.pe/> |
 | Población y pobreza | INEI, <https://www.inei.gob.pe/> |
 | Clima | SENAMHI, <https://www.senamhi.gob.pe/>; CHIRPS [@funk2015] |

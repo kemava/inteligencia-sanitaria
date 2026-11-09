@@ -148,6 +148,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Avances</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../proyecto/plantilla-pregunta.html">
+ <span class="dropdown-text">Plantilla de la pregunta</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../proyecto/rubrica.html">
  <span class="dropdown-text">Rúbricas</span></a>
   </li>  
@@ -197,8 +201,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#el-encargo" id="toc-el-encargo" class="nav-link active" data-scroll-target="#el-encargo">El encargo</a></li>
+  <li><a href="#tres-situaciones-de-partida" id="toc-tres-situaciones-de-partida" class="nav-link" data-scroll-target="#tres-situaciones-de-partida">Tres situaciones de partida</a></li>
   <li><a href="#menú-de-eventos-y-departamentos" id="toc-menú-de-eventos-y-departamentos" class="nav-link" data-scroll-target="#menú-de-eventos-y-departamentos">Menú de eventos y departamentos</a></li>
-  <li><a href="#ejemplos-de-requerimientos" id="toc-ejemplos-de-requerimientos" class="nav-link" data-scroll-target="#ejemplos-de-requerimientos">Ejemplos de requerimientos</a></li>
+  <li><a href="#ejemplos-de-requerimientos-ya-formulados" id="toc-ejemplos-de-requerimientos-ya-formulados" class="nav-link" data-scroll-target="#ejemplos-de-requerimientos-ya-formulados">Ejemplos de requerimientos ya formulados</a></li>
   <li><a href="#requisitos-mínimos-del-producto-final" id="toc-requisitos-mínimos-del-producto-final" class="nav-link" data-scroll-target="#requisitos-mínimos-del-producto-final">Requisitos mínimos del producto final</a></li>
   <li><a href="#uso-de-inteligencia-artificial" id="toc-uso-de-inteligencia-artificial" class="nav-link" data-scroll-target="#uso-de-inteligencia-artificial">Uso de inteligencia artificial</a></li>
   </ul>
@@ -228,18 +233,36 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="el-encargo" class="level2">
 <h2 class="anchored" data-anchor-id="el-encargo">El encargo</h2>
+<p>Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. Al despacho del director regional llegan, en la misma semana, pedidos que compiten entre sí: el ministerio solicita un reporte, los alcaldes piden intervenciones en sus distritos, la prensa pregunta si hay un brote, los hospitales advierten que se quedan sin insumos y el presupuesto alcanza solo para una parte de lo que se pide.</p>
+<p>En esa situación, el decisor rara vez llega con una pregunta bien formulada. Lo habitual es un pedido amplio («necesito saber cómo estamos») o varias urgencias a la vez. Por eso el primer trabajo del equipo no es analizar datos, sino entender la encrucijada en la que está el decisor y definir cuál es el requerimiento que más le ayudaría a decidir.</p>
 <blockquote class="blockquote">
-<p>Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. El decisor (director regional, jefe de epidemiología o jefe de una red de salud) les plantea un requerimiento concreto sobre <strong>tos ferina, dengue o sarampión</strong>. Definan ese requerimiento y respóndanlo con datos de vigilancia y métodos justificados. Dejen claro qué recomiendan y qué tan seguros pueden estar.</p>
+<p><strong>Encargo.</strong> Elijan un evento (tos ferina, dengue o sarampión) y un departamento afectado recientemente. Describan la situación del decisor, identifiquen las preguntas que podría necesitar responder, elijan la que más cambiaría su decisión y justifiquen por qué descartaron las demás. Luego respóndanla con datos de vigilancia y métodos justificados, y dejen claro qué recomiendan y qué tan seguros pueden estar.</p>
 </blockquote>
+<p>El trabajo tiene cuatro momentos:</p>
+<ol type="1">
+<li><strong>Entender la situación.</strong> Quién decide, qué presiones tiene, qué recursos y plazos maneja.</li>
+<li><strong>Identificar las preguntas posibles.</strong> Al menos tres preguntas candidatas que el decisor podría necesitar.</li>
+<li><strong>Elegir el requerimiento.</strong> La pregunta cuya respuesta cambiaría más la decisión, con una justificación de por qué no las otras.</li>
+<li><strong>Responder.</strong> Con los insumos de cada sesión: los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6).</li>
+</ol>
 <ul>
 <li><strong>Equipos:</strong> 5 equipos de 3 integrantes.</li>
 <li><strong>Producto:</strong> sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización.</li>
-<li><strong>Cada sesión aporta un insumo:</strong> la pregunta (S1), los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6).</li>
 </ul>
+</section>
+<section id="tres-situaciones-de-partida" class="level2">
+<h2 class="anchored" data-anchor-id="tres-situaciones-de-partida">Tres situaciones de partida</h2>
+<p>Estas situaciones son <strong>ficticias</strong>, aunque se basan en problemas frecuentes. Sirven para orientar la elección; cada equipo debe ajustarlas a su departamento y a lo que muestren sus datos.</p>
+<p><strong>Dengue en la costa norte.</strong> Empieza la temporada de lluvias y hay pronósticos de condiciones cálidas. El director regional puede financiar un número limitado de brigadas de control vectorial durante tres meses. Varios alcaldes piden fumigación en sus distritos, el hospital regional pide reforzar la atención de casos con signos de alarma y el ministerio solicita un plan. ¿Dónde y cuándo concentrar las brigadas? ¿Conviene invertir primero en servicios o en control vectorial?</p>
+<p>Datos de referencia: <a href="https://app7.dge.gob.pe/maps2/shiny_metaxenicas_web/">sala de enfermedades metaxénicas del CDC Perú</a>.</p>
+<p><strong>Tos ferina en la Amazonía.</strong> Se notifican casos y defunciones en menores de un año en comunidades indígenas de difícil acceso, a varios días de viaje por río. Hay vacunas y personal para un número reducido de salidas. Una red pide vacunación de bloqueo alrededor de los casos y otra pide un barrido en todas sus comunidades. ¿A qué comunidades ir primero? ¿Bloqueo o barrido?</p>
+<p>Datos de referencia: <a href="https://app7.dge.gob.pe/maps2/shiny_inmuno_web/">sala de enfermedades inmunoprevenibles del CDC Perú</a>.</p>
+<p><strong>Sarampión en el sur.</strong> Hay transmisión confirmada en un departamento y casos importados en departamentos vecinos. Las coberturas de SPR son bajas en varias provincias. La autoridad debe decidir entre una campaña de vacunación en todo el departamento o una focalizada, y dónde intensificar la búsqueda activa de casos. ¿Qué provincias tienen más riesgo de transmisión sostenida?</p>
+<p>Datos de referencia: <a href="https://app7.dge.gob.pe/maps3/shiny_SYR_web/">sala de sarampión y rubéola del CDC Perú</a>.</p>
 </section>
 <section id="menú-de-eventos-y-departamentos" class="level2">
 <h2 class="anchored" data-anchor-id="menú-de-eventos-y-departamentos">Menú de eventos y departamentos</h2>
-<p>No se puede repetir la misma combinación de evento y departamento. Se recomienda que haya al menos un equipo por evento.</p>
+<p>No se puede repetir la misma combinación de evento y departamento. Se recomienda que haya al menos un equipo por evento. Antes de elegir, revisen en el <a href="https://app7.dge.gob.pe/maps2/shiny_observatorio_web/">observatorio del CDC Perú</a> qué información hay disponible para su evento y su departamento.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -272,8 +295,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="ejemplos-de-requerimientos" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplos-de-requerimientos">Ejemplos de requerimientos</h2>
+<section id="ejemplos-de-requerimientos-ya-formulados" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplos-de-requerimientos-ya-formulados">Ejemplos de requerimientos ya formulados</h2>
 <ul>
 <li>¿Qué distritos de Piura deben priorizarse para el control vectorial antes de la temporada 2027?</li>
 <li>¿En qué distritos de Loreto coinciden casos recientes de tos ferina en menores de 1 año con coberturas bajas de pentavalente?</li>

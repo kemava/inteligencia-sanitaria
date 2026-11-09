@@ -4,15 +4,41 @@ title: "Proyecto: encargo"
 
 ## El encargo
 
-> Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. El decisor (director regional, jefe de epidemiología o jefe de una red de salud) les plantea un requerimiento concreto sobre **tos ferina, dengue o sarampión**. Definan ese requerimiento y respóndanlo con datos de vigilancia y métodos justificados. Dejen claro qué recomiendan y qué tan seguros pueden estar.
+Su equipo trabaja en la oficina de epidemiología de una DIRESA o GERESA. Al despacho del director regional llegan, en la misma semana, pedidos que compiten entre sí: el ministerio solicita un reporte, los alcaldes piden intervenciones en sus distritos, la prensa pregunta si hay un brote, los hospitales advierten que se quedan sin insumos y el presupuesto alcanza solo para una parte de lo que se pide.
+
+En esa situación, el decisor rara vez llega con una pregunta bien formulada. Lo habitual es un pedido amplio («necesito saber cómo estamos») o varias urgencias a la vez. Por eso el primer trabajo del equipo no es analizar datos, sino entender la encrucijada en la que está el decisor y definir cuál es el requerimiento que más le ayudaría a decidir.
+
+> **Encargo.** Elijan un evento (tos ferina, dengue o sarampión) y un departamento afectado recientemente. Describan la situación del decisor, identifiquen las preguntas que podría necesitar responder, elijan la que más cambiaría su decisión y justifiquen por qué descartaron las demás. Luego respóndanla con datos de vigilancia y métodos justificados, y dejen claro qué recomiendan y qué tan seguros pueden estar.
+
+El trabajo tiene cuatro momentos:
+
+1. **Entender la situación.** Quién decide, qué presiones tiene, qué recursos y plazos maneja.
+2. **Identificar las preguntas posibles.** Al menos tres preguntas candidatas que el decisor podría necesitar.
+3. **Elegir el requerimiento.** La pregunta cuya respuesta cambiaría más la decisión, con una justificación de por qué no las otras.
+4. **Responder.** Con los insumos de cada sesión: los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6).
 
 - **Equipos:** 5 equipos de 3 integrantes.
 - **Producto:** sencillo, pero construido de forma sistemática y reproducible. Puede ser un informe, un tablero o una herramienta de priorización.
-- **Cada sesión aporta un insumo:** la pregunta (S1), los datos (S2), la señal temporal (S3), la priorización territorial (S4), el escenario (S5) y la comunicación (S6).
+
+## Tres situaciones de partida
+
+Estas situaciones son **ficticias**, aunque se basan en problemas frecuentes. Sirven para orientar la elección; cada equipo debe ajustarlas a su departamento y a lo que muestren sus datos.
+
+**Dengue en la costa norte.** Empieza la temporada de lluvias y hay pronósticos de condiciones cálidas. El director regional puede financiar un número limitado de brigadas de control vectorial durante tres meses. Varios alcaldes piden fumigación en sus distritos, el hospital regional pide reforzar la atención de casos con signos de alarma y el ministerio solicita un plan. ¿Dónde y cuándo concentrar las brigadas? ¿Conviene invertir primero en servicios o en control vectorial?
+
+Datos de referencia: [sala de enfermedades metaxénicas del CDC Perú](https://app7.dge.gob.pe/maps2/shiny_metaxenicas_web/).
+
+**Tos ferina en la Amazonía.** Se notifican casos y defunciones en menores de un año en comunidades indígenas de difícil acceso, a varios días de viaje por río. Hay vacunas y personal para un número reducido de salidas. Una red pide vacunación de bloqueo alrededor de los casos y otra pide un barrido en todas sus comunidades. ¿A qué comunidades ir primero? ¿Bloqueo o barrido?
+
+Datos de referencia: [sala de enfermedades inmunoprevenibles del CDC Perú](https://app7.dge.gob.pe/maps2/shiny_inmuno_web/).
+
+**Sarampión en el sur.** Hay transmisión confirmada en un departamento y casos importados en departamentos vecinos. Las coberturas de SPR son bajas en varias provincias. La autoridad debe decidir entre una campaña de vacunación en todo el departamento o una focalizada, y dónde intensificar la búsqueda activa de casos. ¿Qué provincias tienen más riesgo de transmisión sostenida?
+
+Datos de referencia: [sala de sarampión y rubéola del CDC Perú](https://app7.dge.gob.pe/maps3/shiny_SYR_web/).
 
 ## Menú de eventos y departamentos
 
-No se puede repetir la misma combinación de evento y departamento. Se recomienda que haya al menos un equipo por evento.
+No se puede repetir la misma combinación de evento y departamento. Se recomienda que haya al menos un equipo por evento. Antes de elegir, revisen en el [observatorio del CDC Perú](https://app7.dge.gob.pe/maps2/shiny_observatorio_web/) qué información hay disponible para su evento y su departamento.
 
 | Evento | Departamentos sugeridos | Consideración metodológica |
 |---|---|---|
@@ -20,7 +46,7 @@ No se puede repetir la misma combinación de evento y departamento. Se recomiend
 | Tos ferina | Loreto (Datem del Marañón), Lima, Cajamarca, Cusco, Tumbes | Conteos bajos fuera de Loreto; menores de 5 años; coberturas de pentavalente |
 | Sarampión | Puno, Madre de Dios, Arequipa, Loreto, Lima/Callao | Enfermedad en eliminación: un caso es señal; coberturas SPR y susceptibles |
 
-## Ejemplos de requerimientos
+## Ejemplos de requerimientos ya formulados
 
 - ¿Qué distritos de Piura deben priorizarse para el control vectorial antes de la temporada 2027?
 - ¿En qué distritos de Loreto coinciden casos recientes de tos ferina en menores de 1 año con coberturas bajas de pentavalente?

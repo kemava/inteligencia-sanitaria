@@ -1,0 +1,14 @@
+---
+title: "Normas de convivencia"
+---
+
+![](img/convivencia.svg){fig-alt="Tres personas conversan alrededor de una laptop con un gráfico. Una propone otra comparación, el docente admite que también se equivocó y otra persona suma una idea." width="100%"}
+
+Este es un espacio donde todos aprendemos, también el docente.
+
+1. Nos tratamos con respeto, en la sesión, en el chat y en los equipos.
+2. Comentamos las ideas, no a las personas, y siempre con una sugerencia para mejorar.
+3. Preguntar está bien. Equivocarse también.
+4. Escuchamos otras opiniones antes de defender la nuestra.
+
+Adaptadas del [código de conducta de The Carpentries](https://docs.carpentries.org/policies/coc/).

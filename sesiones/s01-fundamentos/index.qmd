@@ -18,20 +18,41 @@ Al terminar la sesión, el estudiante podrá:
 - Inteligencia epidémica: vigilancia basada en indicadores y en eventos [@kaiser2006; @who2014].
 - Usuarios y productos: alerta, boletín, sala situacional, informe técnico y tablero.
 - Pregunta de investigación frente a pregunta de inteligencia.
-- Proyecto de RStudio, documento Quarto y rutas relativas [@wilson2017].
+- Proyecto de RStudio, documento Quarto y rutas relativas.
 
 ## Materiales
 
-| Material | Estado |
+| Material | Enlace |
 |---|---|
-| Diapositivas | Se publican el 9 de noviembre |
-| Práctica (`practica.qmd`) | Se publica el 9 de noviembre |
+| Diapositivas | [Ver en el navegador](slides.qmd) (pantalla completa: tecla `F`) |
+| Práctica 1 | [¿Justificaban los datos una alerta por dengue en Piura?](practica.qmd) |
+| Datos | [Descargar `dengue_piura_semanal.csv`](https://raw.githubusercontent.com/kemava/inteligencia-sanitaria/main/datos/procesados/dengue_piura_semanal.csv). La práctica la lee directamente desde este enlace |
+| Plantilla de la pregunta | [Pregunta de inteligencia](../../proyecto/plantilla-pregunta.qmd) |
 
 ## Proyecto
 
-Se presenta el [encargo](../../proyecto/index.qmd) y se forman los 5 equipos. Para la S2, cada equipo revisa el menú de eventos y departamentos.
+Se presenta el [encargo](../../proyecto/index.qmd) y se forman los 5 equipos. Para la S2, cada equipo entrega en un párrafo el evento, el departamento y el primer borrador de su pregunta, usando la [plantilla](../../proyecto/plantilla-pregunta.qmd).
 
 ## Lecturas
 
-- Kaiser et al. (2006). *What is epidemic intelligence, and how is it being improved in Europe?* [@kaiser2006]
-- Wilson et al. (2017). *Good enough practices in scientific computing* [@wilson2017]
+Para la sesión:
+
+- @kaiser2006. Explica qué es la inteligencia epidémica y cómo se combinan la vigilancia basada en indicadores y la basada en eventos. Es el marco de la primera hora de clase.
+
+Complementaria, para quienes empiezan con R y Quarto:
+
+- @wilson2017. Recomendaciones prácticas para organizar carpetas, datos y código. Sirve de apoyo para el proyecto de equipo, no para la teoría de la sesión.
+
+## Para conocernos
+
+En la primera parte del taller, cada persona se presenta en menos de un minuto. La idea es conocernos un poco, no recitar el currículum.
+
+Una forma sencilla:
+
+> Me llamo Kevin y me gusta mucho salir a pasear en bicicleta.
+
+Si quieren, pueden agregar algo de su trabajo:
+
+> …y he trabajado en vigilancia y pronóstico de enfermedades infecciosas.
+
+Antes de empezar, revisen las [normas de convivencia](../../convivencia.qmd) del curso.
