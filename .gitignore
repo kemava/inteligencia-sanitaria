@@ -3,6 +3,7 @@
 .Rhistory
 .RData
 .Ruserdata
+Rplots.pdf
 
 # Quarto (docs/ y _freeze/ SÍ se suben: son el sitio publicado)
 /.quarto/
@@ -18,3 +19,19 @@ Thumbs.db
 desktop.ini
 
 **/*.quarto_ipynb
+*.knit.md
+*.utf8.md
+
+# Guiones privados, borradores y verificaciones locales
+/.local/
+/.local-*/
+
+# Archivos temporales de edición
+*~
+*.swp
+*.swo
+
+# Configuración local (se pueden versionar ejemplos sin credenciales)
+.env
+.env.*
+!.env.example

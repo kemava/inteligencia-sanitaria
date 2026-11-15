@@ -3,28 +3,73 @@ title: "S2 · Fuentes, calidad e integración de datos"
 subtitle: "Lunes 16 de noviembre de 2026"
 ---
 
+**Docente de la sesión:** Oswaldo Espinoza Hurtado.
+
 ## Objetivos
 
-- Identificar las fuentes pertinentes para una pregunta: NotiSP, población, clima, coberturas y servicios.
-- Evaluar la completitud, consistencia y oportunidad de una base de vigilancia.
-- Integrar fuentes por ubigeo y semana epidemiológica, y construir indicadores con numerador y denominador justificados.
+Al terminar la sesión, el estudiante podrá:
+
+- Traducir una pregunta de inteligencia en necesidades de información y fuentes pertinentes.
+- Examinar la completitud, consistencia y oportunidad de los datos, distinguiendo lo que puede comprobar de lo que requiere otra fuente.
+- Distinguir cero casos, ausencia de registro y periodos todavía no observados.
+- Integrar fuentes por ubigeo y periodo sin multiplicar casos ni perder territorios inadvertidamente.
+- Construir un indicador con numerador y denominador compatibles y explicar sus limitaciones para la decisión.
+
+## Pregunta de la sesión
+
+En la S1 encontramos una señal de dengue en Piura y escribimos qué información pediríamos antes de recomendar una intervención. Ahora el director regional pide precisar la recomendación:
+
+> ¿Qué podemos afirmar con los datos disponibles, qué necesitamos verificar y qué información adicional podría cambiar nuestra recomendación?
 
 ## Contenidos
 
-- Atributos de un sistema de vigilancia [@cdc2001] y dimensiones de calidad de datos [@who2017dqr].
-- Retraso de notificación, semanas incompletas y semana 53.
-- Ubigeo de residencia frente a ubigeo de notificación.
-- Denominadores poblacionales y datos climáticos [@funk2015].
-- Diccionario de datos y documentación de decisiones.
+- De la pregunta al inventario de fuentes: vigilancia, población, clima, vacunación, servicios e intervenciones.
+- Atributos de un sistema de vigilancia [@cdc2001] y revisión de calidad de los datos [@who2017dqr].
+- Unidad de observación, claves, valores faltantes y consistencia de los agregados.
+- Inicio de síntomas, notificación y fecha de extracción; ceros, semanas incompletas y calendario epidemiológico.
+- Ubigeo de residencia, notificación y atención; correspondencia con el denominador.
+- Integración de fuentes, conservación de totales e indicadores con población simulada.
+- Diccionario de datos y bitácora de decisiones analíticas.
 
 ## Materiales
 
-Se publican el 16 de noviembre.
+| Material | Enlace |
+|---|---|
+| Diapositivas | [Ver en el navegador](slides.qmd) (pantalla completa: tecla `F`) |
+| Práctica 2 | [¿Está preparada nuestra base para responder al director regional?](practica.qmd) |
+| Datos | El agregado de dengue de la S1, `ubigeos.csv` y `poblacion_simulada.csv`, incluidos en el repositorio |
+| Datos complementarios | [Descripción y limitaciones de las bases simuladas](../../referencia/datos-simulados.qmd) |
+| Pregunta del equipo | [Plantilla de la pregunta de inteligencia](../../proyecto/plantilla-pregunta.qmd) |
+
+Para el taller, descarguen la versión actual del [repositorio del curso](https://github.com/kemava/inteligencia-sanitaria) y abran `inteligencia-sanitaria.Rproj`. La práctica lee los archivos locales; una vez descargados, el ejercicio principal funciona sin conexión.
+
+## Organización
+
+| Horario (Lima) | Actividad |
+|---|---|
+| 18:00–19:00 | Retomar la decisión de S1, seleccionar fuentes y examinar calidad |
+| 19:00–19:10 | Pausa |
+| 19:10–20:00 | Tiempo, territorio e integración de datos |
+| 20:00–20:45 | Taller: estructura, controles y ausencias |
+| 20:45–20:55 | Pausa |
+| 20:55–21:25 | Taller: integración con población e interpretación |
+| 21:25–22:00 | Trabajo de equipos y puesta en común |
 
 ## Proyecto
 
-Cada equipo entrega su elección de evento, departamento y pregunta, en un párrafo.
+Cada equipo entrega su elección de **evento, departamento y pregunta, en un párrafo**, como se encargó en la S1. Durante el taller contrasta esa pregunta con las fuentes que tiene y las que todavía necesita.
+
+La ficha de fuentes y la bitácora de la práctica son insumos para el [Avance 1 de la S3](../../proyecto/avances.qmd); no agregan una evaluación independiente. Si faltan datos esenciales, se documenta cómo conseguirlos o cómo ajustar la pregunta.
+
+Al cierre responderán tres preguntas breves, sin nota, para comprobar qué quedó claro sobre ausencias, uniones y uso de la información para decidir.
 
 ## Lecturas
 
-- CDC (2001). *Updated guidelines for evaluating public health surveillance systems* [@cdc2001]
+Para la sesión:
+
+- CDC (2001). *Updated guidelines for evaluating public health surveillance systems* [@cdc2001]. Revisar calidad de datos, representatividad y oportunidad; relacionar cada atributo con el uso que tendrá la información.
+
+Complementarias:
+
+- OMS (2017). *Data quality review: a toolkit for facility data quality assessment* [@who2017dqr]. Apoya la revisión de completitud, consistencia y denominadores; adaptamos sus preguntas al agregado del curso.
+- Wickham, Çetinkaya-Rundel y Grolemund (2023). Capítulo [Joins](https://r4ds.hadley.nz/joins.html) de *R for Data Science* [@wickham2023]. Apoyo para el taller.

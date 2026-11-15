@@ -1,0 +1,467 @@
+---
+title: "Fuentes, calidad e integración de datos"
+subtitle: "Inteligencia Sanitaria · Sesión 2"
+author: "Oswaldo Espinoza Hurtado"
+date: "2026-11-16"
+lang: es
+format:
+  revealjs:
+    slide-number: true
+    transition: none
+    width: 1280
+    height: 720
+    preview-links: auto
+    chalkboard: false
+    footer: "Inteligencia Sanitaria · DEAEA, FASPA-UPCH · S2"
+execute:
+  echo: false
+  warning: false
+  message: false
+bibliography: ../../references.bib
+---
+
+```{r}
+#| label: datos
+# Mantener tildes y símbolos al generar figuras en R para Windows.
+if (.Platform$OS.type == "windows") {
+  invisible(Sys.setlocale("LC_CTYPE", ".UTF-8"))
+}
+
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+dir_datos <- if (dir.exists("datos")) "datos" else file.path("..", "..", "datos")
+dengue <- read_csv(file.path(dir_datos, "procesados", "dengue_piura_semanal.csv"),
+                   col_types = cols(ubigeo = col_character()), show_col_types = FALSE)
+poblacion <- read_csv(file.path(dir_datos, "simulados", "poblacion_simulada.csv"),
+                      col_types = cols(ubigeo = col_character()), show_col_types = FALSE)
+ubigeos <- read_csv(file.path(dir_datos, "referencia", "ubigeos.csv"),
+                    col_types = cols(.default = col_character()), show_col_types = FALSE)
+corte <- dengue |> filter(ano == 2023, semana <= 10)
+casos_distrito <- corte |>
+  group_by(ubigeo, ano) |>
+  summarise(casos = sum(casos), .groups = "drop")
+union_edad <- left_join(casos_distrito, poblacion, by = c("ubigeo", "ano"))
+pob_total <- poblacion |>
+  group_by(ubigeo, ano) |>
+  summarise(poblacion_simulada = sum(poblacion), .groups = "drop")
+base_integrada <- left_join(casos_distrito, pob_total, by = c("ubigeo", "ano"),
+                            relationship = "many-to-one")
+stopifnot(nrow(base_integrada) == nrow(casos_distrito),
+          sum(base_integrada$casos) == sum(corte$casos),
+          !anyNA(base_integrada$poblacion_simulada))
+tema <- theme_minimal(base_size = 18) +
+  theme(panel.grid.minor = element_blank(),
+        plot.caption = element_text(size = 11, colour = "grey40"))
+```
+
+## De la señal a una recomendación
+
+- En la S1 encontramos una señal de dengue en Piura.
+- Escribimos qué le diríamos al director y qué información pediríamos.
+- Hoy revisamos qué nos permiten decir los datos y qué falta para precisar la recomendación.
+
+**¿Qué dato pidieron y qué cambiaría si lo tuvieran?**
+
+::: {.notes}
+18:00–18:15, apertura. Recuperar dos o tres respuestas de la práctica 1. Anotar la información solicitada y la decisión que podría cambiar. La revisión de datos debe servir a esa decisión. Los tiempos de cada bloque incluyen discusión y transiciones.
+:::
+
+# Volvemos a Piura
+
+## La señal que discutimos en S1 {.smaller}
+
+```{r}
+#| label: senal-s1
+#| fig-width: 11
+#| fig-height: 4.1
+semanal <- dengue |>
+  group_by(ano, semana) |>
+  summarise(casos = sum(casos), .groups = "drop")
+# Para esta referencia retrospectiva se asume que el extracto histórico
+# incluye todas las notificaciones consolidadas del periodo seleccionado.
+referencia <- crossing(ano = 2017:2022, semana = 1:10) |>
+  left_join(semanal, by = c("ano", "semana")) |>
+  mutate(casos = replace_na(casos, 0)) |>
+  group_by(semana) |>
+  summarise(mediana = median(casos), .groups = "drop")
+ggplot(filter(semanal, ano == 2023, semana <= 10), aes(semana, casos)) +
+  geom_line(data = referencia, aes(y = mediana), linetype = "dashed",
+            colour = "grey45", linewidth = 1) +
+  geom_line(colour = "#b2182b", linewidth = 1.2) +
+  geom_point(colour = "#b2182b", size = 2.5) +
+  scale_x_continuous(breaks = 1:10) +
+  labs(x = "Semana epidemiológica", y = "Casos notificados",
+       subtitle = "2023 frente a la mediana 2017–2022 (línea discontinua)",
+       caption = "NotiSP: datos consolidados, por semana de inicio de síntomas.") + tema
+```
+
+473 casos en la SE 10 frente a una mediana de 18,5. **¿Qué hace falta verificar antes de precisar la intervención?**
+
+## El director pide precisar la recomendación
+
+> «Veo que los casos están por encima de lo habitual. ¿Qué me recomiendan hacer? ¿Qué necesitan comprobar para decirme dónde y cómo actuar?»
+
+- ¿Sabemos a qué lugar corresponden los casos?
+- ¿Estamos comparando periodos y definiciones equivalentes?
+- ¿Sabemos dónde ya se intervino y qué capacidad tienen los servicios?
+
+::: {.notes}
+Situación docente, continuación del caso de S1. Mantener abiertas varias respuestas: verificación, preparación de servicios, intervención y comunicación pueden coexistir. La magnitud frente a una mediana no define por sí sola todas las acciones.
+:::
+
+# Elegir fuentes para una decisión
+
+## De la pregunta al dato necesario {.smaller}
+
+| Para decidir sobre… | Necesitamos… | Debemos comprobar… |
+|---|---|---|
+| Carga notificada | Casos por territorio y periodo | Definición, fecha y corte |
+| Comparación poblacional | Casos y población | Mismo territorio, año y edades |
+| Preparación de servicios | Atención y capacidad disponible | Hospitales, referencias, camas e insumos |
+| Condiciones ambientales | Temperatura y precipitación | Unidad, cobertura y periodo |
+| Ampliación de brigadas | Casos e intervenciones realizadas | Dónde, cuándo y con qué cobertura |
+
+::: {.notes}
+18:15–18:35, fuentes. Pedir que identifiquen qué fila responde a su recomendación de S1. Un dato puede ser interesante sin cambiar la decisión. El agregado disponible no contiene todas las fuentes de esta tabla.
+:::
+
+## Una pregunta puede revelar una fuente que falta
+
+En S1 propusimos identificar distritos **sin control vectorial en curso** que superan su referencia histórica.
+
+- La vigilancia permite examinar casos y tendencia.
+- El registro de intervenciones permite saber dónde ya se actuó.
+- El cruce permite comprobar qué distritos cumplen ambas condiciones.
+
+**¿Cómo responderíamos si solo tuviéramos la primera fuente?**
+
+## Cada fuente necesita una ficha {.smaller}
+
+| Campo | Qué registrar |
+|---|---|
+| Procedencia | Institución, enlace o responsable que entrega la base |
+| Versión | Fecha de descarga o extracción; corte declarado |
+| Cobertura | Territorios, población y periodo incluidos |
+| Unidad de observación | Qué representa una fila |
+| Variables | Definición, unidad y códigos |
+| Limitaciones | Qué falta y qué uso restringe |
+
+Conservar la fuente original y documentar las transformaciones [@wilson2017].
+
+## Lo que tenemos para el taller {.smaller}
+
+| Archivo | Qué representa una fila | Alcance |
+|---|---|---|
+| Dengue de Piura | Distrito × año × semana × clasificación × diagnóstico | Agregado de NotiSP |
+| Población | Distrito × año × grupo de edad | **Simulada** |
+| Ubigeos | Código y nombres de un distrito del marco | Derivado de metaxénicas; incompleto |
+| Clima (complemento) | Distrito × año × semana | **Simulado** |
+
+Los datos simulados permiten practicar la integración. Sus valores no sustentan una recomendación territorial real.
+
+# Examinar la calidad
+
+## Calidad para el uso que queremos darle
+
+- **Completitud:** ¿qué campos o reportes faltan?
+- **Validez:** ¿los valores cumplen las reglas documentadas?
+- **Consistencia:** ¿variables y totales son compatibles?
+- **Oportunidad:** ¿el dato llega a tiempo para decidir?
+- **Representatividad:** ¿quiénes o qué territorios quedan menos visibles?
+
+Adaptado de @cdc2001 y @who2017dqr.
+
+::: {.notes}
+18:35–19:00, calidad. El CDC evalúa atributos del sistema de vigilancia; la OMS ofrece un marco de revisión de datos rutinarios de establecimientos. Adaptamos preguntas al agregado, sin afirmar que con el CSV evaluamos todo el sistema. Dedicar unos ocho minutos a la discusión de las dos diapositivas siguientes.
+:::
+
+## Una base sin celdas vacías
+
+> Revisamos el CSV y todas las variables están completas.
+
+¿Qué podemos concluir?
+
+- Los campos presentes en el archivo no tienen valores faltantes.
+- Sigue pendiente saber si se recibieron todos los reportes esperados.
+- También queda por evaluar qué casos nunca llegaron a notificarse.
+
+**¿Qué fuente permitiría examinar cada pendiente?**
+
+## Tres preguntas diferentes sobre lo que falta {.smaller}
+
+| Pregunta | Qué revisamos | Qué necesitamos |
+|---|---|---|
+| ¿Qué campos quedaron sin llenar? | Completitud de campos | Archivo y diccionario de datos |
+| ¿Quiénes enviaron su reporte? | Completitud de reportes | Reportes recibidos y esperados |
+| ¿Qué proporción de casos se detectó? | Sensibilidad de la vigilancia | Otras fuentes o estudios específicos |
+
+La sensibilidad relaciona los casos detectados con los casos ocurridos. Para estudiarla hace falta información adicional.
+
+Si desconocemos cuántos reportes esperábamos, debemos dejarlo indicado; contar las filas del archivo no resuelve esa pregunta.
+
+## ¿Qué significa una fila repetida? {.smaller}
+
+En este archivo esperamos una sola fila para cada combinación de:
+
+**año + semana + ubigeo + clasificación clínica + tipo de diagnóstico**.
+
+- Un distrito aparece muchas veces: puede ser correcto.
+- Si se repite la combinación completa, averiguamos por qué.
+- La base no tiene identificadores individuales para buscar duplicados de personas.
+
+**Primero definimos la unidad; después buscamos duplicados.**
+
+## Un valor llamativo pide explicación
+
+- Un aumento puede corresponder a transmisión, búsqueda activa o cambios de registro.
+- Una caída puede coincidir con menos transmisión o con reportes pendientes.
+- Una cobertura de vacunación mayor de 100 % requiere revisar numerador y denominador.
+
+Antes de cambiar ese valor, averiguamos qué pasó y anotamos por qué decidimos conservarlo o corregirlo. Esa explicación queda en la bitácora.
+
+::: {.notes}
+El simulador de coberturas incluye denominadores subestimados a propósito. Este ejemplo es una transferencia a los equipos de inmunoprevenibles, no un resultado de la base de dengue. Evitar reglas automáticas como borrar extremos o limitar todas las coberturas a 100 %.
+:::
+
+## Antes de la pausa
+
+Para la recomendación de su equipo:
+
+1. Identifiquen un problema de datos que podría cambiarla.
+2. Expliquen cómo lo comprobarían.
+3. Señalen qué podrían hacer mientras se verifica.
+
+**Pausa: 19:00–19:10.**
+
+# Tiempo y territorio
+
+## ¿A qué momento pertenece un caso? {.smaller}
+
+| Fecha | Qué permite examinar |
+|---|---|
+| Inicio de síntomas | Cuándo empezó la enfermedad registrada |
+| Notificación | Cuándo se comunicó al sistema |
+| Extracción o corte | Qué versión de la información estamos usando |
+
+La curva de S1 está organizada por **inicio de síntomas**. El archivo consolidado no contiene las fechas necesarias para medir el retraso de notificación.
+
+::: {.notes}
+19:10–19:35, tiempo y territorio. Volver a «¿qué sabíamos en la SE 10?». En S1 se motivó una decisión con una reconstrucción retrospectiva; ahora explicitamos qué información faltaría para reproducir exactamente el conocimiento disponible entonces.
+:::
+
+## El mismo periodo puede cambiar entre cortes {.smaller}
+
+**Ejemplo ficticio para discutir el retraso:**
+
+| Semana de inicio de síntomas | Casos en un primer corte | Casos en un corte posterior |
+|---|---|---|
+| SE 8 | 40 | 43 |
+| SE 9 | 35 | 48 |
+| SE 10 | 20 | 50 |
+
+En el primer corte parece haber una caída. Las notificaciones incorporadas después cambian la lectura.
+
+Para estimar ese proceso necesitamos fechas o cortes históricos; esta tabla no describe Piura.
+
+## Filtrar semanas no recupera un corte histórico
+
+En la extracción disponible, los **2953 casos de las SE 1–10 de 2023** figuran como confirmados.
+
+- Eso describe la clasificación que vemos en este archivo.
+- No prueba que todos estuvieran confirmados al terminar la SE 10.
+- Para reconstruir la decisión de aquel momento necesitamos versiones históricas o una historia de cambios suficiente.
+
+## Cero, falta de información y periodo futuro {.smaller}
+
+| Situación | Tratamiento justificado |
+|---|---|
+| Periodo observado; la fuente respalda ausencia de casos | Cero |
+| No hay fila y desconocemos el reporte | Ausencia por verificar |
+| Semana posterior al corte del ejercicio | Fuera del periodo observado |
+
+Para completar con ceros, primero debemos saber qué lugares y semanas cubre el archivo. Si los datos llegan hasta una semana determinada, las siguientes todavía no son semanas observadas sin casos.
+
+## La semana necesita año y calendario
+
+- La SE 10 aparece en todos los años: unir solo por semana mezcla periodos.
+- El calendario epidemiológico de la fuente define las fechas de cada semana y si existe SE 53.
+- Una semana ausente del CSV no demuestra que no existiera en el calendario.
+- Para este ejercicio usamos **2023, SE 1–10**, un intervalo explícito.
+
+Consultar el [calendario epidemiológico 2023 del CDC Perú](https://cdn.www.gob.pe/uploads/document/file/4203820/CALENDARIO-CDCPERU-2023.pdf) y documentar el tratamiento de los límites de año.
+
+## ¿Dónde ocurrió, se notificó o se atendió? {.smaller}
+
+| Ubicación | Uso que debe examinarse |
+|---|---|
+| Residencia | Comparación con población residente |
+| Notificación | Organización del reporte y vigilancia |
+| Atención | Demanda de establecimientos y redes de referencia |
+
+El archivo llama al campo `ubigeo`, pero no aclara si se refiere a residencia, notificación o atención. Antes de usarlo, se lo preguntamos a quien preparó la base.
+
+**Una tasa requiere que numerador y denominador se refieran a una población compatible.**
+
+## Los territorios sin filas también importan
+
+En las SE 1–10 de 2023:
+
+- **39** distritos aparecen con casos.
+- La lista de distritos del curso contiene **65** ubigeos de Piura.
+- En **26** no aparecen registros para esas diez semanas.
+
+¿Qué tendría que garantizar la fuente para que pudiéramos poner cero? ¿Qué le preguntarían a quien preparó la base?
+
+El marco del curso es incompleto a escala nacional; no sustituye un padrón oficial actualizado.
+
+# Integrar sin cambiar el significado
+
+## Antes de unir, definir la tabla que necesitamos
+
+Para el ejercicio principal:
+
+**Una fila = un distrito en 2023, con sus casos acumulados en SE 1–10 y su población anual.**
+
+- Agregamos las categorías clínicas y diagnósticas del numerador.
+- Sumamos los grupos de edad del denominador para todas las edades.
+- Unimos por **ubigeo + año** y revisamos que cada distrito encuentre la población que le corresponde.
+
+::: {.notes}
+19:35–20:00, integración. Los primeros ejemplos corresponden a distritos con casos en el extracto, no a un panel completo de todos los distritos. La práctica conserva aparte los territorios sin filas. El código de unión por población usa datos simulados y el supuesto docente de compatibilidad geográfica; ese supuesto sigue pendiente de confirmación para uso real.
+:::
+
+## Una unión puede multiplicar los casos {.smaller}
+
+```{r}
+#| label: multiplicacion-casos
+#| fig-width: 11
+#| fig-height: 4
+comparacion <- tibble(
+  paso = factor(c("Antes de unir", "Después de unir\ncon cinco grupos de edad"),
+                levels = c("Antes de unir", "Después de unir\ncon cinco grupos de edad")),
+  casos = c(sum(casos_distrito$casos), sum(union_edad$casos))
+)
+ggplot(comparacion, aes(paso, casos, fill = paso)) +
+  geom_col(width = 0.5, show.legend = FALSE) +
+  geom_text(aes(label = scales::number(casos, big.mark = " ", accuracy = 1)),
+            vjust = -0.4, size = 6) +
+  scale_fill_manual(values = c("#2166ac", "#b2182b")) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)),
+                     labels = scales::label_number(big.mark = " ")) +
+  labs(x = NULL, y = "Suma de casos",
+       caption = "Demostración con el agregado de Piura y la población simulada del curso.") + tema
+```
+
+Cada distrito encuentra cinco filas de población. **¿Qué pasó con el numerador?**
+
+## Una unión correcta deja comprobaciones {.smaller}
+
+| Control | Resultado esperado en este ejercicio |
+|---|---|
+| Población por distrito y año | Una fila después de sumar edades |
+| Ubigeos | Texto, con sus seis dígitos |
+| Distritos con casos sin población | Ninguno; si los hay, resolver antes de calcular |
+| Filas tras unir población | Las mismas que en casos por distrito |
+| Suma de casos tras unir | 2953, igual que antes |
+
+Antes de unir, revisamos cuántas filas puede encontrar cada clave en la otra tabla [@wickham2023].
+
+## El indicador debe decir qué representa
+
+**Casos notificados acumulados en SE 1–10 por 100 000 habitantes:**
+
+\[
+\frac{\text{casos notificados del periodo en el distrito}}
+{\text{población del distrito en el año}} \times 100\,000
+\]
+
+- En el taller el denominador es **simulado** y el cálculo es docente.
+- El periodo de diez semanas no se convierte en un indicador anual.
+- Para usarlo realmente falta confirmar la ubicación del numerador y un denominador oficial compatible.
+
+## Conteo e indicador poblacional ayudan a decisiones distintas
+
+- El **conteo** describe la carga notificada y puede orientar necesidades de investigación o atención.
+- El **indicador poblacional** pone esa carga en relación con el tamaño de la población correspondiente.
+- Para asignar brigadas también importan tendencia, intervenciones previas, acceso y capacidad de respuesta.
+
+**Para la decisión que eligieron, ¿qué aporta cada indicador y qué otra información pedirían?**
+
+## Clima: comprobar la correspondencia antes de modelar {.smaller}
+
+- El archivo del curso tiene temperatura y precipitación semanales **simuladas**.
+- Una tabla distrito × año × semana puede unirse por esas tres claves.
+- Verificar unidades, definición de semana y cobertura territorial antes del cruce.
+- Al reemplazarla por clima observado, documentar su fuente y agregación [@funk2015].
+
+La S5 trabajará predictores y rezagos. En esta sesión comprobamos la integración.
+
+## Ejercicio breve por equipos
+
+En 5 minutos:
+
+1. Retomen la pregunta que trajeron de S1.
+2. Identifiquen la fuente que responde a la parte principal de esa pregunta.
+3. Expliquen qué dato falta o qué diferencia entre las fuentes podría obligarlos a cambiar la respuesta.
+
+Puesta en común: 5 minutos. Propongan cómo verificar el problema o ajustar el alcance.
+
+::: {.notes}
+Usar los últimos diez minutos del bloque. Recibir ejemplos de los tres eventos; no exigir que todos tengan ya las bases privadas. Si un equipo solo dispone de información provincial, debe revisar una pregunta formulada para comunidades o distritos.
+:::
+
+## En el taller de hoy
+
+1. Reconocer las bases y comprobar estructura, claves y totales.
+2. Examinar las ausencias dentro de un periodo definido.
+3. Detectar y corregir una unión que multiplica casos.
+4. Construir e interpretar un indicador docente con población simulada.
+5. Revisar las fuentes y el alcance de la pregunta del equipo.
+
+Práctica: **¿está preparada nuestra base para responder al director regional?**
+
+## Qué llevamos al Avance 1
+
+- Pregunta y decisor definidos.
+- Fuentes identificadas y acceso comprobado o pendiente documentado.
+- Inconvenientes concretos y cómo se abordarán.
+- Primeras decisiones registradas en una bitácora.
+
+La entrega de S2 sigue siendo un párrafo con **evento, departamento y pregunta**.
+
+## Volver al director regional
+
+> Con estos datos podemos sostener **____**.
+>
+> Todavía necesitamos verificar **____**, porque podría cambiar **____**.
+>
+> Mientras se verifica, proponemos **____**, considerando **____**.
+
+En S3 examinaremos cómo construir e interpretar una señal temporal con las decisiones sobre datos documentadas.
+
+## Antes de cerrar: ¿qué harían ustedes? {.smaller}
+
+**Tres minutos, individual y sin nota.** Respondan con una razón breve.
+
+1. Los datos llegan hasta SE 10. ¿Cómo tratarían cada situación?
+
+| Situación | ¿Cero, información pendiente o fuera del periodo? |
+|---|---|
+| Reporte completo que declara ningún caso en SE 9 | |
+| Un establecimiento no entregó su reporte de SE 9 | |
+| Queremos añadir la SE 11 | |
+
+2. Cada fila de casos encuentra cuatro filas en otra tabla. ¿Qué ocurriría al sumar los casos después de unir? ¿Cómo lo revisarían?
+3. Para la decisión de su equipo, escriban algo que pueden afirmar hoy y un dato que pedirían. Expliquen qué podría cambiar con ese dato.
+
+::: {.notes}
+Reservar tres minutos del cierre del taller; la práctica incluye espacio para las respuestas. No mostrar soluciones antes de responder. Clave: cero notificado (no ausencia garantizada de enfermedad), reporte pendiente y fuera del periodo; cada numerador se repetiría cuatro veces en el supuesto planteado. Revisar unidad, claves y coincidencias antes de agregar al nivel necesario; comprobar totales. Para el tercer punto, aceptar propuestas distintas que vinculen una afirmación respaldada, una fuente pendiente y una decisión concreta. Recoger las respuestas por el medio habitual y comentar brevemente una dificultad común; no crear una entrega calificada.
+:::
+
+## Referencias {.smaller}
+
+::: {#refs}
+:::

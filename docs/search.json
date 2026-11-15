@@ -74,42 +74,42 @@
     "href": "sesiones/s02-datos/index.html",
     "title": "S2 · Fuentes, calidad e integración de datos",
     "section": "",
-    "text": "Identificar las fuentes pertinentes para una pregunta: NotiSP, población, clima, coberturas y servicios.\nEvaluar la completitud, consistencia y oportunidad de una base de vigilancia.\nIntegrar fuentes por ubigeo y semana epidemiológica, y construir indicadores con numerador y denominador justificados."
+    "text": "Docente de la sesión: Oswaldo Espinoza Hurtado."
   },
   {
     "objectID": "sesiones/s02-datos/index.html#objetivos",
     "href": "sesiones/s02-datos/index.html#objetivos",
     "title": "S2 · Fuentes, calidad e integración de datos",
-    "section": "",
-    "text": "Identificar las fuentes pertinentes para una pregunta: NotiSP, población, clima, coberturas y servicios.\nEvaluar la completitud, consistencia y oportunidad de una base de vigilancia.\nIntegrar fuentes por ubigeo y semana epidemiológica, y construir indicadores con numerador y denominador justificados."
+    "section": "Objetivos",
+    "text": "Objetivos\nAl terminar la sesión, el estudiante podrá:\n\nTraducir una pregunta de inteligencia en necesidades de información y fuentes pertinentes.\nExaminar la completitud, consistencia y oportunidad de los datos, distinguiendo lo que puede comprobar de lo que requiere otra fuente.\nDistinguir cero casos, ausencia de registro y periodos todavía no observados.\nIntegrar fuentes por ubigeo y periodo sin multiplicar casos ni perder territorios inadvertidamente.\nConstruir un indicador con numerador y denominador compatibles y explicar sus limitaciones para la decisión."
   },
   {
     "objectID": "sesiones/s02-datos/index.html#contenidos",
     "href": "sesiones/s02-datos/index.html#contenidos",
     "title": "S2 · Fuentes, calidad e integración de datos",
     "section": "Contenidos",
-    "text": "Contenidos\n\nAtributos de un sistema de vigilancia (Centers for Disease Control and Prevention 2001) y dimensiones de calidad de datos (World Health Organization 2017).\nRetraso de notificación, semanas incompletas y semana 53.\nUbigeo de residencia frente a ubigeo de notificación.\nDenominadores poblacionales y datos climáticos (Funk et al. 2015).\nDiccionario de datos y documentación de decisiones."
+    "text": "Contenidos\n\nDe la pregunta al inventario de fuentes: vigilancia, población, clima, vacunación, servicios e intervenciones.\nAtributos de un sistema de vigilancia (Centers for Disease Control and Prevention 2001) y revisión de calidad de los datos (World Health Organization 2017).\nUnidad de observación, claves, valores faltantes y consistencia de los agregados.\nInicio de síntomas, notificación y fecha de extracción; ceros, semanas incompletas y calendario epidemiológico.\nUbigeo de residencia, notificación y atención; correspondencia con el denominador.\nIntegración de fuentes, conservación de totales e indicadores con población simulada.\nDiccionario de datos y bitácora de decisiones analíticas."
   },
   {
     "objectID": "sesiones/s02-datos/index.html#materiales",
     "href": "sesiones/s02-datos/index.html#materiales",
     "title": "S2 · Fuentes, calidad e integración de datos",
     "section": "Materiales",
-    "text": "Materiales\nSe publican el 16 de noviembre."
+    "text": "Materiales\n\n\n\nMaterial\nEnlace\n\n\n\n\nDiapositivas\nVer en el navegador (pantalla completa: tecla F)\n\n\nPráctica 2\n¿Está preparada nuestra base para responder al director regional?\n\n\nDatos\nEl agregado de dengue de la S1, ubigeos.csv y poblacion_simulada.csv, incluidos en el repositorio\n\n\nDatos complementarios\nDescripción y limitaciones de las bases simuladas\n\n\nPregunta del equipo\nPlantilla de la pregunta de inteligencia\n\n\n\nPara el taller, descarguen la versión actual del repositorio del curso y abran inteligencia-sanitaria.Rproj. La práctica lee los archivos locales; una vez descargados, el ejercicio principal funciona sin conexión."
   },
   {
     "objectID": "sesiones/s02-datos/index.html#proyecto",
     "href": "sesiones/s02-datos/index.html#proyecto",
     "title": "S2 · Fuentes, calidad e integración de datos",
     "section": "Proyecto",
-    "text": "Proyecto\nCada equipo entrega su elección de evento, departamento y pregunta, en un párrafo."
+    "text": "Proyecto\nCada equipo entrega su elección de evento, departamento y pregunta, en un párrafo, como se encargó en la S1. Durante el taller contrasta esa pregunta con las fuentes que tiene y las que todavía necesita.\nLa ficha de fuentes y la bitácora de la práctica son insumos para el Avance 1 de la S3; no agregan una evaluación independiente. Si faltan datos esenciales, se documenta cómo conseguirlos o cómo ajustar la pregunta.\nAl cierre responderán tres preguntas breves, sin nota, para comprobar qué quedó claro sobre ausencias, uniones y uso de la información para decidir."
   },
   {
     "objectID": "sesiones/s02-datos/index.html#lecturas",
     "href": "sesiones/s02-datos/index.html#lecturas",
     "title": "S2 · Fuentes, calidad e integración de datos",
     "section": "Lecturas",
-    "text": "Lecturas\n\nCDC (2001). Updated guidelines for evaluating public health surveillance systems (Centers for Disease Control and Prevention 2001)"
+    "text": "Lecturas\nPara la sesión:\n\nCDC (2001). Updated guidelines for evaluating public health surveillance systems (Centers for Disease Control and Prevention 2001). Revisar calidad de datos, representatividad y oportunidad; relacionar cada atributo con el uso que tendrá la información.\n\nComplementarias:\n\nOMS (2017). Data quality review: a toolkit for facility data quality assessment (World Health Organization 2017). Apoya la revisión de completitud, consistencia y denominadores; adaptamos sus preguntas al agregado del curso.\nWickham, Çetinkaya-Rundel y Grolemund (2023). Capítulo Joins de R for Data Science (Wickham et al. 2023). Apoyo para el taller."
   },
   {
     "objectID": "referencia/fuentes-datos.html",
@@ -761,5 +761,348 @@
     "title": "S1 · De la vigilancia a la inteligencia sanitaria",
     "section": "Para conocernos",
     "text": "Para conocernos\nEn la primera parte del taller, cada persona se presenta en menos de un minuto. La idea es conocernos un poco, no recitar el currículum.\nUna forma sencilla:\n\nMe llamo Kevin y me gusta mucho salir a pasear en bicicleta.\n\nSi quieren, pueden agregar algo de su trabajo:\n\n…y he trabajado en vigilancia y pronóstico de enfermedades infecciosas.\n\nAntes de empezar, revisen las normas de convivencia del curso."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#de-la-señal-a-una-recomendación",
+    "href": "sesiones/s02-datos/slides.html#de-la-señal-a-una-recomendación",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "De la señal a una recomendación",
+    "text": "De la señal a una recomendación\n\nEn la S1 encontramos una señal de dengue en Piura.\nEscribimos qué le diríamos al director y qué información pediríamos.\nHoy revisamos qué nos permiten decir los datos y qué falta para precisar la recomendación.\n\n¿Qué dato pidieron y qué cambiaría si lo tuvieran?\n\n18:00–18:15, apertura. Recuperar dos o tres respuestas de la práctica 1. Anotar la información solicitada y la decisión que podría cambiar. La revisión de datos debe servir a esa decisión. Los tiempos de cada bloque incluyen discusión y transiciones."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#la-señal-que-discutimos-en-s1",
+    "href": "sesiones/s02-datos/slides.html#la-señal-que-discutimos-en-s1",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "La señal que discutimos en S1",
+    "text": "La señal que discutimos en S1\n\n473 casos en la SE 10 frente a una mediana de 18,5. ¿Qué hace falta verificar antes de precisar la intervención?"
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#el-director-pide-precisar-la-recomendación",
+    "href": "sesiones/s02-datos/slides.html#el-director-pide-precisar-la-recomendación",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "El director pide precisar la recomendación",
+    "text": "El director pide precisar la recomendación\n\n«Veo que los casos están por encima de lo habitual. ¿Qué me recomiendan hacer? ¿Qué necesitan comprobar para decirme dónde y cómo actuar?»\n\n\n¿Sabemos a qué lugar corresponden los casos?\n¿Estamos comparando periodos y definiciones equivalentes?\n¿Sabemos dónde ya se intervino y qué capacidad tienen los servicios?\n\n\nSituación docente, continuación del caso de S1. Mantener abiertas varias respuestas: verificación, preparación de servicios, intervención y comunicación pueden coexistir. La magnitud frente a una mediana no define por sí sola todas las acciones."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#de-la-pregunta-al-dato-necesario",
+    "href": "sesiones/s02-datos/slides.html#de-la-pregunta-al-dato-necesario",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "De la pregunta al dato necesario",
+    "text": "De la pregunta al dato necesario\n\n\n\n\n\n\n\n\nPara decidir sobre…\nNecesitamos…\nDebemos comprobar…\n\n\n\n\nCarga notificada\nCasos por territorio y periodo\nDefinición, fecha y corte\n\n\nComparación poblacional\nCasos y población\nMismo territorio, año y edades\n\n\nPreparación de servicios\nAtención y capacidad disponible\nHospitales, referencias, camas e insumos\n\n\nCondiciones ambientales\nTemperatura y precipitación\nUnidad, cobertura y periodo\n\n\nAmpliación de brigadas\nCasos e intervenciones realizadas\nDónde, cuándo y con qué cobertura\n\n\n\n\n18:15–18:35, fuentes. Pedir que identifiquen qué fila responde a su recomendación de S1. Un dato puede ser interesante sin cambiar la decisión. El agregado disponible no contiene todas las fuentes de esta tabla."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#una-pregunta-puede-revelar-una-fuente-que-falta",
+    "href": "sesiones/s02-datos/slides.html#una-pregunta-puede-revelar-una-fuente-que-falta",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Una pregunta puede revelar una fuente que falta",
+    "text": "Una pregunta puede revelar una fuente que falta\nEn S1 propusimos identificar distritos sin control vectorial en curso que superan su referencia histórica.\n\nLa vigilancia permite examinar casos y tendencia.\nEl registro de intervenciones permite saber dónde ya se actuó.\nEl cruce permite comprobar qué distritos cumplen ambas condiciones.\n\n¿Cómo responderíamos si solo tuviéramos la primera fuente?"
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#cada-fuente-necesita-una-ficha",
+    "href": "sesiones/s02-datos/slides.html#cada-fuente-necesita-una-ficha",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Cada fuente necesita una ficha",
+    "text": "Cada fuente necesita una ficha\n\n\n\nCampo\nQué registrar\n\n\n\n\nProcedencia\nInstitución, enlace o responsable que entrega la base\n\n\nVersión\nFecha de descarga o extracción; corte declarado\n\n\nCobertura\nTerritorios, población y periodo incluidos\n\n\nUnidad de observación\nQué representa una fila\n\n\nVariables\nDefinición, unidad y códigos\n\n\nLimitaciones\nQué falta y qué uso restringe\n\n\n\nConservar la fuente original y documentar las transformaciones (Wilson et al. 2017)."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#lo-que-tenemos-para-el-taller",
+    "href": "sesiones/s02-datos/slides.html#lo-que-tenemos-para-el-taller",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Lo que tenemos para el taller",
+    "text": "Lo que tenemos para el taller\n\n\n\n\n\n\n\n\nArchivo\nQué representa una fila\nAlcance\n\n\n\n\nDengue de Piura\nDistrito × año × semana × clasificación × diagnóstico\nAgregado de NotiSP\n\n\nPoblación\nDistrito × año × grupo de edad\nSimulada\n\n\nUbigeos\nCódigo y nombres de un distrito del marco\nDerivado de metaxénicas; incompleto\n\n\nClima (complemento)\nDistrito × año × semana\nSimulado\n\n\n\nLos datos simulados permiten practicar la integración. Sus valores no sustentan una recomendación territorial real."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#calidad-para-el-uso-que-queremos-darle",
+    "href": "sesiones/s02-datos/slides.html#calidad-para-el-uso-que-queremos-darle",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Calidad para el uso que queremos darle",
+    "text": "Calidad para el uso que queremos darle\n\nCompletitud: ¿qué campos o reportes faltan?\nValidez: ¿los valores cumplen las reglas documentadas?\nConsistencia: ¿variables y totales son compatibles?\nOportunidad: ¿el dato llega a tiempo para decidir?\nRepresentatividad: ¿quiénes o qué territorios quedan menos visibles?\n\nAdaptado de Centers for Disease Control and Prevention (2001) y World Health Organization (2017).\n\n18:35–19:00, calidad. El CDC evalúa atributos del sistema de vigilancia; la OMS ofrece un marco de revisión de datos rutinarios de establecimientos. Adaptamos preguntas al agregado, sin afirmar que con el CSV evaluamos todo el sistema. Dedicar unos ocho minutos a la discusión de las dos diapositivas siguientes."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#una-base-sin-celdas-vacías",
+    "href": "sesiones/s02-datos/slides.html#una-base-sin-celdas-vacías",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Una base sin celdas vacías",
+    "text": "Una base sin celdas vacías\n\nRevisamos el CSV y todas las variables están completas.\n\n¿Qué podemos concluir?\n\nLos campos presentes en el archivo no tienen valores faltantes.\nSigue pendiente saber si se recibieron todos los reportes esperados.\nTambién queda por evaluar qué casos nunca llegaron a notificarse.\n\n¿Qué fuente permitiría examinar cada pendiente?"
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#dos-formas-de-hablar-de-completitud",
+    "href": "sesiones/s02-datos/slides.html#dos-formas-de-hablar-de-completitud",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Dos formas de hablar de completitud",
+    "text": "Dos formas de hablar de completitud\n\n\n\n\n\n\n\nPregunta\nInformación necesaria\n\n\n\n\n¿Cuántos registros carecen de ubigeo?\nEl archivo y la regla de validación\n\n\n¿Cuántos establecimientos enviaron su reporte?\nReportes recibidos y establecimientos esperados\n\n\n¿Qué proporción de casos se detectó?\nInformación adicional sobre casos ocurridos o estudios específicos\n\n\n\nSi falta el universo esperado, se documenta esa limitación. Un conteo de filas no lo reemplaza."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#qué-significa-una-fila-repetida",
+    "href": "sesiones/s02-datos/slides.html#qué-significa-una-fila-repetida",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "¿Qué significa una fila repetida?",
+    "text": "¿Qué significa una fila repetida?\nEn este archivo esperamos una sola fila para cada combinación de:\naño + semana + ubigeo + clasificación clínica + tipo de diagnóstico.\n\nUn distrito aparece muchas veces: puede ser correcto.\nSi se repite la combinación completa, averiguamos por qué.\nLa base no tiene identificadores individuales para buscar duplicados de personas.\n\nPrimero definimos la unidad; después buscamos duplicados."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#un-valor-llamativo-pide-explicación",
+    "href": "sesiones/s02-datos/slides.html#un-valor-llamativo-pide-explicación",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Un valor llamativo pide explicación",
+    "text": "Un valor llamativo pide explicación\n\nUn aumento puede corresponder a transmisión, búsqueda activa o cambios de registro.\nUna caída puede coincidir con menos transmisión o con reportes pendientes.\nUna cobertura de vacunación mayor de 100 % requiere revisar numerador y denominador.\n\nAntes de cambiar ese valor, averiguamos qué pasó y anotamos por qué decidimos conservarlo o corregirlo. Esa explicación queda en la bitácora.\n\nEl simulador de coberturas incluye denominadores subestimados a propósito. Este ejemplo es una transferencia a los equipos de inmunoprevenibles, no un resultado de la base de dengue. Evitar reglas automáticas como borrar extremos o limitar todas las coberturas a 100 %."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#antes-de-la-pausa",
+    "href": "sesiones/s02-datos/slides.html#antes-de-la-pausa",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Antes de la pausa",
+    "text": "Antes de la pausa\nPara la recomendación de su equipo:\n\nIdentifiquen un problema de datos que podría cambiarla.\nExpliquen cómo lo comprobarían.\nSeñalen qué podrían hacer mientras se verifica.\n\nPausa: 19:00–19:10."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#a-qué-momento-pertenece-un-caso",
+    "href": "sesiones/s02-datos/slides.html#a-qué-momento-pertenece-un-caso",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "¿A qué momento pertenece un caso?",
+    "text": "¿A qué momento pertenece un caso?\n\n\n\nFecha\nQué permite examinar\n\n\n\n\nInicio de síntomas\nCuándo empezó la enfermedad registrada\n\n\nNotificación\nCuándo se comunicó al sistema\n\n\nExtracción o corte\nQué versión de la información estamos usando\n\n\n\nLa curva de S1 está organizada por inicio de síntomas. El archivo consolidado no contiene las fechas necesarias para medir el retraso de notificación.\n\n19:10–19:35, tiempo y territorio. Volver a «¿qué sabíamos en la SE 10?». En S1 se motivó una decisión con una reconstrucción retrospectiva; ahora explicitamos qué información faltaría para reproducir exactamente el conocimiento disponible entonces."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#el-mismo-periodo-puede-cambiar-entre-cortes",
+    "href": "sesiones/s02-datos/slides.html#el-mismo-periodo-puede-cambiar-entre-cortes",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "El mismo periodo puede cambiar entre cortes",
+    "text": "El mismo periodo puede cambiar entre cortes\nEjemplo ficticio para discutir el retraso:\n\n\n\n\n\n\n\n\nSemana de inicio de síntomas\nCasos en un primer corte\nCasos en un corte posterior\n\n\n\n\nSE 8\n40\n43\n\n\nSE 9\n35\n48\n\n\nSE 10\n20\n50\n\n\n\nEn el primer corte parece haber una caída. Las notificaciones incorporadas después cambian la lectura.\nPara estimar ese proceso necesitamos fechas o cortes históricos; esta tabla no describe Piura."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#filtrar-semanas-no-recupera-un-corte-histórico",
+    "href": "sesiones/s02-datos/slides.html#filtrar-semanas-no-recupera-un-corte-histórico",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Filtrar semanas no recupera un corte histórico",
+    "text": "Filtrar semanas no recupera un corte histórico\nEn la extracción disponible, los 2953 casos de las SE 1–10 de 2023 figuran como confirmados.\n\nEso describe la clasificación que vemos en este archivo.\nNo prueba que todos estuvieran confirmados al terminar la SE 10.\nPara reconstruir la decisión de aquel momento necesitamos versiones históricas o una historia de cambios suficiente."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#cero-falta-de-información-y-periodo-futuro",
+    "href": "sesiones/s02-datos/slides.html#cero-falta-de-información-y-periodo-futuro",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Cero, falta de información y periodo futuro",
+    "text": "Cero, falta de información y periodo futuro\n\n\n\n\n\n\n\nSituación\nTratamiento justificado\n\n\n\n\nPeriodo observado; la fuente respalda ausencia de casos\nCero\n\n\nNo hay fila y desconocemos el reporte\nAusencia por verificar\n\n\nSemana posterior al corte del ejercicio\nFuera del periodo observado\n\n\n\nPara completar con ceros, primero debemos saber qué lugares y semanas cubre el archivo. Si los datos llegan hasta una semana determinada, las siguientes todavía no son semanas observadas sin casos."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#la-semana-necesita-año-y-calendario",
+    "href": "sesiones/s02-datos/slides.html#la-semana-necesita-año-y-calendario",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "La semana necesita año y calendario",
+    "text": "La semana necesita año y calendario\n\nLa SE 10 aparece en todos los años: unir solo por semana mezcla periodos.\nEl calendario epidemiológico de la fuente define las fechas de cada semana y si existe SE 53.\nUna semana ausente del CSV no demuestra que no existiera en el calendario.\nPara este ejercicio usamos 2023, SE 1–10, un intervalo explícito.\n\nConsultar el calendario epidemiológico 2023 del CDC Perú y documentar el tratamiento de los límites de año."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#dónde-ocurrió-se-notificó-o-se-atendió",
+    "href": "sesiones/s02-datos/slides.html#dónde-ocurrió-se-notificó-o-se-atendió",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "¿Dónde ocurrió, se notificó o se atendió?",
+    "text": "¿Dónde ocurrió, se notificó o se atendió?\n\n\n\nUbicación\nUso que debe examinarse\n\n\n\n\nResidencia\nComparación con población residente\n\n\nNotificación\nOrganización del reporte y vigilancia\n\n\nAtención\nDemanda de establecimientos y redes de referencia\n\n\n\nEl archivo llama al campo ubigeo, pero no aclara si se refiere a residencia, notificación o atención. Antes de usarlo, se lo preguntamos a quien preparó la base.\nUna tasa requiere que numerador y denominador se refieran a una población compatible."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#los-territorios-sin-filas-también-importan",
+    "href": "sesiones/s02-datos/slides.html#los-territorios-sin-filas-también-importan",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Los territorios sin filas también importan",
+    "text": "Los territorios sin filas también importan\nEn las SE 1–10 de 2023:\n\n39 distritos aparecen con casos.\nLa lista de distritos del curso contiene 65 ubigeos de Piura.\nEn 26 no aparecen registros para esas diez semanas.\n\n¿Qué tendría que garantizar la fuente para que pudiéramos poner cero? ¿Qué le preguntarían a quien preparó la base?\nEl marco del curso es incompleto a escala nacional; no sustituye un padrón oficial actualizado."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#antes-de-unir-definir-la-tabla-que-necesitamos",
+    "href": "sesiones/s02-datos/slides.html#antes-de-unir-definir-la-tabla-que-necesitamos",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Antes de unir, definir la tabla que necesitamos",
+    "text": "Antes de unir, definir la tabla que necesitamos\nPara el ejercicio principal:\nUna fila = un distrito en 2023, con sus casos acumulados en SE 1–10 y su población anual.\n\nAgregamos las categorías clínicas y diagnósticas del numerador.\nSumamos los grupos de edad del denominador para todas las edades.\nUnimos por ubigeo + año y revisamos que cada distrito encuentre la población que le corresponde.\n\n\n19:35–20:00, integración. Los primeros ejemplos corresponden a distritos con casos en el extracto, no a un panel completo de todos los distritos. La práctica conserva aparte los territorios sin filas. El código de unión por población usa datos simulados y el supuesto docente de compatibilidad geográfica; ese supuesto sigue pendiente de confirmación para uso real."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#una-unión-puede-multiplicar-los-casos",
+    "href": "sesiones/s02-datos/slides.html#una-unión-puede-multiplicar-los-casos",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Una unión puede multiplicar los casos",
+    "text": "Una unión puede multiplicar los casos\n\nCada distrito encuentra cinco filas de población. ¿Qué pasó con el numerador?"
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#una-unión-correcta-deja-comprobaciones",
+    "href": "sesiones/s02-datos/slides.html#una-unión-correcta-deja-comprobaciones",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Una unión correcta deja comprobaciones",
+    "text": "Una unión correcta deja comprobaciones\n\n\n\n\n\n\n\nControl\nResultado esperado en este ejercicio\n\n\n\n\nPoblación por distrito y año\nUna fila después de sumar edades\n\n\nUbigeos\nTexto, con sus seis dígitos\n\n\nDistritos con casos sin población\nNinguno; si los hay, resolver antes de calcular\n\n\nFilas tras unir población\nLas mismas que en casos por distrito\n\n\nSuma de casos tras unir\n2953, igual que antes\n\n\n\nAntes de unir, revisamos cuántas filas puede encontrar cada clave en la otra tabla (Wickham et al. 2023)."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#el-indicador-debe-decir-qué-representa",
+    "href": "sesiones/s02-datos/slides.html#el-indicador-debe-decir-qué-representa",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "El indicador debe decir qué representa",
+    "text": "El indicador debe decir qué representa\nCasos notificados acumulados en SE 1–10 por 100 000 habitantes:\n[ {} ,000 ]\n\nEn el taller el denominador es simulado y el cálculo es docente.\nEl periodo de diez semanas no se convierte en un indicador anual.\nPara usarlo realmente falta confirmar la ubicación del numerador y un denominador oficial compatible."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#conteo-e-indicador-poblacional-ayudan-a-decisiones-distintas",
+    "href": "sesiones/s02-datos/slides.html#conteo-e-indicador-poblacional-ayudan-a-decisiones-distintas",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Conteo e indicador poblacional ayudan a decisiones distintas",
+    "text": "Conteo e indicador poblacional ayudan a decisiones distintas\n\nEl conteo describe la carga notificada y puede orientar necesidades de investigación o atención.\nEl indicador poblacional pone esa carga en relación con el tamaño de la población correspondiente.\nPara asignar brigadas también importan tendencia, intervenciones previas, acceso y capacidad de respuesta.\n\nPara la decisión que eligieron, ¿qué aporta cada indicador y qué otra información pedirían?"
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#clima-comprobar-la-correspondencia-antes-de-modelar",
+    "href": "sesiones/s02-datos/slides.html#clima-comprobar-la-correspondencia-antes-de-modelar",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Clima: comprobar la correspondencia antes de modelar",
+    "text": "Clima: comprobar la correspondencia antes de modelar\n\nEl archivo del curso tiene temperatura y precipitación semanales simuladas.\nUna tabla distrito × año × semana puede unirse por esas tres claves.\nVerificar unidades, definición de semana y cobertura territorial antes del cruce.\nAl reemplazarla por clima observado, documentar su fuente y agregación (Funk et al. 2015).\n\nLa S5 trabajará predictores y rezagos. En esta sesión comprobamos la integración."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#ejercicio-breve-por-equipos",
+    "href": "sesiones/s02-datos/slides.html#ejercicio-breve-por-equipos",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Ejercicio breve por equipos",
+    "text": "Ejercicio breve por equipos\nEn 5 minutos:\n\nRetomen la pregunta que trajeron de S1.\nIdentifiquen la fuente que responde a la parte principal de esa pregunta.\nExpliquen qué dato falta o qué diferencia entre las fuentes podría obligarlos a cambiar la respuesta.\n\nPuesta en común: 5 minutos. Propongan cómo verificar el problema o ajustar el alcance.\n\nUsar los últimos diez minutos del bloque. Recibir ejemplos de los tres eventos; no exigir que todos tengan ya las bases privadas. Si un equipo solo dispone de información provincial, debe revisar una pregunta formulada para comunidades o distritos."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#en-el-taller-de-hoy",
+    "href": "sesiones/s02-datos/slides.html#en-el-taller-de-hoy",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "En el taller de hoy",
+    "text": "En el taller de hoy\n\nReconocer las bases y comprobar estructura, claves y totales.\nExaminar las ausencias dentro de un periodo definido.\nDetectar y corregir una unión que multiplica casos.\nConstruir e interpretar un indicador docente con población simulada.\nRevisar las fuentes y el alcance de la pregunta del equipo.\n\nPráctica: ¿está preparada nuestra base para responder al director regional?"
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#qué-llevamos-al-avance-1",
+    "href": "sesiones/s02-datos/slides.html#qué-llevamos-al-avance-1",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Qué llevamos al Avance 1",
+    "text": "Qué llevamos al Avance 1\n\nPregunta y decisor definidos.\nFuentes identificadas y acceso comprobado o pendiente documentado.\nInconvenientes concretos y cómo se abordarán.\nPrimeras decisiones registradas en una bitácora.\n\nLa entrega de S2 sigue siendo un párrafo con evento, departamento y pregunta."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#volver-al-director-regional",
+    "href": "sesiones/s02-datos/slides.html#volver-al-director-regional",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Volver al director regional",
+    "text": "Volver al director regional\n\nCon estos datos podemos sostener ____.\nTodavía necesitamos verificar ____, porque podría cambiar ____.\nMientras se verifica, proponemos ____, considerando ____.\n\nEn S3 examinaremos cómo construir e interpretar una señal temporal con las decisiones sobre datos documentadas."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#referencias",
+    "href": "sesiones/s02-datos/slides.html#referencias",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nCenters for Disease Control and Prevention. 2001. «Updated guidelines for evaluating public health surveillance systems: recommendations from the Guidelines Working Group». MMWR Recommendations and Reports 50 (RR-13): 1-35.\n\n\nFunk, Chris, Pete Peterson, Martin Landsfeld, et al. 2015. «The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes». Scientific Data 2: 150066. https://doi.org/10.1038/sdata.2015.66.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, y Garrett Grolemund. 2023. R for Data Science. 2.ª ed. O’Reilly Media. https://r4ds.hadley.nz/.\n\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, y Tracy K. Teal. 2017. «Good enough practices in scientific computing». PLoS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.\n\n\nWorld Health Organization. 2017. Data quality review: a toolkit for facility data quality assessment. WHO."
+  },
+  {
+    "objectID": "sesiones/s02-datos/index.html#pregunta-de-la-sesión",
+    "href": "sesiones/s02-datos/index.html#pregunta-de-la-sesión",
+    "title": "S2 · Fuentes, calidad e integración de datos",
+    "section": "Pregunta de la sesión",
+    "text": "Pregunta de la sesión\nEn la S1 encontramos una señal de dengue en Piura y escribimos qué información pediríamos antes de recomendar una intervención. Ahora el director regional pide precisar la recomendación:\n\n¿Qué podemos afirmar con los datos disponibles, qué necesitamos verificar y qué información adicional podría cambiar nuestra recomendación?"
+  },
+  {
+    "objectID": "sesiones/s02-datos/index.html#organización",
+    "href": "sesiones/s02-datos/index.html#organización",
+    "title": "S2 · Fuentes, calidad e integración de datos",
+    "section": "Organización",
+    "text": "Organización\n\n\n\n\n\n\n\nHorario (Lima)\nActividad\n\n\n\n\n18:00–19:00\nRetomar la decisión de S1, seleccionar fuentes y examinar calidad\n\n\n19:00–19:10\nPausa\n\n\n19:10–20:00\nTiempo, territorio e integración de datos\n\n\n20:00–20:45\nTaller: estructura, controles y ausencias\n\n\n20:45–20:55\nPausa\n\n\n20:55–21:25\nTaller: integración con población e interpretación\n\n\n21:25–22:00\nTrabajo de equipos y puesta en común"
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html",
+    "href": "sesiones/s02-datos/practica.html",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "",
+    "text": "En la S1 discutimos si los datos de dengue de Piura justificaban una alerta. Ahora el director regional pide precisar la recomendación. Para comparar territorios y decidir qué información falta, el equipo necesita examinar las fuentes y preparar una integración que pueda defender.\n¿Qué le podemos decir al director con estos datos y qué nos falta comprobar para recomendar dónde y cómo actuar?\nEl ejercicio principal usa los casos con inicio de síntomas en las SE 1–10 de 2023. Seguimos trabajando con una extracción consolidada: seleccionar ese periodo no reconstruye la información que estaba disponible al terminar la SE 10."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#pregunta",
+    "href": "sesiones/s02-datos/practica.html#pregunta",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "",
+    "text": "En la S1 discutimos si los datos de dengue de Piura justificaban una alerta. Ahora el director regional pide precisar la recomendación. Para comparar territorios y decidir qué información falta, el equipo necesita examinar las fuentes y preparar una integración que pueda defender.\n¿Qué le podemos decir al director con estos datos y qué nos falta comprobar para recomendar dónde y cómo actuar?\nEl ejercicio principal usa los casos con inicio de síntomas en las SE 1–10 de 2023. Seguimos trabajando con una extracción consolidada: seleccionar ese periodo no reconstruye la información que estaba disponible al terminar la SE 10."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#objetivos",
+    "href": "sesiones/s02-datos/practica.html#objetivos",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "Objetivos",
+    "text": "Objetivos\nAl terminar la práctica podrán:\n\nDescribir qué representa una fila e identificar las claves del agregado.\nRevisar valores faltantes, consistencia y ausencias sin confundirlas con cero casos.\nIntegrar casos y población sin multiplicar el numerador.\nConstruir un indicador docente con un denominador compatible y declarar los supuestos pendientes.\nDocumentar las fuentes y los problemas concretos de su proyecto."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#datos",
+    "href": "sesiones/s02-datos/practica.html#datos",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "Datos",
+    "text": "Datos\n\n\n\n\n\n\n\n\nArchivo\nUnidad de observación\nUso\n\n\n\n\ndatos/procesados/dengue_piura_semanal.csv\nDistrito × año × semana × clasificación × diagnóstico\nNotificaciones agregadas de dengue\n\n\ndatos/referencia/ubigeos.csv\nDistrito del marco del curso\nCorrespondencia de códigos y nombres\n\n\ndatos/simulados/poblacion_simulada.csv\nDistrito × año × grupo de edad\nPracticar la construcción del denominador\n\n\n\n\n\n\n\n\n\nAdvertenciaEl denominador es simulado\n\n\n\nLa población no corresponde a cifras oficiales. Los indicadores que la usan sirven para practicar y no deben emplearse para recomendar intervenciones reales ni presentarse como tasas oficiales. Además, hay que confirmar si el ubigeo del agregado corresponde a residencia, notificación o atención antes de usar una población residente como denominador.\n\n\n\n\n\n\n\n\nNotaCómo seguir la práctica\n\n\n\nDescarguen la versión actual del repositorio del curso, descompriman la carpeta y abran inteligencia-sanitaria.Rproj. Los datos ya están incluidos. El ejercicio principal no necesita conexión después de la descarga.\nPueden ejecutar los bloques en un documento Quarto nuevo o trabajar sobre esta práctica. El primer bloque contempla las rutas desde la raíz del proyecto y desde la carpeta de la sesión. Usamos el mismo código visible para ejecutar y renderizar.\nTiempo sugerido: pasos 1–2, 20 min; paso 3, 25 min; pausa, 10 min; pasos 4–5, 30 min; paso 6 y puesta en común, 35 min. El complemento de clima queda como ampliación."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#leer-y-reconocer-las-fuentes",
+    "href": "sesiones/s02-datos/practica.html#leer-y-reconocer-las-fuentes",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "1. Leer y reconocer las fuentes",
+    "text": "1. Leer y reconocer las fuentes\n\n# Mantener tildes y símbolos en las figuras y tablas de R para Windows.\nif (.Platform$OS.type == \"windows\") {\n  invisible(Sys.setlocale(\"LC_CTYPE\", \".UTF-8\"))\n}\n\nlibrary(readr)\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(ggplot2)\n\n# Consola del proyecto: datos/. Documento dentro de la sesión: ../../datos/.\ndir_datos &lt;- if (dir.exists(\"datos\")) \"datos\" else file.path(\"..\", \"..\", \"datos\")\n\n# Los códigos se leen como texto para conservar los ceros iniciales.\ndengue &lt;- read_csv(\n  file.path(dir_datos, \"procesados\", \"dengue_piura_semanal.csv\"),\n  col_types = cols(ubigeo = col_character()), show_col_types = FALSE\n)\nubigeos &lt;- read_csv(\n  file.path(dir_datos, \"referencia\", \"ubigeos.csv\"),\n  col_types = cols(.default = col_character()), show_col_types = FALSE\n)\npoblacion &lt;- read_csv(\n  file.path(dir_datos, \"simulados\", \"poblacion_simulada.csv\"),\n  col_types = cols(ubigeo = col_character()), show_col_types = FALSE\n)\n\nano_corte &lt;- 2023L\nsemana_corte &lt;- 10L\ncorte &lt;- dengue |&gt; filter(ano == ano_corte, semana &lt;= semana_corte)\n\nglimpse(corte)\n\nRows: 275\nColumns: 8\n$ ano           &lt;dbl&gt; 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 20…\n$ semana        &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2,…\n$ ubigeo        &lt;chr&gt; \"200101\", \"200101\", \"200104\", \"200104\", \"200105\", \"20011…\n$ provincia     &lt;chr&gt; \"PIURA\", \"PIURA\", \"PIURA\", \"PIURA\", \"PIURA\", \"PIURA\", \"P…\n$ distrito      &lt;chr&gt; \"PIURA\", \"PIURA\", \"CASTILLA\", \"CASTILLA\", \"CATACAOS\", \"T…\n$ clasificacion &lt;chr&gt; \"con_signos_alarma\", \"sin_signos_alarma\", \"con_signos_al…\n$ tipo_dx       &lt;chr&gt; \"confirmado\", \"confirmado\", \"confirmado\", \"confirmado\", …\n$ casos         &lt;dbl&gt; 2, 50, 1, 36, 4, 1, 14, 2, 29, 1, 3, 1, 1, 14, 4, 3, 4, …\n\n\nNo contamos filas como si fueran personas. Cada fila puede representar varios casos de una combinación de distrito, semana y categorías.\n\ncorte |&gt;\n  summarise(filas = n(), casos = sum(casos),\n            distritos_con_casos = n_distinct(ubigeo),\n            primera_semana = min(semana), ultima_semana = max(semana))\n\n\n  \n\n\ncorte |&gt;\n  group_by(tipo_dx) |&gt;\n  summarise(casos = sum(casos), .groups = \"drop\")\n\n\n  \n\n\n\nComo control, el corte contiene 275 filas, 2953 casos y 39 distritos con casos. En esta extracción, todos los casos seleccionados figuran como confirmados. Eso no establece cuál era su clasificación al terminar la SE 10 de 2023.\nPregunta 1. ¿Qué representa una fila en cada uno de los tres archivos? ¿Qué información necesitarían para saber cuántos casos estaban notificados y confirmados al terminar aquella semana?\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#comprobar-estructura-y-consistencia",
+    "href": "sesiones/s02-datos/practica.html#comprobar-estructura-y-consistencia",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "2. Comprobar estructura y consistencia",
+    "text": "2. Comprobar estructura y consistencia\nLlamamos clave candidata a una combinación que debería identificar una sola fila. En este archivo no basta con distrito y semana: también están el año, la clasificación clínica y el tipo de diagnóstico.\n\nclaves_repetidas &lt;- dengue |&gt;\n  count(ano, semana, ubigeo, clasificacion, tipo_dx, name = \"filas\") |&gt;\n  filter(filas &gt; 1)\n\ncontroles &lt;- tibble(\n  comprobacion = c(\"Celdas con NA\", \"Ubigeos ausentes o sin seis dígitos\",\n                   \"Casos ausentes, negativos o no enteros\",\n                   \"Semanas ausentes o fuera de 1–53\",\n                   \"Claves repetidas\"),\n  hallazgos = c(\n    sum(is.na(dengue)),\n    sum(is.na(dengue$ubigeo) | !grepl(\"^[0-9]{6}$\", dengue$ubigeo)),\n    sum(is.na(dengue$casos) | dengue$casos &lt; 0 |\n          dengue$casos != floor(dengue$casos)),\n    sum(is.na(dengue$semana) | !dengue$semana %in% 1:53),\n    nrow(claves_repetidas)\n  )\n)\ncontroles\n\n\n  \n\n\n\nEl control de semanas solo revisa un rango posible. Para validar una semana en un año concreto hay que contrastarla con el calendario epidemiológico de la fuente.\nRevisemos también las categorías, ponderando por casos:\n\ndengue |&gt;\n  group_by(clasificacion, tipo_dx) |&gt;\n  summarise(filas = n(), casos = sum(casos), .groups = \"drop\")\n\n\n  \n\n\n\nEn un agregado, una fila con un problema puede representar varios casos. Conviene informar ambas magnitudes cuando se cuantifique el efecto de un hallazgo.\nPregunta 2. Todos los controles dan cero y un compañero concluye: «Entonces ya están todos los casos». ¿Qué le responderían? ¿Qué información necesitarían para revisar reportes pendientes, casos no detectados o personas notificadas más de una vez?\n\nRespuesta:\n\nLa completitud de los campos indica qué quedó sin llenar; la de los reportes compara lo recibido con lo esperado. Estudiar qué proporción de los casos ocurridos fue detectada corresponde a la sensibilidad de la vigilancia y requiere información adicional. Los controles del archivo no responden por sí solos esas tres preguntas."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#examinar-el-tiempo-y-los-territorios-sin-filas",
+    "href": "sesiones/s02-datos/practica.html#examinar-el-tiempo-y-los-territorios-sin-filas",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "3. Examinar el tiempo y los territorios sin filas",
+    "text": "3. Examinar el tiempo y los territorios sin filas\n\nUn intervalo explícito\nLa base completa llega hasta la SE 35 de 2026. Ese dato describe su extensión, pero no permite conocer por sí solo la completitud de cada territorio. En el ejercicio definimos el intervalo 2023, SE 1–10, antes de buscar ausencias.\n\ncasos_semana &lt;- corte |&gt;\n  group_by(ano, semana) |&gt;\n  summarise(casos = sum(casos), .groups = \"drop\")\n\ncalendario_corte &lt;- tibble(ano = ano_corte, semana = seq_len(semana_corte))\n\nrevision_semanas &lt;- calendario_corte |&gt;\n  left_join(casos_semana, by = c(\"ano\", \"semana\"),\n            relationship = \"one-to-one\") |&gt;\n  mutate(sin_fila_en_extracto = is.na(casos))\n\nrevision_semanas\n\n\n  \n\n\n\nAquí todas las semanas seleccionadas tienen casos agregados, pero eso no prueba que todos los establecimientos hayan reportado. El código tampoco crea semanas posteriores al corte.\nPara periodos que crucen años, se necesita un calendario con año y semana, incluyendo la SE 53 solo donde corresponda. No se elimina ni se reasigna esa semana sin documentar la decisión. Consulten el calendario epidemiológico 2023 del CDC Perú como ejemplo de la fuente que debe acompañar los datos.\n\n\nLos distritos que no aparecen\n\nmarco_piura &lt;- ubigeos |&gt;\n  filter(departamento == \"PIURA\") |&gt;\n  select(ubigeo, provincia, distrito)\n\ncasos_distrito &lt;- corte |&gt;\n  group_by(ubigeo, ano) |&gt;\n  summarise(casos = sum(casos), .groups = \"drop\")\n\nsin_filas &lt;- marco_piura |&gt;\n  anti_join(casos_distrito, by = \"ubigeo\")\n\ntibble(ubigeos_en_marco = nrow(marco_piura),\n       distritos_con_casos = nrow(casos_distrito),\n       distritos_sin_filas = nrow(sin_filas))\n\n\n  \n\n\nsin_filas\n\n\n  \n\n\n\nanti_join() conserva las filas de la primera tabla que no encuentra en la segunda. En 26 distritos de esta lista no aparecen registros para esas diez semanas. Todavía no hemos decidido si corresponde asignarles cero.\n\n\n\n\n\n\nNotaEl supuesto que permite completar ceros\n\n\n\nSi la documentación de la fuente garantiza que el extracto incluye todas las notificaciones del ámbito y periodo y que las combinaciones sin casos se omiten, esas ausencias se pueden representar como ceros notificados. La cobertura del reporte y la subnotificación siguen siendo preguntas distintas.\nSi desconocemos qué reportes llegaron o qué territorios cubre la extracción, conservamos la ausencia por verificar. En este paso no imputamos ceros.\n\n\nPregunta 3. Un compañero propone poner cero en los 26 distritos y otro propone dejarlos pendientes. ¿Qué le preguntarían a quien preparó la base para decidir? ¿Qué diferencia hay entre no tener notificaciones y no tener enfermedad?\n\nRespuesta:\n\nEjercicio. Escriban una regla para completar un panel distrito × semana: qué territorio y periodo usarían, qué ausencias convertirían en cero y qué evidencia exigirían. No es necesario programarla todavía.\n\nRegla y justificación:\n\nEl marco del curso se obtuvo de metaxénicas y es incompleto a escala nacional. Para otro evento o departamento hay que comprobar qué territorios quedan fuera antes de utilizarlo como universo esperado."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#integrar-población-sin-multiplicar-casos",
+    "href": "sesiones/s02-datos/practica.html#integrar-población-sin-multiplicar-casos",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "4. Integrar población sin multiplicar casos",
+    "text": "4. Integrar población sin multiplicar casos\n\nDetectar el problema\nTenemos una fila de casos por distrito y año para el periodo seleccionado. La población todavía tiene cinco grupos de edad por distrito y año.\n\n# Demostración deliberada: esta tabla NO se usará para el indicador.\nunion_por_edades &lt;- casos_distrito |&gt;\n  left_join(poblacion, by = c(\"ubigeo\", \"ano\"))\n\ntibble(\n  paso = c(\"Antes de unir\", \"Después de unir sin sumar edades\"),\n  filas = c(nrow(casos_distrito), nrow(union_por_edades)),\n  suma_casos = c(sum(casos_distrito$casos), sum(union_por_edades$casos))\n)\n\n\n  \n\n\n\nLa suma pasa de 2953 a 14 765. Cada distrito encontró cinco filas de población, por lo que el numerador se repitió cinco veces.\nPregunta 4. Un compañero propone quedarse con una sola fila de población por distrito y año usando distinct(ubigeo, ano, .keep_all = TRUE). ¿Qué población conservaría y qué información perdería? ¿Cómo prepararían la tabla para el indicador de todas las edades?\n\nRespuesta:\n\n\n\nPreparar el denominador y comprobar correspondencias\nPara un ejercicio de todas las edades, sumamos los cinco grupos. Si la pregunta fuera sobre menores de un año, haría falta también un numerador con ese grupo de edad; el CSV de dengue no lo contiene.\n\npoblacion_total &lt;- poblacion |&gt;\n  group_by(ubigeo, ano) |&gt;\n  summarise(poblacion_simulada = sum(poblacion), .groups = \"drop\")\n\nsin_poblacion &lt;- casos_distrito |&gt;\n  anti_join(poblacion_total, by = c(\"ubigeo\", \"ano\"))\n\nsin_poblacion\n\n\n  \n\n\nbase_integrada &lt;- casos_distrito |&gt;\n  left_join(poblacion_total, by = c(\"ubigeo\", \"ano\"),\n            relationship = \"many-to-one\")\n\ntibble(filas_antes = nrow(casos_distrito),\n       filas_despues = nrow(base_integrada),\n       casos_antes = sum(casos_distrito$casos),\n       casos_despues = sum(base_integrada$casos),\n       distritos_sin_poblacion = nrow(sin_poblacion))\n\n\n  \n\n\n\nrelationship = \"many-to-one\" exige que cada fila de casos encuentre como máximo una fila de población. La ausencia de correspondencia se revisa por separado: una unión izquierda la conserva con población faltante.\n\n# El cálculo siguiente debe detenerse si estos controles fallan.\nstopifnot(\n  anyDuplicated(poblacion[c(\"ubigeo\", \"ano\", \"grupo_edad\")]) == 0L,\n  anyDuplicated(base_integrada[c(\"ubigeo\", \"ano\")]) == 0L,\n  nrow(base_integrada) == nrow(casos_distrito),\n  sum(base_integrada$casos) == sum(corte$casos),\n  nrow(sin_poblacion) == 0L,\n  all(is.finite(base_integrada$poblacion_simulada)),\n  all(base_integrada$poblacion_simulada &gt; 0)\n)\n\nSi no aparece salida, se cumplieron estas condiciones. Son controles de la integración; no certifican que la población simulada sea verdadera o que el numerador esté ubicado por residencia."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#construir-e-interpretar-un-indicador-docente",
+    "href": "sesiones/s02-datos/practica.html#construir-e-interpretar-un-indicador-docente",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "5. Construir e interpretar un indicador docente",
+    "text": "5. Construir e interpretar un indicador docente\nEl siguiente cálculo supone, para practicar, que ambos archivos se refieren a una población geográfica compatible. Ese supuesto requiere confirmación antes de cualquier uso real.\n\nindicadores &lt;- base_integrada |&gt;\n  left_join(marco_piura, by = \"ubigeo\", relationship = \"many-to-one\") |&gt;\n  mutate(casos_por_100mil_sim = 100000 * casos / poblacion_simulada) |&gt;\n  select(ubigeo, distrito, ano, casos, poblacion_simulada, casos_por_100mil_sim) |&gt;\n  arrange(ubigeo)\n\nindicadores\n\n\n  \n\n\n\nNombre completo: casos notificados acumulados en SE 1–10 de 2023 por 100 000 habitantes, calculados con población simulada. La tabla contiene distritos con casos en el extracto; no representa un panel completo de todos los distritos de Piura.\n\nggplot(indicadores, aes(poblacion_simulada, casos)) +\n  geom_point(colour = \"#2166ac\", size = 2, alpha = 0.75) +\n  scale_x_continuous(labels = scales::label_number(big.mark = \" \")) +\n  labs(x = \"Población SIMULADA de todas las edades, 2023\",\n       y = \"Casos notificados, SE 1–10\",\n       title = \"Carga notificada y tamaño poblacional: ejercicio docente\",\n       caption = \"Casos: agregado NotiSP. Población: simulación del curso; no es una estimación oficial.\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\nPregunta 5. El director pregunta: «¿Esta tabla ya me dice dónde mandar las brigadas?». Expliquen qué aporta el conteo, qué aporta el indicador poblacional y qué más necesitan saber antes de recomendar una intervención.\n\nRespuesta:\n\nNo anualizamos el indicador de diez semanas. Tampoco lo usamos para ordenar intervenciones reales: además del denominador simulado, faltan la verificación geográfica y fuentes sobre tendencia, intervenciones y capacidad de respuesta."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#volver-a-la-pregunta-del-equipo",
+    "href": "sesiones/s02-datos/practica.html#volver-a-la-pregunta-del-equipo",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "6. Volver a la pregunta del equipo",
+    "text": "6. Volver a la pregunta del equipo\nCompleten esta ficha para su evento y departamento. Si todavía no tienen acceso a una fuente, registren quién la solicitará y cómo afectaría su ausencia a la pregunta.\n\n\n\n\n\n\n\n\n\n\nFuente necesaria\nDisponible o pendiente\nUnidad y periodo\nVariable clave\nLimitación y cómo abordarla\n\n\n\n\nVigilancia\n\n\n\n\n\n\nDenominador\n\n\n\n\n\n\nFuente adicional que podría cambiar la decisión\n\n\n\n\n\n\n\nComprueben especialmente:\n\nDengue: ubicación del caso, periodo comparable y registro de intervenciones si la pregunta lo requiere.\nTos ferina: edad disponible y correspondencia con la población del grupo elegido.\nSarampión: clasificación de casos, cobertura territorial y alcance de los datos de vacunación. Una cobertura administrativa aislada no describe por sí sola todos los susceptibles.\n\nRegistren al menos dos decisiones en una bitácora:\n\n\n\n\n\n\n\n\n\nDecisión\nQué alternativa consideramos\nPor qué\nQué interpretación permite o restringe\n\n\n\n\nPeriodo y versión de los datos\n\n\n\n\n\nTratamiento de ausencias o integración de fuentes\n\n\n\n\n\n\nPregunta 6. Con las fuentes que tienen, ¿hasta dónde pueden responder la pregunta del equipo? Si falta un dato esencial, expliquen a quién lo pedirán o cómo cambiarían el lugar, el periodo o la pregunta para poder avanzar.\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#renderizar-y-compartir",
+    "href": "sesiones/s02-datos/practica.html#renderizar-y-compartir",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "Renderizar y compartir",
+    "text": "Renderizar y compartir\nPulsen Render (o Ctrl + Shift + K). El HTML debe contener sus respuestas, controles e interpretación, además del código y sus resultados.\nPara la puesta en común, completen:\n\nCon estos datos podemos sostener ____. Todavía necesitamos verificar ____, porque podría cambiar ____. Mientras se verifica, proponemos ____, considerando ____.\n\nLa entrega oficial de S2 sigue siendo un párrafo con evento, departamento y pregunta. La ficha y la bitácora alimentan el Avance 1; esta práctica no agrega una evaluación independiente."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#limitaciones-que-deben-acompañar-el-resultado",
+    "href": "sesiones/s02-datos/practica.html#limitaciones-que-deben-acompañar-el-resultado",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "Limitaciones que deben acompañar el resultado",
+    "text": "Limitaciones que deben acompañar el resultado\n\nTrabajamos con un agregado consolidado; no reconstruimos el conocimiento disponible al terminar la SE 10 de 2023.\nEl archivo no incluye edad, establecimiento, fechas de notificación ni identificadores individuales. Varias comprobaciones requieren otras fuentes.\nLa cobertura de reportes no se deduce de la ausencia de celdas vacías o de filas de casos.\nEl marco territorial distribuido es incompleto a escala nacional.\nLa ubicación representada por el ubigeo debe confirmarse con el responsable de la extracción.\nLa población es simulada. Los valores calculados con ella son docentes y no sustentan decisiones reales."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#complemento-comprobar-una-unión-con-clima",
+    "href": "sesiones/s02-datos/practica.html#complemento-comprobar-una-unión-con-clima",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "Complemento: comprobar una unión con clima",
+    "text": "Complemento: comprobar una unión con clima\nEsta ampliación puede revisarse después del taller. Practicamos la correspondencia de claves; el modelado con predictores y rezagos se desarrollará en S5.\nEl clima semanal del curso es simulado. Su coincidencia con los casos no permite inferir una asociación real ni atribuir el aumento del dengue a esas cifras climáticas.\n\nclima &lt;- read_csv(\n  file.path(dir_datos, \"simulados\", \"clima_semanal_simulado.csv.gz\"),\n  col_types = cols(ubigeo = col_character()), show_col_types = FALSE\n) |&gt;\n  filter(ano == ano_corte, semana &lt;= semana_corte) |&gt;\n  semi_join(marco_piura, by = \"ubigeo\")\n\ncasos_distrito_semana &lt;- corte |&gt;\n  group_by(ubigeo, ano, semana) |&gt;\n  summarise(casos = sum(casos), .groups = \"drop\")\n\nsin_clima &lt;- casos_distrito_semana |&gt;\n  anti_join(clima, by = c(\"ubigeo\", \"ano\", \"semana\"))\n\nbase_clima &lt;- casos_distrito_semana |&gt;\n  left_join(clima, by = c(\"ubigeo\", \"ano\", \"semana\"),\n            relationship = \"many-to-one\")\n\nstopifnot(\n  anyDuplicated(clima[c(\"ubigeo\", \"ano\", \"semana\")]) == 0L,\n  nrow(sin_clima) == 0L,\n  nrow(base_clima) == nrow(casos_distrito_semana),\n  sum(base_clima$casos) == sum(corte$casos),\n  !anyNA(base_clima[c(\"temp_media_c\", \"precip_mm\")])\n)\n\nbase_clima |&gt; slice_head(n = 6)\n\n\n  \n\n\n\nEsta tabla conserva las combinaciones distrito × semana con casos; no imputa las ausentes. Al reemplazar el clima por una fuente observada, hay que comprobar unidades, resolución geográfica y definición temporal, además de estas claves."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#tres-preguntas-diferentes-sobre-lo-que-falta",
+    "href": "sesiones/s02-datos/slides.html#tres-preguntas-diferentes-sobre-lo-que-falta",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Tres preguntas diferentes sobre lo que falta",
+    "text": "Tres preguntas diferentes sobre lo que falta\n\n\n\n\n\n\n\n\nPregunta\nQué revisamos\nQué necesitamos\n\n\n\n\n¿Qué campos quedaron sin llenar?\nCompletitud de campos\nArchivo y diccionario de datos\n\n\n¿Quiénes enviaron su reporte?\nCompletitud de reportes\nReportes recibidos y esperados\n\n\n¿Qué proporción de casos se detectó?\nSensibilidad de la vigilancia\nOtras fuentes o estudios específicos\n\n\n\nLa sensibilidad relaciona los casos detectados con los casos ocurridos. Para estudiarla hace falta información adicional.\nSi desconocemos cuántos reportes esperábamos, debemos dejarlo indicado; contar las filas del archivo no resuelve esa pregunta."
+  },
+  {
+    "objectID": "sesiones/s02-datos/slides.html#antes-de-cerrar-qué-harían-ustedes",
+    "href": "sesiones/s02-datos/slides.html#antes-de-cerrar-qué-harían-ustedes",
+    "title": "Fuentes, calidad e integración de datos",
+    "section": "Antes de cerrar: ¿qué harían ustedes?",
+    "text": "Antes de cerrar: ¿qué harían ustedes?\nTres minutos, individual y sin nota. Respondan con una razón breve.\n\nLos datos llegan hasta SE 10. ¿Cómo tratarían cada situación?\n\n\n\n\nSituación\n¿Cero, información pendiente o fuera del periodo?\n\n\n\n\nReporte completo que declara ningún caso en SE 9\n\n\n\nUn establecimiento no entregó su reporte de SE 9\n\n\n\nQueremos añadir la SE 11\n\n\n\n\n\nCada fila de casos encuentra cuatro filas en otra tabla. ¿Qué ocurriría al sumar los casos después de unir? ¿Cómo lo revisarían?\nPara la decisión de su equipo, escriban algo que pueden afirmar hoy y un dato que pedirían. Expliquen qué podría cambiar con ese dato.\n\n\nReservar tres minutos del cierre del taller; la práctica incluye espacio para las respuestas. No mostrar soluciones antes de responder. Clave: cero notificado (no ausencia garantizada de enfermedad), reporte pendiente y fuera del periodo; cada numerador se repetiría cuatro veces en el supuesto planteado. Revisar unidad, claves y coincidencias antes de agregar al nivel necesario; comprobar totales. Para el tercer punto, aceptar propuestas distintas que vinculen una afirmación respaldada, una fuente pendiente y una decisión concreta. Recoger las respuestas por el medio habitual y comentar brevemente una dificultad común; no crear una entrega calificada."
+  },
+  {
+    "objectID": "sesiones/s02-datos/practica.html#antes-de-cerrar-qué-harían-ustedes",
+    "href": "sesiones/s02-datos/practica.html#antes-de-cerrar-qué-harían-ustedes",
+    "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
+    "section": "Antes de cerrar: ¿qué harían ustedes?",
+    "text": "Antes de cerrar: ¿qué harían ustedes?\nTomen tres minutos del cierre del taller para responder individualmente, sin ejecutar código ni consultar las respuestas de otros compañeros. La actividad es sin nota; sirve para ver qué quedó claro y qué necesitamos retomar.\n1. Distinguir las ausencias. Los datos disponibles llegan hasta la SE 10. En cada situación indiquen si corresponde cero, información pendiente o fuera del periodo observado, y expliquen por qué.\n\n\n\nSituación\nTratamiento y razón\n\n\n\n\nReporte completo que declara ningún caso en SE 9\n\n\n\nUn establecimiento no entregó su reporte de SE 9\n\n\n\nQueremos añadir la SE 11\n\n\n\n\n2. Anticipar una unión. Cada fila de casos encuentra cuatro filas en otra tabla. ¿Qué ocurriría al sumar los casos después de unir? ¿Qué revisarían para obtener una tabla adecuada a su pregunta?\n\nRespuesta:\n\n3. Volver a la decisión. Para el proyecto de su equipo, escriban algo que pueden afirmar hoy y un dato que pedirían. Expliquen qué podría cambiar en la decisión cuando consigan ese dato.\n\nRespuesta:"
   }
 ]
