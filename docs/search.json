@@ -130,7 +130,7 @@
     "href": "referencia/fuentes-datos.html#fuentes-oficiales-para-reemplazar-los-datos-simulados",
     "title": "Fuentes de datos",
     "section": "Fuentes oficiales para reemplazar los datos simulados",
-    "text": "Fuentes oficiales para reemplazar los datos simulados\n\n\n\nInsumo\nFuente\n\n\n\n\nSituación epidemiológica por evento\nObservatorio del CDC Perú, https://app7.dge.gob.pe/maps2/shiny_observatorio_web/\n\n\nDatos abiertos de vigilancia\nPlataforma Nacional de Datos Abiertos, https://www.datosabiertos.gob.pe/\n\n\nPoblación y pobreza\nINEI, https://www.inei.gob.pe/\n\n\nClima\nSENAMHI, https://www.senamhi.gob.pe/; CHIRPS (Funk et al. 2015)\n\n\nLímites distritales\nINEI o IGN\n\n\n\nAl descargar cualquier base, registren la fecha de descarga y el enlace en el diccionario."
+    "text": "Fuentes oficiales para reemplazar los datos simulados\n\n\n\nInsumo\nFuente\n\n\n\n\nSituación epidemiológica por evento\nObservatorio del CDC Perú, https://app7.dge.gob.pe/maps2/shiny_observatorio_web/\n\n\nDatos abiertos de vigilancia\nPlataforma Nacional de Datos Abiertos, https://www.datosabiertos.gob.pe/\n\n\nPoblación y pobreza\nINEI, https://www.inei.gob.pe/\n\n\nClima\nSENAMHI, https://www.senamhi.gob.pe/; CHIRPS (Funk et al. 2015); ERA5 (Hersbach et al. 2020) vía Open-Meteo, https://open-meteo.com/ (usado en la S3, ver R/descargar_precipitacion.R)\n\n\nLímites distritales\nINEI o IGN\n\n\n\nAl descargar cualquier base, registren la fecha de descarga y el enlace en el diccionario."
   },
   {
     "objectID": "referencia/bibliografia.html",
@@ -214,7 +214,7 @@
     "href": "index.html#cómo-usar-este-sitio",
     "title": "Inteligencia Sanitaria",
     "section": "Cómo usar este sitio",
-    "text": "Cómo usar este sitio\n\nAntes de la primera sesión, sigue los pasos de Empezar y lee las normas de convivencia.\nCada lunes se publican las diapositivas y la práctica de la sesión.\nPara descargar todo el material, usa el botón verde Code → Download ZIP del repositorio. No es necesario saber Git."
+    "text": "Cómo usar este sitio\n\nAntes de la primera sesión, sigue los pasos de Empezar.\nCada lunes se publican las diapositivas y la práctica de la sesión.\nPara descargar todo el material, usa el botón verde Code → Download ZIP del repositorio. No es necesario saber Git."
   },
   {
     "objectID": "empezar.html",
@@ -368,42 +368,42 @@
     "href": "sesiones/s03-temporal/index.html",
     "title": "S3 · Análisis temporal y detección de señales",
     "section": "",
-    "text": "Descomponer una serie en tendencia, estacionalidad y residuo.\nConstruir y comparar líneas basales y umbrales: canal endémico y algoritmos de detección.\nInterpretar una señal considerando el retraso de notificación y los falsos positivos."
+    "text": "Al terminar la sesión, el estudiante podrá:\n\nReconocer tendencia, estacionalidad y componente irregular en una serie semanal.\nConstruir una línea basal y justificar qué años incluye.\nComparar la señal que dan distintos métodos (canal endémico, regresión estacional, Farrington) y explicar por qué difieren.\nInterpretar las semanas recientes considerando el retraso de notificación y entender cómo un nowcast bayesiano estima los casos que faltan."
   },
   {
     "objectID": "sesiones/s03-temporal/index.html#objetivos",
     "href": "sesiones/s03-temporal/index.html#objetivos",
     "title": "S3 · Análisis temporal y detección de señales",
     "section": "",
-    "text": "Descomponer una serie en tendencia, estacionalidad y residuo.\nConstruir y comparar líneas basales y umbrales: canal endémico y algoritmos de detección.\nInterpretar una señal considerando el retraso de notificación y los falsos positivos."
+    "text": "Al terminar la sesión, el estudiante podrá:\n\nReconocer tendencia, estacionalidad y componente irregular en una serie semanal.\nConstruir una línea basal y justificar qué años incluye.\nComparar la señal que dan distintos métodos (canal endémico, regresión estacional, Farrington) y explicar por qué difieren.\nInterpretar las semanas recientes considerando el retraso de notificación y entender cómo un nowcast bayesiano estima los casos que faltan."
   },
   {
     "objectID": "sesiones/s03-temporal/index.html#contenidos",
     "href": "sesiones/s03-temporal/index.html#contenidos",
     "title": "S3 · Análisis temporal y detección de señales",
     "section": "Contenidos",
-    "text": "Contenidos\n\nCanal endémico y sus variantes; elección de los años de la línea basal.\nAlgoritmos de detección de aberraciones (Farrington et al. 1996; Noufaily et al. 2013; Salmon et al. 2016).\nAdaptación por evento: dengue (serie larga y estacional), tos ferina (conteos bajos) y sarampión (eliminación: un caso es señal)."
+    "text": "Contenidos\n\nComponentes de una serie y uso de la escala logarítmica.\nLínea basal: años de referencia, años epidémicos, medida central y límite superior.\nCanal endémico por cuartiles y por media geométrica (Bortman 1999).\nRegresión estacional (Serfling 1963) y algoritmo de Farrington (Farrington et al. 1996; Noufaily et al. 2013; Salmon et al. 2016).\nRetraso de notificación, triángulo de notificación y nowcasting bayesiano (Höhle y an der Heiden 2014; McGough et al. 2020; Bastos et al. 2019).\nDescomposición de series (clásica y STL) y análisis de ondículas entre dengue y lluvia (Cazelles et al. 2008; Chowell et al. 2011).\nAdaptación por evento: dengue, tos ferina y sarampión."
   },
   {
     "objectID": "sesiones/s03-temporal/index.html#materiales",
     "href": "sesiones/s03-temporal/index.html#materiales",
     "title": "S3 · Análisis temporal y detección de señales",
     "section": "Materiales",
-    "text": "Materiales\nSe publican el 23 de noviembre."
+    "text": "Materiales\n\n\n\nMaterial\nEnlace\n\n\n\n\nDiapositivas\nVer en el navegador (pantalla completa: tecla F)\n\n\nPráctica 3\n¿Desde cuándo había señal de dengue en Piura?\n\n\nDatos\ndengue_piura_semanal.csv, dengue_piura_2023_cortes.csv dengue_piura_2023_triangulo.csv y precipitacion_piura_semanal.csv (ERA5), en datos/procesados/ del repositorio"
   },
   {
     "objectID": "sesiones/s03-temporal/index.html#proyecto",
     "href": "sesiones/s03-temporal/index.html#proyecto",
     "title": "S3 · Análisis temporal y detección de señales",
     "section": "Proyecto",
-    "text": "Proyecto\nAvance 1. Ver Avances."
+    "text": "Proyecto\nAvance 1 (20 %). Ver qué presentar y la rúbrica."
   },
   {
     "objectID": "sesiones/s03-temporal/index.html#lecturas",
     "href": "sesiones/s03-temporal/index.html#lecturas",
     "title": "S3 · Análisis temporal y detección de señales",
     "section": "Lecturas",
-    "text": "Lecturas\n\nSalmon, Schumacher y Höhle (2016). Monitoring count time series in R (Salmon et al. 2016)"
+    "text": "Lecturas\nPara la sesión:\n\n\nExplica cómo construir canales endémicos y las decisiones que implica cada variante.\n\n\nComplementarias:\n\n\nPresenta un modelo bayesiano de nowcasting aplicado a dengue e influenza, con el paquete NobBS.\n\n\nDescribe los algoritmos de detección de brotes del paquete surveillance de R, con ejemplos."
   },
   {
     "objectID": "sesiones/s05-anticipacion/index.html",
@@ -1104,5 +1104,334 @@
     "title": "Práctica 2: ¿está preparada nuestra base para responder al director regional?",
     "section": "Antes de cerrar: ¿qué harían ustedes?",
     "text": "Antes de cerrar: ¿qué harían ustedes?\nTomen tres minutos del cierre del taller para responder individualmente, sin ejecutar código ni consultar las respuestas de otros compañeros. La actividad es sin nota; sirve para ver qué quedó claro y qué necesitamos retomar.\n1. Distinguir las ausencias. Los datos disponibles llegan hasta la SE 10. En cada situación indiquen si corresponde cero, información pendiente o fuera del periodo observado, y expliquen por qué.\n\n\n\nSituación\nTratamiento y razón\n\n\n\n\nReporte completo que declara ningún caso en SE 9\n\n\n\nUn establecimiento no entregó su reporte de SE 9\n\n\n\nQueremos añadir la SE 11\n\n\n\n\n2. Anticipar una unión. Cada fila de casos encuentra cuatro filas en otra tabla. ¿Qué ocurriría al sumar los casos después de unir? ¿Qué revisarían para obtener una tabla adecuada a su pregunta?\n\nRespuesta:\n\n3. Volver a la decisión. Para el proyecto de su equipo, escriban algo que pueden afirmar hoy y un dato que pedirían. Expliquen qué podría cambiar en la decisión cuando consigan ese dato.\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html",
+    "href": "sesiones/s03-temporal/slides.html",
+    "title": "Análisis temporal y detección de señales",
+    "section": "",
+    "text": "S1: en la SE 10 de 2023, Piura tenía 473 casos frente a una mediana de 18,5. Discutimos si eso justificaba una alerta.\nS2: revisamos la base: unidad de observación, ceros, semanas incompletas y uniones con población.\nHoy: ¿qué es lo esperado para una semana?, ¿desde cuándo había señal? y ¿cuánto confiamos en la última semana?\n\nEn el taller se presenta el Avance 1."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#dónde-quedamos",
+    "href": "sesiones/s03-temporal/slides.html#dónde-quedamos",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Dónde quedamos",
+    "text": "Dónde quedamos\n\nS1: en la SE 10 de 2023, Piura tenía 473 casos frente a una mediana de 18,5. Discutimos si eso justificaba una alerta.\nS2: revisamos la base: unidad de observación, ceros, semanas incompletas y uniones con población.\nHoy: ¿qué es lo esperado para una semana?, ¿desde cuándo había señal? y ¿cuánto confiamos en la última semana?\n\nEn el taller se presenta el Avance 1."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#dieciséis-años-de-dengue-en-piura",
+    "href": "sesiones/s03-temporal/slides.html#dieciséis-años-de-dengue-en-piura",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Dieciséis años de dengue en Piura",
+    "text": "Dieciséis años de dengue en Piura\n\nAños con pocos casos (2018–2020) alternan con epidemias grandes. ¿Qué es entonces un año «normal»?"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#tres-componentes-de-una-serie",
+    "href": "sesiones/s03-temporal/slides.html#tres-componentes-de-una-serie",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Tres componentes de una serie",
+    "text": "Tres componentes de una serie\n\n\n\nTendencia: cambio de nivel a lo largo de los años.\nEstacionalidad: patrón que se repite cada año (en la costa norte, el verano y otoño).\nComponente irregular: lo que queda; incluye los brotes.\n\nDetectar una señal es decidir si lo que vemos excede lo que la tendencia y la estacionalidad permitirían esperar."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#la-escala-cambia-lo-que-vemos",
+    "href": "sesiones/s03-temporal/slides.html#la-escala-cambia-lo-que-vemos",
+    "title": "Análisis temporal y detección de señales",
+    "section": "La escala cambia lo que vemos",
+    "text": "La escala cambia lo que vemos\n\nEn escala logarítmica se ve el inicio de cada epidemia y los años bajos dejan de parecer planos. ¿Cuál le mostraría a un director regional?"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#qué-es-lo-esperado",
+    "href": "sesiones/s03-temporal/slides.html#qué-es-lo-esperado",
+    "title": "Análisis temporal y detección de señales",
+    "section": "¿Qué es «lo esperado»?",
+    "text": "¿Qué es «lo esperado»?\nToda línea basal depende de decisiones que hay que declarar:\n\n\n\n\n\n\n\n\nDecisión\nOpciones\nEfecto\n\n\n\n\nAños de referencia\n5 a 7 años previos\nMás años: más estable, pero menos actual\n\n\nAños epidémicos\nIncluir o excluir (por ejemplo, 2017)\nIncluirlos sube el umbral y retrasa la alerta\n\n\nMedida central\nMediana, media, media geométrica\nLa media se deja arrastrar por los picos\n\n\nLímite superior\nQ3, media + 2 DE, percentil 95 de un modelo\nDefine cuántas falsas alarmas se aceptan\n\n\nUnidad\nCasos o tasas\nLas tasas corrigen cambios de población"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#canal-endémico-por-cuartiles",
+    "href": "sesiones/s03-temporal/slides.html#canal-endémico-por-cuartiles",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Canal endémico por cuartiles",
+    "text": "Canal endémico por cuartiles\n\nCon esta referencia, 2023 está en zona epidémica desde la SE 1 (Bortman 1999)."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#mismos-años-otro-método-media-geométrica-196-de",
+    "href": "sesiones/s03-temporal/slides.html#mismos-años-otro-método-media-geométrica-196-de",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Mismos años, otro método: media geométrica ± 1,96 DE",
+    "text": "Mismos años, otro método: media geométrica ± 1,96 DE\n\nCon este método, 2023 recién supera el límite en la SE 20, la semana del pico."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#el-mismo-dato-cuatro-respuestas",
+    "href": "sesiones/s03-temporal/slides.html#el-mismo-dato-cuatro-respuestas",
+    "title": "Análisis temporal y detección de señales",
+    "section": "El mismo dato, cuatro respuestas",
+    "text": "El mismo dato, cuatro respuestas\n\n\n\n\n\n\n\n\nMétodo\nReferencia\nPrimera semana de 2023 con señal\n\n\n\n\nCanal por cuartiles (Q3)\n2016–2022 sin 2017\nSE 1\n\n\nRegresión estacional cuasi-Poisson (límite 97,5 %)\n2015–2022 sin 2017\nSE 1\n\n\nFarrington flexible (paquete surveillance)\n5 años previos\nSE 6\n\n\nMedia geométrica ± 1,96 DE\n2016–2022 sin 2017\nSE 20\n\n\n\n¿Por qué tanta diferencia? La media geométrica usa la variabilidad entre años, y en Piura esa variabilidad es enorme (años casi sin casos y años con miles). Con una banda tan ancha, casi nada la supera.\n\nCálculos hechos con la base del curso; el código está en la práctica. Insistir en que ningún método es «el correcto»: cada uno responde a cuántas falsas alarmas estamos dispuestos a aceptar. Notar también que 2023 empezó alto: 2022 cerró con 30 a 50 casos semanales, cuando lo habitual en esas semanas era menos."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#regresión-estacional",
+    "href": "sesiones/s03-temporal/slides.html#regresión-estacional",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Regresión estacional",
+    "text": "Regresión estacional\n\ncasos ~ tendencia + sen(2πs/52) + cos(2πs/52), con sobredispersión. Es la idea de Serfling (1963), usada hasta hoy para exceso de mortalidad."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#farrington-lo-esperado-según-semanas-comparables",
+    "href": "sesiones/s03-temporal/slides.html#farrington-lo-esperado-según-semanas-comparables",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Farrington: lo esperado según semanas comparables",
+    "text": "Farrington: lo esperado según semanas comparables\n\nPara cada semana, toma las semanas cercanas (± 3) de los 5 años previos.\nAjusta un modelo con tendencia y reduce el peso de las semanas que fueron brotes, para que no inflen lo esperado.\nCalcula un umbral y marca alarma cuando lo observado lo supera.\n\nPropuesto por Farrington et al. (1996) y mejorado por Noufaily et al. (2013). Fue desarrollado para la vigilancia automatizada de Inglaterra y Gales. En R está en el paquete surveillance (Salmon et al. 2016)."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#qué-método-elegir",
+    "href": "sesiones/s03-temporal/slides.html#qué-método-elegir",
+    "title": "Análisis temporal y detección de señales",
+    "section": "¿Qué método elegir?",
+    "text": "¿Qué método elegir?\n\n\n\n\n\n\n\nSituación\nOpción razonable\n\n\n\n\nSerie larga, estacional, conteos altos (dengue en Piura)\nCanal endémico o regresión estacional\n\n\nMuchos eventos y territorios a la vez\nAlgoritmo automático (Farrington mejorado)\n\n\nConteos bajos (tos ferina fuera de Loreto)\nUmbrales basados en Poisson; mirar meses en vez de semanas\n\n\nEnfermedad en eliminación (sarampión)\nCada caso confirmado es señal; analizar cadenas y tiempo entre casos\n\n\nSerie corta (menos de 5 años)\nComparar con semanas previas del mismo año; tendencia reciente\n\n\n\nEl método se elige según la pregunta y los datos, y se declara en el informe."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#lo-que-se-sabía-al-cierre-de-la-se-10",
+    "href": "sesiones/s03-temporal/slides.html#lo-que-se-sabía-al-cierre-de-la-se-10",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Lo que se sabía al cierre de la SE 10",
+    "text": "Lo que se sabía al cierre de la SE 10\n\nAl cierre de la SE 10 se conocían 276 de los 473 casos de esa semana. La curva parecía bajar."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#y-en-la-semana-del-pico",
+    "href": "sesiones/s03-temporal/slides.html#y-en-la-semana-del-pico",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Y en la semana del pico",
+    "text": "Y en la semana del pico\n\nAl cierre de la SE 20 se conocían 4062 casos de esa semana; la cifra final fue 8151. El pico se veía como un descenso."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#qué-hacer-con-las-semanas-recientes",
+    "href": "sesiones/s03-temporal/slides.html#qué-hacer-con-las-semanas-recientes",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Qué hacer con las semanas recientes",
+    "text": "Qué hacer con las semanas recientes\n\nPresentarlas como provisionales y decirlo en el gráfico.\nNo concluir que hay descenso con las últimas 1 o 2 semanas.\nMedir el retraso habitual: en Piura 2023, el 92 % de los casos se notificó dentro de los 7 días del inicio de síntomas, pero ese 8 % restante pesa en la semana más reciente.\nEstimar los casos que faltan (nowcasting). No lo haremos en el curso, pero conviene saber que existe.\n\n\nCifras de retraso calculadas con la base individual de NotiSP para Piura 2023 (fecha de notificación menos fecha de inicio de síntomas). Mencionar que el nowcasting es práctica habitual en los equipos de pronóstico."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#ninguna-señal-es-gratis",
+    "href": "sesiones/s03-temporal/slides.html#ninguna-señal-es-gratis",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Ninguna señal es gratis",
+    "text": "Ninguna señal es gratis\n\n\n\n\n\n\n\n\n\nHay brote\nNo hay brote\n\n\n\n\nAlarma\nVerdadero positivo\nFalsa alarma: brigadas y credibilidad gastadas\n\n\nSin alarma\nSeñal perdida: respuesta tardía\nVerdadero negativo\n\n\n\n\nUn umbral bajo detecta antes, pero genera más falsas alarmas.\nUn umbral alto genera menos alarmas, pero llega tarde.\nLa elección depende de cuánto cuesta cada error para este decisor."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#una-señal-no-es-una-decisión",
+    "href": "sesiones/s03-temporal/slides.html#una-señal-no-es-una-decisión",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Una señal no es una decisión",
+    "text": "Una señal no es una decisión\nAntes de recomendar, el equipo verifica:\n\n¿Es un artefacto? Cambios en la notificación, un establecimiento que envió semanas atrasadas, una campaña de búsqueda activa.\n¿Dónde está? Uno o dos distritos, o todo el departamento (S4).\n¿Hacia dónde va? Tendencia de las últimas semanas, con las recientes como provisionales (S5).\n¿Qué capacidad hay para responder?"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#ejercicio-15-minutos",
+    "href": "sesiones/s03-temporal/slides.html#ejercicio-15-minutos",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Ejercicio (15 minutos)",
+    "text": "Ejercicio (15 minutos)\nEs la SE 6 de 2023. Su equipo corrió tres métodos:\n\nCanal por cuartiles: zona epidémica desde la SE 1.\nFarrington flexible: primera alarma esta semana.\nMedia geométrica ± 1,96 DE: sin alarma.\n\nEn salas, respondan en el documento compartido:\n\n¿Qué le informan al director regional? Escriban el mensaje en tres líneas.\n¿Qué método citarían y por qué?\n¿Qué verificarían antes de la próxima semana?"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#en-el-taller",
+    "href": "sesiones/s03-temporal/slides.html#en-el-taller",
+    "title": "Análisis temporal y detección de señales",
+    "section": "En el taller",
+    "text": "En el taller\n\nPráctica 3 (40 min): construir el canal endémico, cambiar los años de referencia, ajustar la regresión estacional y ver el efecto del retraso. El nowcast queda como complemento.\nAvance 1 (75 min): 5 equipos × (8 min de presentación + 7 de preguntas)."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#avance-1-qué-presentar",
+    "href": "sesiones/s03-temporal/slides.html#avance-1-qué-presentar",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Avance 1: qué presentar",
+    "text": "Avance 1: qué presentar\n\nProblema: situación del decisor, preguntas candidatas, requerimiento elegido y por qué.\nBases identificadas: fuente, periodo, unidad, variables.\nInconvenientes encontrados en los datos.\nMetodología propuesta, adaptada al evento.\nRoles de cada integrante.\n\nCualquier integrante puede responder las preguntas."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#referencias",
+    "href": "sesiones/s03-temporal/slides.html#referencias",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nBastos, Leonardo S., Theodoros Economou, Marcelo F. C. Gomes, et al. 2019. «A modelling approach for correcting reporting delays in disease surveillance data». Statistics in Medicine 38 (22): 4363-77. https://doi.org/10.1002/sim.8303.\n\n\nBortman, Marcelo. 1999. «Elaboración de corredores o canales endémicos mediante planillas de cálculo». Revista Panamericana de Salud Pública 5 (1): 1-8.\n\n\nCazelles, Bernard, Mario Chavez, Dominique Berteaux, et al. 2008. «Wavelet analysis of ecological time series». Oecologia 156 (2): 287-304. https://doi.org/10.1007/s00442-008-0993-2.\n\n\nChowell, Gerardo, Bernard Cazelles, Hélène Broutin, y César V. Munayco. 2011. «The influence of geographic and climate factors on the timing of dengue epidemics in Perú, 1994-2008». BMC Infectious Diseases 11: 164. https://doi.org/10.1186/1471-2334-11-164.\n\n\nFarrington, C. P., N. J. Andrews, A. D. Beale, y M. A. Catchpole. 1996. «A statistical algorithm for the early detection of outbreaks of infectious disease». Journal of the Royal Statistical Society: Series A 159 (3): 547-63.\n\n\nHöhle, Michael, y Matthias an der Heiden. 2014. «Bayesian nowcasting during the STEC O104:H4 outbreak in Germany, 2011». Biometrics 70 (4): 993-1002. https://doi.org/10.1111/biom.12194.\n\n\nLowe, Rachel, Christovam Barcellos, Caio A. S. Coelho, et al. 2014. «Dengue outlook for the World Cup in Brazil: an early warning model framework driven by real-time seasonal climate forecasts». The Lancet Infectious Diseases 14 (7): 619-26. https://doi.org/10.1016/S1473-3099(14)70781-9.\n\n\nMcGough, Sarah F., Michael A. Johansson, Marc Lipsitch, y Nicolas A. Menzies. 2020. «Nowcasting by Bayesian smoothing: a flexible, generalizable model for real-time epidemic tracking». PLoS Computational Biology 16 (4): e1007735. https://doi.org/10.1371/journal.pcbi.1007735.\n\n\nNoufaily, Angela, Doyo G. Enki, Paddy Farrington, Paul Garthwaite, Nick Andrews, y André Charlett. 2013. «An improved algorithm for outbreak detection in multiple surveillance systems». Statistics in Medicine 32 (7): 1206-22. https://doi.org/10.1002/sim.5595.\n\n\nSalmon, Maëlle, Dirk Schumacher, y Michael Höhle. 2016. «Monitoring count time series in R: aberration detection in public health surveillance». Journal of Statistical Software 70 (10): 1-35. https://doi.org/10.18637/jss.v070.i10.\n\n\nSerfling, Robert E. 1963. «Methods for current statistical analysis of excess pneumonia-influenza deaths». Public Health Reports 78 (6): 494-506.\n\n\nVestergaard, Lasse S., Jens Nielsen, Lukas Richter, et al. 2020. «Excess all-cause mortality during the COVID-19 pandemic in Europe – preliminary pooled estimates from the EuroMOMO network, March to April 2020». Eurosurveillance 25 (26): 2001214. https://doi.org/10.2807/1560-7917.ES.2020.25.26.2001214."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html",
+    "href": "sesiones/s03-temporal/practica.html",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "",
+    "text": "En la S1 vimos que la SE 10 de 2023 tenía muchos más casos que en años anteriores. Ahora el director regional pregunta:\n\n¿Desde qué semana teníamos una señal clara? ¿Y cuánto podemos confiar en la última semana que nos reportan?\n\nLa práctica dura unos 40 minutos. Después se presenta el Avance 1."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#pregunta",
+    "href": "sesiones/s03-temporal/practica.html#pregunta",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "",
+    "text": "En la S1 vimos que la SE 10 de 2023 tenía muchos más casos que en años anteriores. Ahora el director regional pregunta:\n\n¿Desde qué semana teníamos una señal clara? ¿Y cuánto podemos confiar en la última semana que nos reportan?\n\nLa práctica dura unos 40 minutos. Después se presenta el Avance 1."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#objetivos",
+    "href": "sesiones/s03-temporal/practica.html#objetivos",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nConstruir un canal endémico por cuartiles y ver cómo cambia según los años de referencia.\nAjustar una regresión estacional simple y comparar su señal con la del canal.\nMedir el efecto del retraso de notificación en las semanas recientes."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#datos",
+    "href": "sesiones/s03-temporal/practica.html#datos",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "Datos",
+    "text": "Datos\n\n\n\n\n\n\n\nArchivo\nContenido\n\n\n\n\ndatos/procesados/dengue_piura_semanal.csv\nCasos de dengue de Piura por año, semana, distrito, clasificación y tipo de diagnóstico (NotiSP), 2010–SE 35 de 2026\n\n\ndatos/procesados/dengue_piura_2023_cortes.csv\nPara 2023: casos de cada semana que ya estaban notificados al cierre de la SE 10, la SE 15 y la SE 20, frente a la cifra consolidada\n\n\n\nAmbas bases están agregadas y no contienen registros individuales.\n\n\n\n\n\n\nNotaCómo seguir la práctica\n\n\n\nAbran inteligencia-sanitaria.Rproj y ejecuten los bloques en orden. Si trabajan fuera del proyecto, reemplacen dir_datos por la dirección https://raw.githubusercontent.com/kemava/inteligencia-sanitaria/main/datos y lean los archivos con read_csv(paste0(dir_datos, \"/procesados/...\"))."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#preparar-la-serie",
+    "href": "sesiones/s03-temporal/practica.html#preparar-la-serie",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "1. Preparar la serie",
+    "text": "1. Preparar la serie\n\nif (.Platform$OS.type == \"windows\") {\n  invisible(Sys.setlocale(\"LC_CTYPE\", \".UTF-8\"))\n}\n\nlibrary(readr)\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(ggplot2)\n\ndir_datos &lt;- if (dir.exists(\"datos\")) \"datos\" else file.path(\"..\", \"..\", \"datos\")\n\ndengue &lt;- read_csv(\n  file.path(dir_datos, \"procesados\", \"dengue_piura_semanal.csv\"),\n  col_types = cols(ubigeo = col_character()), show_col_types = FALSE\n)\n\n# Casos por año y semana, con ceros explícitos (como en S1 y S2)\nserie &lt;- dengue |&gt;\n  filter(ano &lt;= 2025, semana &lt;= 52) |&gt;\n  group_by(ano, semana) |&gt;\n  summarise(casos = sum(casos), .groups = \"drop\") |&gt;\n  complete(ano = 2010:2025, semana = 1:52, fill = list(casos = 0)) |&gt;\n  arrange(ano, semana)\n\nserie |&gt;\n  group_by(ano) |&gt;\n  summarise(casos = sum(casos))\n\n\n  \n\n\n\nPregunta 1. ¿Qué años incluirían como referencia para 2023 y cuáles excluirían? Justifiquen con la tabla anterior.\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#canal-endémico-por-cuartiles",
+    "href": "sesiones/s03-temporal/practica.html#canal-endémico-por-cuartiles",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "2. Canal endémico por cuartiles",
+    "text": "2. Canal endémico por cuartiles\nEscribimos una función para poder cambiar los años de referencia con facilidad.\n\ncanal_endemico &lt;- function(serie, anos_referencia) {\n  serie |&gt;\n    filter(ano %in% anos_referencia) |&gt;\n    group_by(semana) |&gt;\n    summarise(\n      q1 = quantile(casos, 0.25),\n      q2 = median(casos),\n      q3 = quantile(casos, 0.75),\n      .groups = \"drop\"\n    )\n}\n\ngraficar_canal &lt;- function(canal, anio = 2023, hasta = 26, titulo = NULL) {\n  serie |&gt;\n    filter(ano == anio, semana &lt;= hasta) |&gt;\n    left_join(canal, by = \"semana\") |&gt;\n    ggplot(aes(semana)) +\n    geom_ribbon(aes(ymin = 0, ymax = q1), fill = \"#d9f0d3\") +\n    geom_ribbon(aes(ymin = q1, ymax = q2), fill = \"#fff7bc\") +\n    geom_ribbon(aes(ymin = q2, ymax = q3), fill = \"#fdd0a2\") +\n    geom_line(aes(y = casos), colour = \"#b2182b\", linewidth = 1) +\n    labs(x = \"Semana epidemiológica\", y = \"Casos\", title = titulo) +\n    theme_minimal()\n}\n\n\nref_a &lt;- setdiff(2016:2022, 2017)\ncanal_a &lt;- canal_endemico(serie, ref_a)\ngraficar_canal(canal_a, titulo = \"Referencia: 2016–2022 sin 2017\")\n\n\n\n\n\n\n\n\n\nprimera_semana_sobre_q3 &lt;- function(canal, anio = 2023) {\n  serie |&gt;\n    filter(ano == anio) |&gt;\n    left_join(canal, by = \"semana\") |&gt;\n    filter(casos &gt; q3) |&gt;\n    summarise(primera = min(semana)) |&gt;\n    pull(primera)\n}\n\nprimera_semana_sobre_q3(canal_a)\n\n[1] 1\n\n\nEjercicio 1. Repitan el canal con otras dos referencias: (a) 2016–2022 incluyendo 2017 y (b) solo 2018–2022. Comparen el valor de Q3 en la SE 10 y la primera semana sobre Q3.\n\n# Escriban aquí su código\n\nPregunta 2. En los tres casos 2023 está sobre Q3 desde muy temprano. ¿Qué explica que 2023 empezara tan alto? Revisen las últimas semanas de 2022.\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#regresión-estacional",
+    "href": "sesiones/s03-temporal/practica.html#regresión-estacional",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "3. Regresión estacional",
+    "text": "3. Regresión estacional\nUn modelo con tendencia y estacionalidad estima cuántos casos esperar en cada semana. Usamos una regresión cuasi-Poisson porque los conteos varían mucho más de lo que supone un modelo de Poisson.\n\nserie_t &lt;- serie |&gt;\n  mutate(t = (ano - 2010) * 52 + semana)\n\nentrenamiento &lt;- serie_t |&gt;\n  filter(ano %in% setdiff(2015:2022, 2017))\n\nmodelo &lt;- glm(\n  casos ~ t + sin(2 * pi * semana / 52) + cos(2 * pi * semana / 52),\n  family = quasipoisson,\n  data = entrenamiento\n)\n\nphi &lt;- summary(modelo)$dispersion   # sobredispersión estimada\n\ns2023 &lt;- serie_t |&gt;\n  filter(ano == 2023)\n\ns2023$esperado &lt;- predict(modelo, newdata = s2023, type = \"response\")\n\n# Límite superior aproximado con una binomial negativa de igual dispersión\ns2023 &lt;- s2023 |&gt;\n  mutate(limite = qnbinom(0.975, mu = esperado, size = esperado / (phi - 1)))\n\ns2023 |&gt;\n  filter(semana &lt;= 12) |&gt;\n  select(semana, casos, esperado, limite) |&gt;\n  mutate(esperado = round(esperado))\n\n\n  \n\n\n\n\ns2023 |&gt;\n  filter(semana &lt;= 26) |&gt;\n  ggplot(aes(semana)) +\n  geom_ribbon(aes(ymin = 0, ymax = limite), fill = \"grey88\") +\n  geom_line(aes(y = esperado), linetype = \"dashed\", colour = \"grey40\") +\n  geom_line(aes(y = casos), colour = \"#b2182b\", linewidth = 1) +\n  coord_cartesian(ylim = c(0, 3000)) +\n  labs(x = \"Semana epidemiológica\", y = \"Casos\",\n       title = \"Regresión estacional: esperado y límite superior\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\nPregunta 3. El modelo usa una sola onda seno-coseno por año. ¿Qué limitación tiene para un año como 2023? ¿Qué le agregarían?\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#la-última-semana-nunca-está-completa",
+    "href": "sesiones/s03-temporal/practica.html#la-última-semana-nunca-está-completa",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "4. La última semana nunca está completa",
+    "text": "4. La última semana nunca está completa\n\ncortes &lt;- read_csv(\n  file.path(dir_datos, \"procesados\", \"dengue_piura_2023_cortes.csv\"),\n  show_col_types = FALSE\n)\n\ncortes |&gt;\n  filter(corte_se == 20, semana &gt;= 15) |&gt;\n  mutate(porcentaje_conocido = round(100 * casos_conocidos / casos_consolidados, 1))\n\n\n  \n\n\n\n\ncortes |&gt;\n  filter(corte_se == 20) |&gt;\n  ggplot(aes(semana)) +\n  geom_col(aes(y = casos_consolidados), fill = \"grey80\") +\n  geom_col(aes(y = casos_conocidos), fill = \"#b2182b\", width = 0.5) +\n  labs(x = \"Semana de inicio de síntomas\", y = \"Casos\",\n       title = \"Al cierre de la SE 20: conocidos (rojo) frente a consolidados (gris)\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\nEjercicio 2. Calculen, para el corte de la SE 10, qué porcentaje de los casos consolidados se conocía en la última semana, en la penúltima y en la antepenúltima.\n\n# Escriban aquí su código\n\nPregunta 4. Si el director hubiera visto el gráfico del corte de la SE 20 sin ninguna advertencia, ¿qué habría concluido? ¿Cómo presentarían esas semanas en un informe?\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#para-entregar",
+    "href": "sesiones/s03-temporal/practica.html#para-entregar",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "Para entregar",
+    "text": "Para entregar\nEn tres líneas: ¿desde qué semana le habrían dicho al director que había una señal clara, con qué método y con qué advertencia sobre las semanas recientes? No hay una sola respuesta correcta; se evalúa la justificación."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#complemento-opcional-farrington-flexible",
+    "href": "sesiones/s03-temporal/practica.html#complemento-opcional-farrington-flexible",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "Complemento opcional: Farrington flexible",
+    "text": "Complemento opcional: Farrington flexible\nRequiere el paquete surveillance (install.packages(\"surveillance\")).\n\nlibrary(surveillance)\n\nserie_sts &lt;- sts(observed = serie$casos, start = c(2010, 1), frequency = 52)\nsemanas_2023 &lt;- which(serie$ano == 2023)\n\ncontrol &lt;- list(\n  range = semanas_2023, b = 5, w = 3, reweight = TRUE,\n  weightsThreshold = 2.58, pastWeeksNotIncluded = 26,\n  alpha = 0.05, noPeriods = 10, populationOffset = FALSE, glmWarnings = FALSE\n)\n\nresultado &lt;- farringtonFlexible(serie_sts, control = control)\n\ntibble(\n  semana = 1:52,\n  casos = observed(resultado)[, 1],\n  umbral = round(upperbound(resultado)[, 1]),\n  alarma = alarms(resultado)[, 1]\n) |&gt;\n  filter(semana &lt;= 12)"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#limitaciones",
+    "href": "sesiones/s03-temporal/practica.html#limitaciones",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "Limitaciones",
+    "text": "Limitaciones\n\nTrabajamos con datos consolidados. En tiempo real, las semanas recientes estarían incompletas y todas las señales se verían más tarde o más débiles.\nUsamos conteos. Si la población cambió mucho entre años, conviene usar tasas.\nLa serie es departamental. Una señal departamental puede esconder distritos con brotes y otros sin casos (S4).\nNingún umbral es correcto por sí mismo: cada uno fija cuántas falsas alarmas se aceptan."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/index.html#pregunta-de-la-sesión",
+    "href": "sesiones/s03-temporal/index.html#pregunta-de-la-sesión",
+    "title": "S3 · Análisis temporal y detección de señales",
+    "section": "Pregunta de la sesión",
+    "text": "Pregunta de la sesión\n\n¿Desde qué semana había una señal clara de dengue en Piura en 2023, y cuánto podemos confiar en la última semana reportada?"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/index.html#organización",
+    "href": "sesiones/s03-temporal/index.html#organización",
+    "title": "S3 · Análisis temporal y detección de señales",
+    "section": "Organización",
+    "text": "Organización\n\n\n\n\n\n\n\nHorario (Lima)\nActividad\n\n\n\n\n18:00–18:10\nDónde quedamos (S1 y S2)\n\n\n18:10–18:30\nLa serie de Piura: componentes y escala\n\n\n18:30–19:05\nComparar con el pasado: línea basal y canales endémicos\n\n\n19:05–19:15\nModelos para lo esperado: regresión estacional y Farrington\n\n\n19:15–19:40\nLa última semana: retraso de notificación y nowcasting\n\n\n19:40–20:00\nDe la señal a la decisión y ejercicio en salas\n\n\n20:00–20:40\nTaller: práctica 3\n\n\n20:40–21:55\nAvance 1: 5 equipos × (8 min + 7 min de preguntas)\n\n\n21:55–22:00\nCierre"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#nowcasting-estimar-lo-que-todavía-no-llegó",
+    "href": "sesiones/s03-temporal/slides.html#nowcasting-estimar-lo-que-todavía-no-llegó",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Nowcasting: estimar lo que todavía no llegó",
+    "text": "Nowcasting: estimar lo que todavía no llegó\n\nCada semana reciente tiene celdas vacías: casos que ya ocurrieron pero aún no se notifican. El nowcasting estima esas celdas con lo que sabemos de los retrasos."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#un-modelo-bayesiano-simple",
+    "href": "sesiones/s03-temporal/slides.html#un-modelo-bayesiano-simple",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Un modelo bayesiano simple",
+    "text": "Un modelo bayesiano simple\nPara una semana \\(t\\), al cierre solo se observan los casos notificados con retraso de hasta \\(d_t\\) semanas:\n\\[n_t^{\\text{obs}} \\mid N_t \\sim \\text{Binomial}(N_t,\\ F(d_t))\\]\n\n\\(N_t\\): casos totales de la semana (lo que queremos estimar).\n\\(F(d)\\): proporción de casos que se notifica en \\(d\\) semanas o menos. Se estima con las semanas ya completas; su incertidumbre se representa con una distribución Dirichlet.\nCon una previa plana para \\(N_t\\), la posterior es \\(N_t - n_t^{\\text{obs}} \\sim \\text{BinNeg}(n_t^{\\text{obs}} + 1,\\ F(d_t))\\). Se simula y se resume con la mediana y un intervalo de credibilidad del 95 %.\n\nLos modelos usados en la práctica agregan dos cosas: una curva epidémica suavizada (por ejemplo, un paseo aleatorio en \\(\\log N_t\\)) y retrasos que cambian en el tiempo (Höhle y an der Heiden 2014; McGough et al. 2020). InfoDengue, en Brasil, aplica este enfoque a dengue (Bastos et al. 2019)."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#nowcast-al-cierre-de-la-se-20",
+    "href": "sesiones/s03-temporal/slides.html#nowcast-al-cierre-de-la-se-20",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Nowcast al cierre de la SE 20",
+    "text": "Nowcast al cierre de la SE 20\n\nPara la SE 20: se conocían 4062 casos; el nowcast estimó 6386 (IC 95 %: 6207–6574); la cifra final fue 8151. El modelo corrige gran parte del falso descenso, pero se queda corto."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#por-qué-el-nowcast-se-quedó-corto",
+    "href": "sesiones/s03-temporal/slides.html#por-qué-el-nowcast-se-quedó-corto",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Por qué el nowcast se quedó corto",
+    "text": "Por qué el nowcast se quedó corto\n\nEstimamos los retrasos con semanas anteriores, cuando el sistema notificaba más rápido. En el pico, los servicios saturados notifican con más demora.\nEl modelo simple supone retrasos constantes, y su intervalo es demasiado estrecho.\nLos modelos completos permiten que los retrasos cambien y suavizan la curva epidémica. En R: surveillance::nowcast (Höhle y an der Heiden 2014), NobBS (McGough et al. 2020) y epinowcast.\n\nPara la decisión: presentar las semanas recientes como provisionales, con el nowcast y su incertidumbre, y no concluir que hay descenso con las últimas 1 o 2 semanas.\n\nEn las semanas 5 a 12 de 2023, cerca del 64 % de los casos se notificó la misma semana de inicio de síntomas; en la SE 20 esa proporción fue de alrededor del 50 %. Por eso un modelo con retrasos fijos subestima el pico. El código del nowcast simple está en el complemento de la práctica."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#ejercicio-10-minutos",
+    "href": "sesiones/s03-temporal/slides.html#ejercicio-10-minutos",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Ejercicio (10 minutos)",
+    "text": "Ejercicio (10 minutos)\nEs la SE 6 de 2023. Su equipo corrió tres métodos:\n\nCanal por cuartiles: zona epidémica desde la SE 1.\nFarrington flexible: primera alarma esta semana.\nMedia geométrica ± 1,96 DE: sin alarma.\n\nEn salas, respondan en el documento compartido:\n\n¿Qué le informan al director regional? Escriban el mensaje en tres líneas.\n¿Qué método citarían y por qué?\n¿Qué verificarían antes de la próxima semana?"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/practica.html#complemento-opcional-nowcast-bayesiano-simple",
+    "href": "sesiones/s03-temporal/practica.html#complemento-opcional-nowcast-bayesiano-simple",
+    "title": "Práctica 3: ¿desde cuándo había señal de dengue en Piura?",
+    "section": "Complemento opcional: nowcast bayesiano simple",
+    "text": "Complemento opcional: nowcast bayesiano simple\nEl archivo dengue_piura_2023_triangulo.csv tiene los casos de 2023 por semana de inicio y retraso de notificación en semanas (8 = 8 o más). Con él estimamos cuántos casos faltaban al cierre de la SE 20.\n\ntriangulo &lt;- read_csv(\n  file.path(dir_datos, \"procesados\", \"dengue_piura_2023_triangulo.csv\"),\n  show_col_types = FALSE\n)\n\ncorte &lt;- 20   # semana de cierre\nD &lt;- 8        # retraso máximo considerado\nS &lt;- 4000     # simulaciones\nset.seed(2023)\n\n# Lo que se conocía al cierre\nobservado &lt;- filter(triangulo, semana_inicio + retraso_semanas &lt;= corte)\n\n# Distribución de retrasos con las 8 semanas completas más recientes (5 a 12)\nn_d &lt;- observado |&gt;\n  filter(semana_inicio %in% (corte - D - 7):(corte - D)) |&gt;\n  group_by(retraso_semanas) |&gt;\n  summarise(n = sum(casos), .groups = \"drop\") |&gt;\n  complete(retraso_semanas = 0:D, fill = list(n = 0)) |&gt;\n  pull(n)\n\n# Posterior Dirichlet(1 + n_d): simulamos proporciones de retraso\ng &lt;- matrix(rgamma(S * (D + 1), shape = 1 + n_d), nrow = S, byrow = TRUE)\nF_acum &lt;- t(apply(g / rowSums(g), 1, cumsum))\n\n# Para cada semana reciente: N - n_obs ~ BinNeg(n_obs + 1, F(d))\nnowcast &lt;- lapply((corte - D + 1):corte, function(t) {\n  n_obs &lt;- sum(observado$casos[observado$semana_inicio == t])\n  N &lt;- n_obs + rnbinom(S, size = n_obs + 1, prob = F_acum[, corte - t + 1])\n  tibble(semana = t, conocidos = n_obs, mediana = median(N),\n         inf = quantile(N, 0.025), sup = quantile(N, 0.975))\n}) |&gt;\n  bind_rows()\n\nconsolidado &lt;- triangulo |&gt;\n  group_by(semana = semana_inicio) |&gt;\n  summarise(consolidado = sum(casos))\n\nleft_join(nowcast, consolidado, by = \"semana\")\n\n\n  \n\n\n\nPregunta 5. ¿En qué semanas el intervalo del nowcast contiene la cifra consolidada? ¿Por qué falla en la SE 20? Piensen en qué pasa con los retrasos cuando los servicios están saturados.\n\nRespuesta:"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#descomposición-clásica-de-la-serie-de-piura",
+    "href": "sesiones/s03-temporal/slides.html#descomposición-clásica-de-la-serie-de-piura",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Descomposición clásica de la serie de Piura",
+    "text": "Descomposición clásica de la serie de Piura\n\n\nLa tendencia sube en 2015–2017 y 2022–2024. En las semanas de mayor transmisión, el factor estacional multiplica los casos por más de 4. Los residuos grandes señalan los brotes. La descomposición clásica pierde 26 semanas al inicio y al final por la media móvil."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#stl-una-descomposición-robusta-a-los-brotes",
+    "href": "sesiones/s03-temporal/slides.html#stl-una-descomposición-robusta-a-los-brotes",
+    "title": "Análisis temporal y detección de señales",
+    "section": "STL: una descomposición robusta a los brotes",
+    "text": "STL: una descomposición robusta a los brotes\n\n\nSTL estima cada componente con regresión local y da menos peso a las semanas atípicas, así que los brotes quedan en el residuo y no deforman la estacionalidad. Las semanas con residuo alto son candidatas a señal. Ambas descomposiciones se hacen sobre log(casos + 1), lo que equivale a casos = tendencia × estacionalidad × residuo. Funciones de R base: decompose() y stl()."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#incluir-o-no-2017-cambia-el-umbral",
+    "href": "sesiones/s03-temporal/slides.html#incluir-o-no-2017-cambia-el-umbral",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Incluir o no 2017 cambia el umbral",
+    "text": "Incluir o no 2017 cambia el umbral\n\nEn la SE 10, el Q3 es 356 con 2017, 214 sin 2017 y 21 con solo 2018–2022. La elección de los años decide qué tan pronto aparece la alerta."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#estos-análisis-en-sistemas-de-vigilancia",
+    "href": "sesiones/s03-temporal/slides.html#estos-análisis-en-sistemas-de-vigilancia",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Estos análisis en sistemas de vigilancia",
+    "text": "Estos análisis en sistemas de vigilancia\n\n\n\n\n\n\n\n\nMétodo\nDónde se usó\nQué hicieron\n\n\n\n\nFarrington\nInglaterra y Gales\nDetección automática semanal de brotes en datos de laboratorio (Farrington et al. 1996; Noufaily et al. 2013)\n\n\nLínea basal estacional\nRed EuroMOMO, Europa\nExceso de mortalidad por COVID-19, marzo–abril de 2020 (Vestergaard et al. 2020)\n\n\nAlerta temprana con clima\nBrasil, 2014\nRiesgo de epidemia de dengue durante la Copa Mundial (Lowe et al. 2014)\n\n\nNowcasting bayesiano\nAlemania, 2011; Brasil; Puerto Rico\nBrote de STEC O104:H4, InfoDengue y dengue con NobBS (Höhle y an der Heiden 2014; Bastos et al. 2019; McGough et al. 2020)"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#series-de-dengue-en-el-perú",
+    "href": "sesiones/s03-temporal/slides.html#series-de-dengue-en-el-perú",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Series de dengue en el Perú",
+    "text": "Series de dengue en el Perú\nCon análisis de ondículas (wavelets) de la vigilancia semanal provincial de 1994–2008, las epidemias de la selva tuvieron su pico hacia marzo y las de la costa hacia abril–mayo, unas 6 semanas después. La diferencia se asoció al ciclo de la temperatura (Chowell et al. 2011).\nPara revisar: dinámica de largo plazo en Iquitos · clima y riesgo de brotes, 2000–2018 · dinámica temporal y espacial, 2000–2022\nPregunta: si la costa llega al pico unas semanas después que la selva, ¿cómo usaría esa diferencia un equipo de inteligencia nacional?"
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#dengue-y-lluvia-en-piura-análisis-de-ondículas",
+    "href": "sesiones/s03-temporal/slides.html#dengue-y-lluvia-en-piura-análisis-de-ondículas",
+    "title": "Análisis temporal y detección de señales",
+    "section": "Dengue y lluvia en Piura: análisis de ondículas",
+    "text": "Dengue y lluvia en Piura: análisis de ondículas\n\nCiclo anual compartido, más intenso en 2015–2017 y 2022–2024. Flechas hacia abajo: la lluvia va adelante.\n\nLa banda en el periodo de 1 año indica que dengue y lluvia comparten un ciclo anual. Es más intensa en los periodos que incluyen los dos años más lluviosos de la serie (2017 y 2023). Precipitación semanal de ERA5 (vía Open-Meteo), promedio de cuatro puntos: Piura, Sullana, Chulucanas y Paita. Suma anual: 2017, 1397 mm; 2023, 941 mm; la mayoría de los otros años, menos de 500 mm. Ondícula de Morlet sobre log(casos + 1) y log(lluvia + 1), con el paquete WaveletComp; contornos blancos: p &lt; 0,05 con 100 simulaciones. La zona clara en los bordes es el cono de influencia, donde la estimación es poco confiable. Scripts: R/descargar_precipitacion.R y R/wavelet_piura.R."
+  },
+  {
+    "objectID": "sesiones/s03-temporal/slides.html#la-lluvia-antecede-al-dengue-unas-10-semanas",
+    "href": "sesiones/s03-temporal/slides.html#la-lluvia-antecede-al-dengue-unas-10-semanas",
+    "title": "Análisis temporal y detección de señales",
+    "section": "La lluvia antecede al dengue unas 10 semanas",
+    "text": "La lluvia antecede al dengue unas 10 semanas\n\nEntre 6 y 12 semanas (promedio: 9,6). Es la ventana que aprovecha una alerta temprana con clima; la usaremos en la S5. Compartir un ciclo no prueba causalidad (Cazelles et al. 2008).\n\nQue dengue y lluvia compartan un ciclo anual no prueba que la lluvia cause el dengue: la temperatura y otros factores estacionales varían juntos. Chowell et al. (2011) asociaron el momento de las epidemias en el Perú sobre todo al ciclo de la temperatura."
   }
 ]

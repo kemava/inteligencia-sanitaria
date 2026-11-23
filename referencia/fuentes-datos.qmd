@@ -20,7 +20,7 @@ El [observatorio del CDC Perú](https://app7.dge.gob.pe/maps2/shiny_observatorio
 | Situación epidemiológica por evento | Observatorio del CDC Perú, <https://app7.dge.gob.pe/maps2/shiny_observatorio_web/> |
 | Datos abiertos de vigilancia | Plataforma Nacional de Datos Abiertos, <https://www.datosabiertos.gob.pe/> |
 | Población y pobreza | INEI, <https://www.inei.gob.pe/> |
-| Clima | SENAMHI, <https://www.senamhi.gob.pe/>; CHIRPS [@funk2015] |
+| Clima | SENAMHI, <https://www.senamhi.gob.pe/>; CHIRPS [@funk2015]; ERA5 [@hersbach2020] vía Open-Meteo, <https://open-meteo.com/> (usado en la S3, ver `R/descargar_precipitacion.R`) |
 | Límites distritales | INEI o IGN |
 
 Al descargar cualquier base, registren la fecha de descarga y el enlace en el diccionario.

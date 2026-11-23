@@ -167,6 +167,10 @@ div.csl-indent {
  <span class="dropdown-text">Avances</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../../proyecto/plantilla-pregunta.html">
+ <span class="dropdown-text">Plantilla de la pregunta</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../../proyecto/rubrica.html">
  <span class="dropdown-text">Rúbricas</span></a>
   </li>  
@@ -216,8 +220,10 @@ div.csl-indent {
    
   <ul>
   <li><a href="#objetivos" id="toc-objetivos" class="nav-link active" data-scroll-target="#objetivos">Objetivos</a></li>
+  <li><a href="#pregunta-de-la-sesión" id="toc-pregunta-de-la-sesión" class="nav-link" data-scroll-target="#pregunta-de-la-sesión">Pregunta de la sesión</a></li>
   <li><a href="#contenidos" id="toc-contenidos" class="nav-link" data-scroll-target="#contenidos">Contenidos</a></li>
   <li><a href="#materiales" id="toc-materiales" class="nav-link" data-scroll-target="#materiales">Materiales</a></li>
+  <li><a href="#organización" id="toc-organización" class="nav-link" data-scroll-target="#organización">Organización</a></li>
   <li><a href="#proyecto" id="toc-proyecto" class="nav-link" data-scroll-target="#proyecto">Proyecto</a></li>
   <li><a href="#lecturas" id="toc-lecturas" class="nav-link" data-scroll-target="#lecturas">Lecturas</a></li>
   </ul>
@@ -248,32 +254,130 @@ div.csl-indent {
 
 <section id="objetivos" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos">Objetivos</h2>
+<p>Al terminar la sesión, el estudiante podrá:</p>
 <ul>
-<li>Descomponer una serie en tendencia, estacionalidad y residuo.</li>
-<li>Construir y comparar líneas basales y umbrales: canal endémico y algoritmos de detección.</li>
-<li>Interpretar una señal considerando el retraso de notificación y los falsos positivos.</li>
+<li>Reconocer tendencia, estacionalidad y componente irregular en una serie semanal.</li>
+<li>Construir una línea basal y justificar qué años incluye.</li>
+<li>Comparar la señal que dan distintos métodos (canal endémico, regresión estacional, Farrington) y explicar por qué difieren.</li>
+<li>Interpretar las semanas recientes considerando el retraso de notificación y entender cómo un nowcast bayesiano estima los casos que faltan.</li>
 </ul>
+</section>
+<section id="pregunta-de-la-sesión" class="level2">
+<h2 class="anchored" data-anchor-id="pregunta-de-la-sesión">Pregunta de la sesión</h2>
+<blockquote class="blockquote">
+<p>¿Desde qué semana había una señal clara de dengue en Piura en 2023, y cuánto podemos confiar en la última semana reportada?</p>
+</blockquote>
 </section>
 <section id="contenidos" class="level2">
 <h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
 <ul>
-<li>Canal endémico y sus variantes; elección de los años de la línea basal.</li>
-<li>Algoritmos de detección de aberraciones <span class="citation" data-cites="farrington1996 noufaily2013 salmon2016">(<a href="#ref-farrington1996" role="doc-biblioref">Farrington et&nbsp;al. 1996</a>; <a href="#ref-noufaily2013" role="doc-biblioref">Noufaily et&nbsp;al. 2013</a>; <a href="#ref-salmon2016" role="doc-biblioref">Salmon et&nbsp;al. 2016</a>)</span>.</li>
-<li>Adaptación por evento: dengue (serie larga y estacional), tos ferina (conteos bajos) y sarampión (eliminación: un caso es señal).</li>
+<li>Componentes de una serie y uso de la escala logarítmica.</li>
+<li>Línea basal: años de referencia, años epidémicos, medida central y límite superior.</li>
+<li>Canal endémico por cuartiles y por media geométrica <span class="citation" data-cites="bortman1999">(<a href="#ref-bortman1999" role="doc-biblioref">Bortman 1999</a>)</span>.</li>
+<li>Regresión estacional <span class="citation" data-cites="serfling1963">(<a href="#ref-serfling1963" role="doc-biblioref">Serfling 1963</a>)</span> y algoritmo de Farrington <span class="citation" data-cites="farrington1996 noufaily2013 salmon2016">(<a href="#ref-farrington1996" role="doc-biblioref">Farrington et&nbsp;al. 1996</a>; <a href="#ref-noufaily2013" role="doc-biblioref">Noufaily et&nbsp;al. 2013</a>; <a href="#ref-salmon2016" role="doc-biblioref">Salmon et&nbsp;al. 2016</a>)</span>.</li>
+<li>Retraso de notificación, triángulo de notificación y nowcasting bayesiano <span class="citation" data-cites="hohle2014 mcgough2020 bastos2019">(<a href="#ref-hohle2014" role="doc-biblioref"><span class="nocase">Höhle y an der Heiden</span> 2014</a>; <a href="#ref-mcgough2020" role="doc-biblioref">McGough et&nbsp;al. 2020</a>; <a href="#ref-bastos2019" role="doc-biblioref"><span class="nocase">Bastos et&nbsp;al.</span> 2019</a>)</span>.</li>
+<li>Descomposición de series (clásica y STL) y análisis de ondículas entre dengue y lluvia <span class="citation" data-cites="cazelles2008 chowell2011">(<a href="#ref-cazelles2008" role="doc-biblioref"><span class="nocase">Cazelles et&nbsp;al.</span> 2008</a>; <a href="#ref-chowell2011" role="doc-biblioref">Chowell et&nbsp;al. 2011</a>)</span>.</li>
+<li>Adaptación por evento: dengue, tos ferina y sarampión.</li>
 </ul>
 </section>
 <section id="materiales" class="level2">
 <h2 class="anchored" data-anchor-id="materiales">Materiales</h2>
-<p>Se publican el 23 de noviembre.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Material</th>
+<th>Enlace</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Diapositivas</td>
+<td><a href="../../sesiones/s03-temporal/slides.html">Ver en el navegador</a> (pantalla completa: tecla <code>F</code>)</td>
+</tr>
+<tr class="even">
+<td>Práctica 3</td>
+<td><a href="../../sesiones/s03-temporal/practica.html">¿Desde cuándo había señal de dengue en Piura?</a></td>
+</tr>
+<tr class="odd">
+<td>Datos</td>
+<td><code>dengue_piura_semanal.csv</code>, <code>dengue_piura_2023_cortes.csv</code> <code>dengue_piura_2023_triangulo.csv</code> y <code>precipitacion_piura_semanal.csv</code> (ERA5), en <code>datos/procesados/</code> del repositorio</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="organización" class="level2">
+<h2 class="anchored" data-anchor-id="organización">Organización</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Horario (Lima)</th>
+<th>Actividad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>18:00–18:10</td>
+<td>Dónde quedamos (S1 y S2)</td>
+</tr>
+<tr class="even">
+<td>18:10–18:30</td>
+<td>La serie de Piura: componentes y escala</td>
+</tr>
+<tr class="odd">
+<td>18:30–19:05</td>
+<td>Comparar con el pasado: línea basal y canales endémicos</td>
+</tr>
+<tr class="even">
+<td>19:05–19:15</td>
+<td>Modelos para lo esperado: regresión estacional y Farrington</td>
+</tr>
+<tr class="odd">
+<td>19:15–19:40</td>
+<td>La última semana: retraso de notificación y nowcasting</td>
+</tr>
+<tr class="even">
+<td>19:40–20:00</td>
+<td>De la señal a la decisión y ejercicio en salas</td>
+</tr>
+<tr class="odd">
+<td>20:00–20:40</td>
+<td>Taller: práctica 3</td>
+</tr>
+<tr class="even">
+<td>20:40–21:55</td>
+<td>Avance 1: 5 equipos × (8 min + 7 min de preguntas)</td>
+</tr>
+<tr class="odd">
+<td>21:55–22:00</td>
+<td>Cierre</td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="proyecto" class="level2">
 <h2 class="anchored" data-anchor-id="proyecto">Proyecto</h2>
-<p><strong>Avance 1.</strong> Ver <a href="../../proyecto/avances.html">Avances</a>.</p>
+<p><strong>Avance 1 (20 %).</strong> Ver <a href="../../proyecto/avances.html">qué presentar</a> y la <a href="../../proyecto/rubrica.html">rúbrica</a>.</p>
 </section>
 <section id="lecturas" class="level2">
 <h2 class="anchored" data-anchor-id="lecturas">Lecturas</h2>
+<p>Para la sesión:</p>
 <ul>
-<li>Salmon, Schumacher y Höhle (2016). <em>Monitoring count time series in R</em> <span class="citation" data-cites="salmon2016">(<a href="#ref-salmon2016" role="doc-biblioref">Salmon et&nbsp;al. 2016</a>)</span></li>
+<li><ol class="example" type="1">
+<li>Explica cómo construir canales endémicos y las decisiones que implica cada variante.</li>
+</ol></li>
+</ul>
+<p>Complementarias:</p>
+<ul>
+<li><ol start="2" class="example" type="1">
+<li>Presenta un modelo bayesiano de nowcasting aplicado a dengue e influenza, con el paquete <code>NobBS</code>.</li>
+</ol></li>
+<li><ol start="3" class="example" type="1">
+<li>Describe los algoritmos de detección de brotes del paquete <code>surveillance</code> de R, con ejemplos.</li>
+</ol></li>
 </ul>
 
 
@@ -281,14 +385,35 @@ div.csl-indent {
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bastos2019" class="csl-entry" role="listitem">
+<span class="nocase">Bastos, Leonardo S., Theodoros Economou, Marcelo F. C. Gomes, et&nbsp;al.</span> 2019. <span>«A modelling approach for correcting reporting delays in disease surveillance data»</span>. <em>Statistics in Medicine</em> 38 (22): 4363-77. <a href="https://doi.org/10.1002/sim.8303">https://doi.org/10.1002/sim.8303</a>.
+</div>
+<div id="ref-bortman1999" class="csl-entry" role="listitem">
+Bortman, Marcelo. 1999. <span>«Elaboración de corredores o canales endémicos mediante planillas de cálculo»</span>. <em>Revista Panamericana de Salud Pública</em> 5 (1): 1-8.
+</div>
+<div id="ref-cazelles2008" class="csl-entry" role="listitem">
+<span class="nocase">Cazelles, Bernard, Mario Chavez, Dominique Berteaux, et&nbsp;al.</span> 2008. <span>«Wavelet analysis of ecological time series»</span>. <em>Oecologia</em> 156 (2): 287-304. <a href="https://doi.org/10.1007/s00442-008-0993-2">https://doi.org/10.1007/s00442-008-0993-2</a>.
+</div>
+<div id="ref-chowell2011" class="csl-entry" role="listitem">
+Chowell, Gerardo, Bernard Cazelles, Hélène Broutin, y César V. Munayco. 2011. <span>«The influence of geographic and climate factors on the timing of dengue epidemics in <span>Per<span>ú</span></span>, 1994-2008»</span>. <em>BMC Infectious Diseases</em> 11: 164. <a href="https://doi.org/10.1186/1471-2334-11-164">https://doi.org/10.1186/1471-2334-11-164</a>.
+</div>
 <div id="ref-farrington1996" class="csl-entry" role="listitem">
 Farrington, C. P., N. J. Andrews, A. D. Beale, y M. A. Catchpole. 1996. <span>«A statistical algorithm for the early detection of outbreaks of infectious disease»</span>. <em>Journal of the Royal Statistical Society: Series A</em> 159 (3): 547-63.
+</div>
+<div id="ref-hohle2014" class="csl-entry" role="listitem">
+<span class="nocase">Höhle, Michael, y Matthias an der Heiden</span>. 2014. <span>«Bayesian nowcasting during the <span>STEC</span> <span>O104:H4</span> outbreak in <span>Germany</span>, 2011»</span>. <em>Biometrics</em> 70 (4): 993-1002. <a href="https://doi.org/10.1111/biom.12194">https://doi.org/10.1111/biom.12194</a>.
+</div>
+<div id="ref-mcgough2020" class="csl-entry" role="listitem">
+McGough, Sarah F., Michael A. Johansson, Marc Lipsitch, y Nicolas A. Menzies. 2020. <span>«Nowcasting by <span>Bayesian</span> smoothing: a flexible, generalizable model for real-time epidemic tracking»</span>. <em>PLoS Computational Biology</em> 16 (4): e1007735. <a href="https://doi.org/10.1371/journal.pcbi.1007735">https://doi.org/10.1371/journal.pcbi.1007735</a>.
 </div>
 <div id="ref-noufaily2013" class="csl-entry" role="listitem">
 Noufaily, Angela, Doyo G. Enki, Paddy Farrington, Paul Garthwaite, Nick Andrews, y André Charlett. 2013. <span>«An improved algorithm for outbreak detection in multiple surveillance systems»</span>. <em>Statistics in Medicine</em> 32 (7): 1206-22. <a href="https://doi.org/10.1002/sim.5595">https://doi.org/10.1002/sim.5595</a>.
 </div>
 <div id="ref-salmon2016" class="csl-entry" role="listitem">
 Salmon, Maëlle, Dirk Schumacher, y Michael Höhle. 2016. <span>«Monitoring count time series in <span>R</span>: aberration detection in public health surveillance»</span>. <em>Journal of Statistical Software</em> 70 (10): 1-35. <a href="https://doi.org/10.18637/jss.v070.i10">https://doi.org/10.18637/jss.v070.i10</a>.
+</div>
+<div id="ref-serfling1963" class="csl-entry" role="listitem">
+Serfling, Robert E. 1963. <span>«Methods for current statistical analysis of excess pneumonia-influenza deaths»</span>. <em>Public Health Reports</em> 78 (6): 494-506.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

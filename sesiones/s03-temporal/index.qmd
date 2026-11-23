@@ -5,24 +5,60 @@ subtitle: "Lunes 23 de noviembre de 2026"
 
 ## Objetivos
 
-- Descomponer una serie en tendencia, estacionalidad y residuo.
-- Construir y comparar líneas basales y umbrales: canal endémico y algoritmos de detección.
-- Interpretar una señal considerando el retraso de notificación y los falsos positivos.
+Al terminar la sesión, el estudiante podrá:
+
+- Reconocer tendencia, estacionalidad y componente irregular en una serie semanal.
+- Construir una línea basal y justificar qué años incluye.
+- Comparar la señal que dan distintos métodos (canal endémico, regresión estacional, Farrington) y explicar por qué difieren.
+- Interpretar las semanas recientes considerando el retraso de notificación y entender cómo un nowcast bayesiano estima los casos que faltan.
+
+## Pregunta de la sesión
+
+> ¿Desde qué semana había una señal clara de dengue en Piura en 2023, y cuánto podemos confiar en la última semana reportada?
 
 ## Contenidos
 
-- Canal endémico y sus variantes; elección de los años de la línea basal.
-- Algoritmos de detección de aberraciones [@farrington1996; @noufaily2013; @salmon2016].
-- Adaptación por evento: dengue (serie larga y estacional), tos ferina (conteos bajos) y sarampión (eliminación: un caso es señal).
+- Componentes de una serie y uso de la escala logarítmica.
+- Línea basal: años de referencia, años epidémicos, medida central y límite superior.
+- Canal endémico por cuartiles y por media geométrica [@bortman1999].
+- Regresión estacional [@serfling1963] y algoritmo de Farrington [@farrington1996; @noufaily2013; @salmon2016].
+- Retraso de notificación, triángulo de notificación y nowcasting bayesiano [@hohle2014; @mcgough2020; @bastos2019].
+- Descomposición de series (clásica y STL) y análisis de ondículas entre dengue y lluvia [@cazelles2008; @chowell2011].
+- Adaptación por evento: dengue, tos ferina y sarampión.
 
 ## Materiales
 
-Se publican el 23 de noviembre.
+| Material | Enlace |
+|---|---|
+| Diapositivas | [Ver en el navegador](slides.qmd) (pantalla completa: tecla `F`) |
+| Práctica 3 | [¿Desde cuándo había señal de dengue en Piura?](practica.qmd) |
+| Datos | `dengue_piura_semanal.csv`, `dengue_piura_2023_cortes.csv` `dengue_piura_2023_triangulo.csv` y `precipitacion_piura_semanal.csv` (ERA5), en `datos/procesados/` del repositorio |
+
+## Organización
+
+| Horario (Lima) | Actividad |
+|---|---|
+| 18:00–18:10 | Dónde quedamos (S1 y S2) |
+| 18:10–18:30 | La serie de Piura: componentes y escala |
+| 18:30–19:05 | Comparar con el pasado: línea basal y canales endémicos |
+| 19:05–19:15 | Modelos para lo esperado: regresión estacional y Farrington |
+| 19:15–19:40 | La última semana: retraso de notificación y nowcasting |
+| 19:40–20:00 | De la señal a la decisión y ejercicio en salas |
+| 20:00–20:40 | Taller: práctica 3 |
+| 20:40–21:55 | Avance 1: 5 equipos × (8 min + 7 min de preguntas) |
+| 21:55–22:00 | Cierre |
 
 ## Proyecto
 
-**Avance 1.** Ver [Avances](../../proyecto/avances.qmd).
+**Avance 1 (20 %).** Ver [qué presentar](../../proyecto/avances.qmd) y la [rúbrica](../../proyecto/rubrica.qmd).
 
 ## Lecturas
 
-- Salmon, Schumacher y Höhle (2016). *Monitoring count time series in R* [@salmon2016]
+Para la sesión:
+
+- @bortman1999. Explica cómo construir canales endémicos y las decisiones que implica cada variante.
+
+Complementarias:
+
+- @mcgough2020. Presenta un modelo bayesiano de nowcasting aplicado a dengue e influenza, con el paquete `NobBS`.
+- @salmon2016. Describe los algoritmos de detección de brotes del paquete `surveillance` de R, con ejemplos.
